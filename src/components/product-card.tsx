@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { Product } from "@/lib/products";
 import { getDiscountPercentage, withAffiliateTag } from "@/lib/products";
+import { ProductImage } from "@/components/product-image";
 
 type ProductCardProps = {
   product: Product;
@@ -20,13 +20,12 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <article className="overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm">
       <a href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener noreferrer">
-        <div className="relative h-48 w-full bg-zinc-100">
-          <Image
+        <div className="relative h-48 w-full overflow-hidden bg-zinc-100">
+          <ProductImage
             src={product.imageUrl}
             alt={product.title}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-            className="object-cover"
+            category={product.category}
+            asin={product.id}
           />
           {product.badge ? (
             <span className="absolute left-3 top-3 rounded-md bg-red-600 px-2 py-1 text-xs font-semibold text-white">

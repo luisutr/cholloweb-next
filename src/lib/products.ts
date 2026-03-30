@@ -1,4 +1,5 @@
 import rawCatalog from "@/data/products.json";
+import type { GenerationSlug, KindSlug, MainPlatform } from "@/lib/platform-hierarchy";
 
 export type ProductCategory =
   | "videojuegos"
@@ -22,11 +23,15 @@ export type CatalogSection =
   | "reacondicionados"
   | "nuevos";
 
+export type VideogameSection = "todos" | "nuevos" | "segunda-mano" | "reacondicionados" | "ofertas";
+export type AccesorioSection = "todos" | "nuevos" | "segunda-mano" | "reacondicionados" | "ofertas";
+
 export type Product = {
   id: string;
   title: string;
   category: ProductCategory;
   platformFamily: PlatformFamily;
+  generation: GenerationSlug | null;
   platformLabel: string;
   condition: ProductCondition;
   price: number;
@@ -76,6 +81,51 @@ export function getProductsByPlatformFamily(platformFamily: PlatformFamily): Pro
   return PRODUCTS.filter((product) => product.platformFamily === platformFamily);
 }
 
+export function getVideogamesBySection(section: VideogameSection): Product[] {
+  const videogames = PRODUCTS.filter((product) => product.category === "videojuegos");
+
+  if (section === "todos") return videogames;
+  if (section === "nuevos")
+    return videogames.filter((product) => product.condition === "nuevo");
+  if (section === "segunda-mano")
+    return videogames.filter((product) => product.condition === "segunda-mano");
+  if (section === "reacondicionados")
+    return videogames.filter((product) => product.condition === "reacondicionado");
+  if (section === "ofertas")
+    return videogames.filter(
+      (product) => Boolean(product.oldPrice && product.oldPrice > product.price),
+    );
+
+  return videogames;
+}
+
+export function getAccesoriosBySection(section: AccesorioSection): Product[] {
+  const accesorios = PRODUCTS.filter((product) => product.category === "accesorios");
+
+  if (section === "todos") return accesorios;
+  if (section === "nuevos") return accesorios.filter((p) => p.condition === "nuevo");
+  if (section === "segunda-mano") return accesorios.filter((p) => p.condition === "segunda-mano");
+  if (section === "reacondicionados")
+    return accesorios.filter((p) => p.condition === "reacondicionado");
+  if (section === "ofertas")
+    return accesorios.filter((p) => Boolean(p.oldPrice && p.oldPrice > p.price));
+
+  return accesorios;
+}
+
+export function getProductsByHierarchy(
+  platform: MainPlatform,
+  generation: GenerationSlug,
+  kind: KindSlug,
+): Product[] {
+  return PRODUCTS.filter(
+    (product) =>
+      product.platformFamily === platform &&
+      product.generation === generation &&
+      product.category === kind,
+  );
+}
+
 export function searchProducts(query: string, category?: ProductCategory): Product[] {
   const source = getProducts(category);
   const normalizedQuery = query.trim().toLowerCase();
@@ -97,10 +147,26 @@ export function getDiscountPercentage(product: Product): number {
   return Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100);
 }
 
-export function getTopDeals(limit = 3): Product[] {
-  return [...PRODUCTS]
-    .sort((a, b) => getDiscountPercentage(b) - getDiscountPercentage(a))
-    .slice(0, limit);
+export function getTopDeals(limit = 10): Product[] {
+  if (PRODUCTS.length === 0) return [];
+
+  // 1. Primero los que tienen descuento real, ordenados por % de ahorro
+  const withDiscount = [...PRODUCTS]
+    .filter((p) => p.oldPrice && p.oldPrice > p.price)
+    .sort((a, b) => {
+      const diff = getDiscountPercentage(b) - getDiscountPercentage(a);
+      return diff !== 0 ? diff : a.price - b.price;
+    });
+
+  if (withDiscount.length >= limit) return withDiscount.slice(0, limit);
+
+  // 2. Si no hay suficientes con descuento, rellena con los más baratos del resto
+  const usedIds = new Set(withDiscount.map((p) => p.id));
+  const cheapest = [...PRODUCTS]
+    .filter((p) => !usedIds.has(p.id))
+    .sort((a, b) => a.price - b.price);
+
+  return [...withDiscount, ...cheapest].slice(0, limit);
 }
 
 export function isProductCategory(value: string): value is ProductCategory {

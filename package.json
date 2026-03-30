@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "sync:local": "node scripts/sync-catalog-local.mjs",
-    "sync:local:simulate": "node scripts/sync-catalog-local.mjs --simulate-prices"
+    "sync:local:simulate": "node scripts/sync-catalog-local.mjs --simulate-prices",
+    "sync:paapi": "node scripts/sync-paapi.mjs",
+    "sync:paapi:dry": "node scripts/sync-paapi.mjs --dry-run"
   },
   "dependencies": {
     "next": "16.2.1",
