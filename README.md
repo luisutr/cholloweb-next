@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# cholloweb.es (nuevo proyecto)
 
-## Getting Started
+Base inicial del nuevo sitio sin WordPress, creada con Next.js + TypeScript + Tailwind.
 
-First, run the development server:
+## Arranque local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuración de afiliado
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Crea un archivo `.env.local` en la raíz del proyecto.
+2. Añade tus tags por marketplace:
 
-## Learn More
+```bash
+NEXT_PUBLIC_AMAZON_TAG_ES=tuusuarioes-21
+NEXT_PUBLIC_AMAZON_TAG_IT=tuusuarioit-21
+NEXT_PUBLIC_AMAZON_TAG_DE=tuusuariode-21
+NEXT_PUBLIC_AMAZON_TAG_UK=tuusuariouk-21
+NEXT_PUBLIC_AMAZON_TAG_FR=tuusuariofr-21
+```
 
-To learn more about Next.js, take a look at the following resources:
+El sistema añade automáticamente el `tag` correcto según el dominio del enlace (`amazon.es`, `amazon.it`, etc.).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estructura inicial
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/data/products.json`: catálogo local (fuente actual de datos).
+- `src/app/page.tsx`: portada con categorías y grid de ofertas.
+- `src/app/api/products/route.ts`: endpoint interno para listar productos.
+- `src/app/consolas/*`: landings SEO por consola.
+- `src/app/guias/*`: landings SEO por intención long-tail.
+- `src/app/ofertas`, `src/app/segunda-mano`, `src/app/reacondicionados`, `src/app/nuevos`, `src/app/destacados`: secciones por estado/tipo de publicación.
+- `src/components/site-header.tsx`: menú horizontal principal de navegación.
+- `src/app/sitemap.ts` y `src/app/robots.ts`: base técnica SEO.
+- `src/components/product-card.tsx`: tarjeta de producto reutilizable.
+- `src/lib/products.ts`: lógica de catálogo + helper de afiliación por marketplace.
 
-## Deploy on Vercel
+## Sync local del catálogo (fase JSON)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para simular el flujo de actualización periódica sin API:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run sync:local
+```
+
+Para simular cambios de precio:
+
+```bash
+npm run sync:local:simulate
+```
+
+El script actualiza `src/data/products.json` y renueva `updatedAt`.
+
+## Uso de la API interna
+
+- Todos los productos: `/api/products`
+- Filtrar por categoría: `/api/products?category=videojuegos`
+- Buscar por texto: `/api/products?q=ps5`
+- Filtro + búsqueda: `/api/products?category=consolas&q=playstation`
+
+## Próximos pasos recomendados
+
+1. Migrar de JSON local a base de datos (`PostgreSQL`) cuando se estabilice el catálogo.
+2. Crear panel de administración para curar productos/ofertas.
+3. Añadir jobs programados para refresco de precios con API oficial (cuando tengas acceso).
+4. Revisar textos legales finales con datos fiscales y contacto reales del titular.
+5. Preparar despliegue en Vercel + dominio `cholloweb.es`.
+
+## Publicación rápida (Vercel + Hostinger DNS)
+
+1. Sube el proyecto a GitHub.
+2. Entra en Vercel y crea proyecto importando ese repositorio.
+3. Configura variables de entorno en Vercel:
+   - `NEXT_PUBLIC_AMAZON_TAG_ES`
+   - `NEXT_PUBLIC_AMAZON_TAG_IT`
+   - `NEXT_PUBLIC_AMAZON_TAG_DE`
+   - `NEXT_PUBLIC_AMAZON_TAG_UK`
+   - `NEXT_PUBLIC_AMAZON_TAG_FR`
+4. Despliega y prueba la URL temporal de Vercel.
+5. En Hostinger (DNS del dominio), crea:
+   - registro `A` para `@` apuntando a `76.76.21.21`
+   - registro `CNAME` para `www` apuntando a `cname.vercel-dns.com`
+6. Añade `cholloweb.es` y `www.cholloweb.es` en Vercel Domains y espera propagación.

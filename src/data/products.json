@@ -1,0 +1,110 @@
+{
+  "updatedAt": "2026-03-30T14:13:54.879Z",
+  "source": "local-json",
+  "products": [
+    {
+      "id": "p1",
+      "title": "The Legend of Zelda: Tears of the Kingdom - Nintendo Switch",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 44.9,
+      "oldPrice": 59.99,
+      "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B0BZX4V2R8",
+      "badge": "-25%"
+    },
+    {
+      "id": "p2",
+      "title": "PlayStation 5 Slim Digital",
+      "category": "consolas",
+      "platformFamily": "playstation",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "price": 449,
+      "oldPrice": 499,
+      "imageUrl": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B0CLTBHX3P"
+    },
+    {
+      "id": "p3",
+      "title": "Figura coleccionista Darth Vader 30 cm",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "platformLabel": "Coleccionismo",
+      "condition": "nuevo",
+      "price": 69.99,
+      "oldPrice": 99.99,
+      "imageUrl": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B0CHN2P4T2",
+      "badge": "Oferta Flash"
+    },
+    {
+      "id": "p4",
+      "title": "Xbox Series X (Reacondicionado)",
+      "category": "consolas",
+      "platformFamily": "xbox",
+      "platformLabel": "Xbox Series X",
+      "condition": "reacondicionado",
+      "price": 399,
+      "oldPrice": 549,
+      "imageUrl": "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B08H93GKNJ",
+      "badge": "Renewed",
+      "featured": true
+    },
+    {
+      "id": "p5",
+      "title": "Mando DualSense PS5 (Segunda mano)",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "platformLabel": "PS5",
+      "condition": "segunda-mano",
+      "price": 42.9,
+      "oldPrice": 69.99,
+      "imageUrl": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B08H99BPJN",
+      "badge": "Usado",
+      "featured": true
+    },
+    {
+      "id": "p6",
+      "title": "Samsung SSD para PS5 1TB",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "price": 99.9,
+      "oldPrice": 139.9,
+      "imageUrl": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B09JQMGHDW",
+      "featured": true
+    },
+    {
+      "id": "p7",
+      "title": "Halo Infinite - Xbox Series X",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "platformLabel": "Xbox Series",
+      "condition": "nuevo",
+      "price": 32.9,
+      "oldPrice": 59.9,
+      "imageUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B08KWMXGQW"
+    },
+    {
+      "id": "p8",
+      "title": "Nintendo Switch OLED (Segunda mano)",
+      "category": "consolas",
+      "platformFamily": "nintendo",
+      "platformLabel": "Nintendo Switch OLED",
+      "condition": "segunda-mano",
+      "price": 269,
+      "oldPrice": 349,
+      "imageUrl": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800&auto=format&fit=crop&q=80",
+      "amazonUrl": "https://www.amazon.es/dp/B098RL6SBJ",
+      "badge": "Usado"
+    }
+  ]
+}
