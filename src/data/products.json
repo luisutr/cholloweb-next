@@ -1,871 +1,7 @@
 {
-  "updatedAt": "2026-03-30T20:07:58.129Z",
+  "updatedAt": "2026-03-30T22:15:22.260Z",
   "source": "manual",
   "products": [
-    {
-      "id": "B0CXDYCKVS",
-      "title": "Producto Amazon B0CXDYCKVS",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 20.96,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CXDYCKVS.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXDYCKVS"
-    },
-    {
-      "id": "B0D4QNCS6S",
-      "title": "Producto Amazon B0D4QNCS6S",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 31.76,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D4QNCS6S.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D4QNCS6S"
-    },
-    {
-      "id": "B0CT94SRTP",
-      "title": "Producto Amazon B0CT94SRTP",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 34.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CT94SRTP.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CT94SRTP"
-    },
-    {
-      "id": "B0C74P87F1",
-      "title": "Producto Amazon B0C74P87F1",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 17.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C74P87F1.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0C74P87F1"
-    },
-    {
-      "id": "B0DHCVLQNG",
-      "title": "Producto Amazon B0DHCVLQNG",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 24.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DHCVLQNG.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DHCVLQNG"
-    },
-    {
-      "id": "B0D6WC7YWM",
-      "title": "Producto Amazon B0D6WC7YWM",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 14.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D6WC7YWM.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D6WC7YWM"
-    },
-    {
-      "id": "B07T4CTP3F",
-      "title": "Producto Amazon B07T4CTP3F",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07T4CTP3F.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07T4CTP3F"
-    },
-    {
-      "id": "B07P6QCPS8",
-      "title": "Producto Amazon B07P6QCPS8",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 21.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07P6QCPS8.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07P6QCPS8"
-    },
-    {
-      "id": "B0DTLNHCD2",
-      "title": "Producto Amazon B0DTLNHCD2",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 24.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DTLNHCD2.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTLNHCD2"
-    },
-    {
-      "id": "B08GMSQBDZ",
-      "title": "Producto Amazon B08GMSQBDZ",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 28.06,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08GMSQBDZ.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08GMSQBDZ"
-    },
-    {
-      "id": "B0BT21RPTM",
-      "title": "Producto Amazon B0BT21RPTM",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BT21RPTM.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BT21RPTM"
-    },
-    {
-      "id": "B0BXSJV991",
-      "title": "Producto Amazon B0BXSJV991",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 34.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BXSJV991.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BXSJV991"
-    },
-    {
-      "id": "B0DWBB33D9",
-      "title": "Producto Amazon B0DWBB33D9",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 22.16,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DWBB33D9.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DWBB33D9"
-    },
-    {
-      "id": "B0DVCFGYGW",
-      "title": "Producto Amazon B0DVCFGYGW",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.2,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DVCFGYGW.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DVCFGYGW"
-    },
-    {
-      "id": "B0BMMBS3M9",
-      "title": "Producto Amazon B0BMMBS3M9",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 51.17,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BMMBS3M9.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BMMBS3M9"
-    },
-    {
-      "id": "B0BCLGHD2D",
-      "title": "Producto Amazon B0BCLGHD2D",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 39,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BCLGHD2D.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BCLGHD2D"
-    },
-    {
-      "id": "B07HCVN3D1",
-      "title": "Producto Amazon B07HCVN3D1",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 45.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07HCVN3D1.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07HCVN3D1"
-    },
-    {
-      "id": "B0CQD2BBWM",
-      "title": "Producto Amazon B0CQD2BBWM",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 46.65,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CQD2BBWM.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CQD2BBWM"
-    },
-    {
-      "id": "B07L43F2T6",
-      "title": "Producto Amazon B07L43F2T6",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 28.44,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07L43F2T6.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07L43F2T6"
-    },
-    {
-      "id": "B09DDL768X",
-      "title": "Producto Amazon B09DDL768X",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09DDL768X.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09DDL768X"
-    },
-    {
-      "id": "B0BBSFL56R",
-      "title": "Producto Amazon B0BBSFL56R",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 26.35,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BBSFL56R.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BBSFL56R"
-    },
-    {
-      "id": "B0B75D7XBH",
-      "title": "Producto Amazon B0B75D7XBH",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 31.44,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B75D7XBH.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B75D7XBH"
-    },
-    {
-      "id": "B07BNNHQJL",
-      "title": "Producto Amazon B07BNNHQJL",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 14.25,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07BNNHQJL.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07BNNHQJL"
-    },
-    {
-      "id": "B0BTHZPBFK",
-      "title": "Producto Amazon B0BTHZPBFK",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 16.47,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BTHZPBFK.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BTHZPBFK"
-    },
-    {
-      "id": "B0DF2NF4H3",
-      "title": "Producto Amazon B0DF2NF4H3",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 32.5,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DF2NF4H3.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DF2NF4H3"
-    },
-    {
-      "id": "B0BF54SNKB",
-      "title": "Producto Amazon B0BF54SNKB",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 26.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BF54SNKB.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BF54SNKB"
-    },
-    {
-      "id": "B09BBWTPP2",
-      "title": "Producto Amazon B09BBWTPP2",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 36.56,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09BBWTPP2.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09BBWTPP2"
-    },
-    {
-      "id": "B0FFTJXWGN",
-      "title": "Producto Amazon B0FFTJXWGN",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FFTJXWGN.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0FFTJXWGN"
-    },
-    {
-      "id": "B0BHHT9X8J",
-      "title": "Producto Amazon B0BHHT9X8J",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BHHT9X8J.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BHHT9X8J"
-    },
-    {
-      "id": "B0D6WBQKJK",
-      "title": "Producto Amazon B0D6WBQKJK",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D6WBQKJK.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D6WBQKJK"
-    },
-    {
-      "id": "B07TSCGD9W",
-      "title": "Producto Amazon B07TSCGD9W",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 36.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07TSCGD9W.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07TSCGD9W"
-    },
-    {
-      "id": "B0F2T5HNT2",
-      "title": "Producto Amazon B0F2T5HNT2",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F2T5HNT2.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F2T5HNT2"
-    },
-    {
-      "id": "B0DHH7X49B",
-      "title": "Producto Amazon B0DHH7X49B",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 32.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DHH7X49B.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DHH7X49B"
-    },
-    {
-      "id": "B0DM2N36T7",
-      "title": "Producto Amazon B0DM2N36T7",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 40.34,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DM2N36T7.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DM2N36T7"
-    },
-    {
-      "id": "B0DXW128XP",
-      "title": "Producto Amazon B0DXW128XP",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DXW128XP.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DXW128XP"
-    },
-    {
-      "id": "B0CW3LJWV1",
-      "title": "Producto Amazon B0CW3LJWV1",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 26.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CW3LJWV1.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CW3LJWV1"
-    },
-    {
-      "id": "B0CXQ9JM4L",
-      "title": "Producto Amazon B0CXQ9JM4L",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 49.97,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CXQ9JM4L.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXQ9JM4L"
-    },
-    {
-      "id": "B07HCRY5L9",
-      "title": "Producto Amazon B07HCRY5L9",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 49.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07HCRY5L9.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07HCRY5L9"
-    },
-    {
-      "id": "B0D7D9BN9J",
-      "title": "Producto Amazon B0D7D9BN9J",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 49.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D7D9BN9J.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D7D9BN9J"
-    },
-    {
-      "id": "B01MZ973SY",
-      "title": "Producto Amazon B01MZ973SY",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 46.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01MZ973SY.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01MZ973SY"
-    },
-    {
-      "id": "B0D7DBHVWV",
-      "title": "Producto Amazon B0D7DBHVWV",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 46.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D7DBHVWV.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D7DBHVWV"
-    },
-    {
-      "id": "B0DLKRX4V5",
-      "title": "Producto Amazon B0DLKRX4V5",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 39.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DLKRX4V5.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DLKRX4V5"
-    },
-    {
-      "id": "B07NQR3LKW",
-      "title": "Producto Amazon B07NQR3LKW",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07NQR3LKW.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NQR3LKW"
-    },
-    {
-      "id": "B0BVBQ8XNB",
-      "title": "Producto Amazon B0BVBQ8XNB",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 36.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BVBQ8XNB.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BVBQ8XNB"
-    },
-    {
-      "id": "B0CXQPRBB9",
-      "title": "Producto Amazon B0CXQPRBB9",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 49.78,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CXQPRBB9.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXQPRBB9"
-    },
-    {
-      "id": "B0BVZHCN3P",
-      "title": "Producto Amazon B0BVZHCN3P",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BVZHCN3P.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BVZHCN3P"
-    },
-    {
-      "id": "B0DXQDPL33",
-      "title": "Producto Amazon B0DXQDPL33",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 21.57,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DXQDPL33.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DXQDPL33"
-    },
-    {
-      "id": "B073SCR6VH",
-      "title": "Producto Amazon B073SCR6VH",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B073SCR6VH.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B073SCR6VH"
-    },
-    {
-      "id": "B0F4R8QCFQ",
-      "title": "Producto Amazon B0F4R8QCFQ",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 34.3,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F4R8QCFQ.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F4R8QCFQ"
-    },
-    {
-      "id": "B0922N3G4Q",
-      "title": "Producto Amazon B0922N3G4Q",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0922N3G4Q.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0922N3G4Q"
-    },
-    {
-      "id": "B09T743NKS",
-      "title": "Producto Amazon B09T743NKS",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09T743NKS.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09T743NKS"
-    },
-    {
-      "id": "B0977RRHJG",
-      "title": "Producto Amazon B0977RRHJG",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0977RRHJG.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0977RRHJG"
-    },
-    {
-      "id": "B0D9BTLG12",
-      "title": "Producto Amazon B0D9BTLG12",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 19.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D9BTLG12.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D9BTLG12"
-    },
-    {
-      "id": "B0C46RSRLH",
-      "title": "Producto Amazon B0C46RSRLH",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 34.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C46RSRLH.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0C46RSRLH"
-    },
-    {
-      "id": "B0B97V9F4X",
-      "title": "Producto Amazon B0B97V9F4X",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B97V9F4X.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B97V9F4X"
-    },
-    {
-      "id": "B06Y2MLCCW",
-      "title": "Producto Amazon B06Y2MLCCW",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 49.89,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B06Y2MLCCW.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B06Y2MLCCW"
-    },
-    {
-      "id": "B0DNR49K8C",
-      "title": "Producto Amazon B0DNR49K8C",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 39.98,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DNR49K8C.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DNR49K8C"
-    },
-    {
-      "id": "B098TWJKFW",
-      "title": "Producto Amazon B098TWJKFW",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 46.84,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B098TWJKFW.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B098TWJKFW"
-    },
-    {
-      "id": "B0CB8RPPFC",
-      "title": "Producto Amazon B0CB8RPPFC",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 15.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CB8RPPFC.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CB8RPPFC"
-    },
-    {
-      "id": "B0CHYVM9XF",
-      "title": "Producto Amazon B0CHYVM9XF",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 33.64,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CHYVM9XF.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHYVM9XF"
-    },
-    {
-      "id": "B0CB6J4XNZ",
-      "title": "Producto Amazon B0CB6J4XNZ",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CB6J4XNZ.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CB6J4XNZ"
-    },
-    {
-      "id": "B0BS9MGPDD",
-      "title": "Producto Amazon B0BS9MGPDD",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.05,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BS9MGPDD.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BS9MGPDD"
-    },
-    {
-      "id": "B07NQ6MP8N",
-      "title": "Producto Amazon B07NQ6MP8N",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 25.2,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07NQ6MP8N.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NQ6MP8N"
-    },
-    {
-      "id": "B0847WWP3T",
-      "title": "Producto Amazon B0847WWP3T",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 19.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0847WWP3T.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0847WWP3T"
-    },
-    {
-      "id": "B0C9Y793QJ",
-      "title": "Producto Amazon B0C9Y793QJ",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 31.23,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C9Y793QJ.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0C9Y793QJ"
-    },
-    {
-      "id": "B08LNF3XGW",
-      "title": "Producto Amazon B08LNF3XGW",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08LNF3XGW.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08LNF3XGW"
-    },
-    {
-      "id": "B0D4YNRQ5W",
-      "title": "Producto Amazon B0D4YNRQ5W",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D4YNRQ5W.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D4YNRQ5W"
-    },
-    {
-      "id": "B09T76K8D4",
-      "title": "Producto Amazon B09T76K8D4",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09T76K8D4.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09T76K8D4"
-    },
-    {
-      "id": "B0BT2264MY",
-      "title": "Producto Amazon B0BT2264MY",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BT2264MY.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BT2264MY"
-    },
-    {
-      "id": "B01MZ977QM",
-      "title": "Producto Amazon B01MZ977QM",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 52.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01MZ977QM.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01MZ977QM"
-    },
-    {
-      "id": "B0B4RHJNMT",
-      "title": "Producto Amazon B0B4RHJNMT",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 56.07,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B4RHJNMT.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B4RHJNMT"
-    },
-    {
-      "id": "B0B6GCS2LV",
-      "title": "Producto Amazon B0B6GCS2LV",
-      "category": "videojuegos",
-      "platformFamily": "nintendo",
-      "generation": "switch",
-      "platformLabel": "Nintendo Switch",
-      "condition": "nuevo",
-      "price": 30.24,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B6GCS2LV.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B6GCS2LV"
-    },
     {
       "id": "B07C42DGMM",
       "title": "Producto Amazon B07C42DGMM",
@@ -875,7 +11,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 46.42,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07C42DGMM.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nRxwfplwL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07C42DGMM"
     },
     {
@@ -887,7 +23,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07BFBT3BL.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Ewnx7G5iL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07BFBT3BL"
     },
     {
@@ -899,8 +35,20 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B072QX8PF6.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51S6UyFT6SL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B072QX8PF6"
+    },
+    {
+      "id": "B08H93ZRLL",
+      "title": "Producto Amazon B08H93ZRLL",
+      "category": "consolas",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/31jFvopHcIL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08H93ZRLL"
     },
     {
       "id": "B09GGJD7D6",
@@ -911,7 +59,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 14.15,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09GGJD7D6.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nW8Alo9GL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09GGJD7D6"
     },
     {
@@ -923,19 +71,19 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 17.4,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00ZSCC5HQ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51BOYJDY9pS._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00ZSCC5HQ"
     },
     {
       "id": "B0B3VQ9NM9",
       "title": "Producto Amazon B0B3VQ9NM9",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "xbox",
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B3VQ9NM9.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/414OrbfEHgL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3VQ9NM9"
     },
     {
@@ -947,7 +95,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00I4OYDZW.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51cc4PILgyL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00I4OYDZW"
     },
     {
@@ -958,8 +106,8 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 27.32,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08H9K7MQL.01._SL300_.jpg",
+      "price": 27.17,
+      "imageUrl": "https://m.media-amazon.com/images/I/41yjTV1ce6L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08H9K7MQL"
     },
     {
@@ -971,7 +119,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 19.89,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01AH2F07S.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51J2J-3debL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01AH2F07S"
     },
     {
@@ -983,7 +131,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 36.57,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B8LCDJ5J.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51LpdAfFKfL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B8LCDJ5J"
     },
     {
@@ -995,7 +143,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DCGGSP25.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/414ogtfUZUL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DCGGSP25"
     },
     {
@@ -1007,7 +155,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C5JLGG6P.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41Wp2rzaP+L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0C5JLGG6P"
     },
     {
@@ -1019,7 +167,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 59.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F1G5C2YQ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51kmtg59R-L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F1G5C2YQ"
     },
     {
@@ -1031,7 +179,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D361S5Q9.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51M07QzlPVL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0D361S5Q9"
     },
     {
@@ -1043,7 +191,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 49.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DM647BHD.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51wdaxr2WZL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM647BHD"
     },
     {
@@ -1055,7 +203,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 22.19,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08CS3M5BY.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY"
     },
     {
@@ -1067,7 +215,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08WQN78LT.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51pvGeaKwpS._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08WQN78LT"
     },
     {
@@ -1079,7 +227,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 19.26,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07BTPMJVG.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
     },
     {
@@ -1091,7 +239,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0829M81QT.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
     },
     {
@@ -1103,8 +251,20 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 4.46,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00KL327O8.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00KL327O8"
+    },
+    {
+      "id": "B0CXDQ3RWL",
+      "title": "Producto Amazon B0CXDQ3RWL",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 20.8,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
     },
     {
       "id": "B0DSPY66RG",
@@ -1115,7 +275,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DSPY66RG.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG"
     },
     {
@@ -1127,7 +287,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 30.11,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B075SBCB3B.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B"
     },
     {
@@ -1139,7 +299,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 13.67,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07NHQ1GZZ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ"
     },
     {
@@ -1151,7 +311,7 @@
       "platformLabel": "Xbox One",
       "condition": "nuevo",
       "price": 22.15,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07THFLR85.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07THFLR85"
     },
     {
@@ -1163,7 +323,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 34.17,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09NQP319Z.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41i9WEH3HuL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09NQP319Z"
     },
     {
@@ -1175,7 +335,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08M1BY344.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51rS4XPy5LL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08M1BY344"
     },
     {
@@ -1187,7 +347,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 44.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B092QSZTXZ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41JCL1+1GIS._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B092QSZTXZ"
     },
     {
@@ -1199,7 +359,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 52,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07SCDWSFC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51NvNjaVaZL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07SCDWSFC"
     },
     {
@@ -1211,7 +371,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 32.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B098JL3XFS.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/412qhmWUVQL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B098JL3XFS"
     },
     {
@@ -1222,8 +382,8 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 54.96,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09T5WW1YD.01._SL300_.jpg",
+      "price": 54.88,
+      "imageUrl": "https://m.media-amazon.com/images/I/61pvyiMH+LL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09T5WW1YD"
     },
     {
@@ -1235,7 +395,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 37.32,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01I48X1A0.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51LmKyi06ML._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01I48X1A0"
     },
     {
@@ -1247,7 +407,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 26.26,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0829DWP86.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SHEuQDsPL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0829DWP86"
     },
     {
@@ -1259,7 +419,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0977LBZ5Y.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51rN+Xlmd0L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0977LBZ5Y"
     },
     {
@@ -1271,7 +431,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 27.04,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07NSQ568T.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51kQDICJiDL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07NSQ568T"
     },
     {
@@ -1283,7 +443,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 19.21,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B015QCUDUI.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61nMkwWQx5L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B015QCUDUI"
     },
     {
@@ -1295,20 +455,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 39.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08J848T4R.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nFwSWIB-L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08J848T4R"
-    },
-    {
-      "id": "B0C2Z25ZGJ",
-      "title": "Producto Amazon B0C2Z25ZGJ",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 19.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C2Z25ZGJ.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0C2Z25ZGJ"
     },
     {
       "id": "B08KT771L3",
@@ -1319,7 +467,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08KT771L3.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ZpIX2henL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08KT771L3"
     },
     {
@@ -1331,7 +479,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 79.46,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C32WC8MB.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41-2nIwtPvL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0C32WC8MB"
     },
     {
@@ -1343,7 +491,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08K4B9CHX.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51S0bfnUDLL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08K4B9CHX"
     },
     {
@@ -1355,7 +503,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CQD12TDC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51otGb77CuL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQD12TDC"
     },
     {
@@ -1367,7 +515,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 43.24,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CQD1MPW6.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/513eq6d71iL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQD1MPW6"
     },
     {
@@ -1379,20 +527,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 42.27,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08J11JH6J.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51as21egtLL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08J11JH6J"
-    },
-    {
-      "id": "B09YYZMMWH",
-      "title": "Producto Amazon B09YYZMMWH",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 27.71,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09YYZMMWH.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09YYZMMWH"
     },
     {
       "id": "B08X561778",
@@ -1403,7 +539,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08X561778.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Moz4zyAYL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08X561778"
     },
     {
@@ -1415,7 +551,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 34.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CM27ZFGH.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51i+4FdrNQL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CM27ZFGH"
     },
     {
@@ -1427,7 +563,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BSXSD2PW.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/512xKCuYZWL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BSXSD2PW"
     },
     {
@@ -1439,7 +575,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CV83X316.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41N6e6cudvL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CV83X316"
     },
     {
@@ -1451,7 +587,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0957SY46G.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51c0qLIEumL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0957SY46G"
     },
     {
@@ -1463,20 +599,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08YG5J53J.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51uLfAVe3jL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08YG5J53J"
-    },
-    {
-      "id": "B09SGGYSZB",
-      "title": "Producto Amazon B09SGGYSZB",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 19.57,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09SGGYSZB.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09SGGYSZB"
     },
     {
       "id": "B09B1KWS6Z",
@@ -1487,7 +611,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 26.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09B1KWS6Z.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51UDyOu8lsL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09B1KWS6Z"
     },
     {
@@ -1499,7 +623,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 20.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CS6QLPN1.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51BsvuHZKwL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CS6QLPN1"
     },
     {
@@ -1511,7 +635,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09B4DWSB8.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41XTeoQ9kTL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09B4DWSB8"
     },
     {
@@ -1523,20 +647,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 12.45,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01NAV0E1Q.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51JIId02YvL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01NAV0E1Q"
-    },
-    {
-      "id": "B0BSNNKTMN",
-      "title": "Producto Amazon B0BSNNKTMN",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BSNNKTMN.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BSNNKTMN"
     },
     {
       "id": "B09LRJ37XX",
@@ -1547,7 +659,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 19.82,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09LRJ37XX.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41ag1+QnrJL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09LRJ37XX"
     },
     {
@@ -1559,7 +671,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 14.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09T3Z8KKS.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41il0aW5MfL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09T3Z8KKS"
     },
     {
@@ -1571,7 +683,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 15.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07R4XFYDN.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51HLH2-csYL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07R4XFYDN"
     },
     {
@@ -1583,7 +695,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09S79WJHS.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ic7g2Xp8L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09S79WJHS"
     },
     {
@@ -1595,7 +707,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 25.31,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07V9NP59C.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41H4GL+dXxL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07V9NP59C"
     },
     {
@@ -1607,7 +719,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07NC1MQDD.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/515BjRoYotL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07NC1MQDD"
     },
     {
@@ -1619,7 +731,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B016B9NT2O.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nRDKePaqL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B016B9NT2O"
     },
     {
@@ -1631,7 +743,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B074WBJS7P.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Q-0ubV2VL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B074WBJS7P"
     },
     {
@@ -1643,20 +755,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B075TJ47BM.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/416ptigGzcS._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B075TJ47BM"
-    },
-    {
-      "id": "B0DBQFTC5C",
-      "title": "Producto Amazon B0DBQFTC5C",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DBQFTC5C.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBQFTC5C"
     },
     {
       "id": "B0DT4SVMWV",
@@ -1667,7 +767,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 29.62,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DT4SVMWV.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51mCuS38CCL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DT4SVMWV"
     },
     {
@@ -1679,20 +779,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 14.64,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CXF1HR6H.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/519v+ZoKjRL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CXF1HR6H"
-    },
-    {
-      "id": "B08KG85LX8",
-      "title": "Producto Amazon B08KG85LX8",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08KG85LX8.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08KG85LX8"
     },
     {
       "id": "B08K265NX3",
@@ -1703,7 +791,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 16.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08K265NX3.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oZGL-ew7L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08K265NX3"
     },
     {
@@ -1715,7 +803,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07MMSVVVM.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51gQEJ-A8dL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07MMSVVVM"
     },
     {
@@ -1727,7 +815,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 20.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07KZS61P5.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51zr42W22lL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07KZS61P5"
     },
     {
@@ -1739,7 +827,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09J5CM12B.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41WA9avb5lL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09J5CM12B"
     },
     {
@@ -1751,7 +839,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 31.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07ZHV23QN.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/517nxrgb+fL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07ZHV23QN"
     },
     {
@@ -1763,7 +851,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CJG2KCBL.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xBWYxdafL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CJG2KCBL"
     },
     {
@@ -1775,7 +863,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 21,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00H8IVL6O.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51umldeO7dL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00H8IVL6O"
     },
     {
@@ -1787,7 +875,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 18.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07FF7X37N.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51TMkxNWjqL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07FF7X37N"
     },
     {
@@ -1799,7 +887,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00MMZVHAI.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/5195n6muNBL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00MMZVHAI"
     },
     {
@@ -1811,7 +899,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 28.24,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07ZS7LR8N.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41awidevByL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07ZS7LR8N"
     },
     {
@@ -1823,20 +911,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 18.98,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00T5WF0O0.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61lLV46Jt1L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00T5WF0O0"
-    },
-    {
-      "id": "B01IPJC9GU",
-      "title": "Producto Amazon B01IPJC9GU",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 30.16,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01IPJC9GU.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01IPJC9GU"
     },
     {
       "id": "B01016WNNE",
@@ -1847,7 +923,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 22.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01016WNNE.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51rOswL0YJL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01016WNNE"
     },
     {
@@ -1859,7 +935,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07C5SYDHR.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Xgo3jzygL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07C5SYDHR"
     },
     {
@@ -1871,7 +947,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07CFSC5ZJ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51MdLezXXFL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07CFSC5ZJ"
     },
     {
@@ -1882,21 +958,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 24.85,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B83ZCBV2.01._SL300_.jpg",
+      "price": 24.87,
+      "imageUrl": "https://m.media-amazon.com/images/I/51fHweUyAIL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B83ZCBV2"
-    },
-    {
-      "id": "B07QL7881G",
-      "title": "Producto Amazon B07QL7881G",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07QL7881G.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07QL7881G"
     },
     {
       "id": "B0B3MTHKD6",
@@ -1907,7 +971,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B3MTHKD6.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51qRdW7GX5L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3MTHKD6"
     },
     {
@@ -1919,7 +983,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 17.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07JH99TG6.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aQQIUvpXL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07JH99TG6"
     },
     {
@@ -1931,7 +995,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07F3ZLWHY.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61qGsdOlpdL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07F3ZLWHY"
     },
     {
@@ -1943,7 +1007,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B086F1N9Y2.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51UC--GcFmL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B086F1N9Y2"
     },
     {
@@ -1955,7 +1019,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 14.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01G3QVA8K.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61BzAzlHiNL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01G3QVA8K"
     },
     {
@@ -1967,7 +1031,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.61,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BCQFKNGC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Mpz-RfzIL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BCQFKNGC"
     },
     {
@@ -1979,7 +1043,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B098GSZ4Q9.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51IuoPOhFsS._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B098GSZ4Q9"
     },
     {
@@ -1991,7 +1055,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09T76J9QL.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51re4QL5ugL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09T76J9QL"
     },
     {
@@ -2003,7 +1067,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 11.11,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09FQPGHX8.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51thXryd8vL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09FQPGHX8"
     },
     {
@@ -2015,7 +1079,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 24.18,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CHYWS759.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51QNkddi2tL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHYWS759"
     },
     {
@@ -2027,20 +1091,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 22.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B5F5CM26.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Pta4-muaL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B5F5CM26"
-    },
-    {
-      "id": "B0DBLV5FS8",
-      "title": "Producto Amazon B0DBLV5FS8",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 17.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DBLV5FS8.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLV5FS8"
     },
     {
       "id": "B072KDWXSG",
@@ -2051,7 +1103,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 34.98,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B072KDWXSG.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ouWacqSwL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B072KDWXSG"
     },
     {
@@ -2063,20 +1115,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 17.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B088218T8T.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41o1lR26zLL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B088218T8T"
-    },
-    {
-      "id": "B07YY2YVK5",
-      "title": "Producto Amazon B07YY2YVK5",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 15.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07YY2YVK5.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07YY2YVK5"
     },
     {
       "id": "B0CD2RBQ68",
@@ -2087,7 +1127,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 17.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CD2RBQ68.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51pNC-aHPVL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CD2RBQ68"
     },
     {
@@ -2099,7 +1139,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 12.26,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B076H29N84.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
     },
     {
@@ -2111,7 +1151,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 12.07,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B68Z86F1.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/513EajbZOPL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B68Z86F1"
     },
     {
@@ -2123,7 +1163,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DFWYRWQT.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
     },
     {
@@ -2134,8 +1174,8 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 59.11,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DM68QC68.01._SL300_.jpg",
+      "price": 49.98,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
     },
     {
@@ -2147,7 +1187,7 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 29.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DSPWX72V.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
     },
     {
@@ -2159,20 +1199,8 @@
       "platformLabel": "PS4",
       "condition": "nuevo",
       "price": 27.96,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BWRRLJRP.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP"
-    },
-    {
-      "id": "B0BMGLST9X",
-      "title": "Producto Amazon B0BMGLST9X",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BMGLST9X.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BMGLST9X"
     },
     {
       "id": "B0DLWWKDX9",
@@ -2183,7 +1211,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 28.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DLWWKDX9.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/31g4RThjWeL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DLWWKDX9"
     },
     {
@@ -2195,7 +1223,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 28.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DLWWYC1P.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41D1e9pDqFL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DLWWYC1P"
     },
     {
@@ -2207,7 +1235,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DLWYK32Z.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41JSiFOT4-L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DLWYK32Z"
     },
     {
@@ -2219,7 +1247,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 32.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DW9KWLCW.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51d5QrONqkL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DW9KWLCW"
     },
     {
@@ -2231,7 +1259,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 28.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D4QNH5RL.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41SgmSAWaYL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0D4QNH5RL"
     },
     {
@@ -2243,7 +1271,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 17.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C74MS1D5.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51VhrgGIuxL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0C74MS1D5"
     },
     {
@@ -2255,7 +1283,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CD79TKSR.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41fpUFwZ-8L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CD79TKSR"
     },
     {
@@ -2267,20 +1295,8 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 15.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BGPQ4CJ3.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51OqxJ98zEL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BGPQ4CJ3"
-    },
-    {
-      "id": "B0B63M9DLC",
-      "title": "Producto Amazon B0B63M9DLC",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B63M9DLC.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B63M9DLC"
     },
     {
       "id": "B0DXQFNNF8",
@@ -2291,7 +1307,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 24.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DXQFNNF8.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/416pXlnYKPL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DXQFNNF8"
     },
     {
@@ -2303,7 +1319,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 69.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F6D5BS17.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51CU9RS3yjL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F6D5BS17"
     },
     {
@@ -2315,7 +1331,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CQK94WNJ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41ga1-2xoDL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQK94WNJ"
     },
     {
@@ -2327,20 +1343,8 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 19.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CZTKY8TC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/517vgg9qwPL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CZTKY8TC"
-    },
-    {
-      "id": "B0D669NGW7",
-      "title": "Producto Amazon B0D669NGW7",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo",
-      "price": 34.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D669NGW7.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0D669NGW7"
     },
     {
       "id": "B0B8LM27KC",
@@ -2351,7 +1355,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 27.89,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B8LM27KC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51EYFgY9YHL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B8LM27KC"
     },
     {
@@ -2363,7 +1367,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 34.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D362WFCC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+oeM8ROEL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0D362WFCC"
     },
     {
@@ -2375,20 +1379,8 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DT4SSLSG.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51TRg+6Ol3L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DT4SSLSG"
-    },
-    {
-      "id": "B0DVCFNN5J",
-      "title": "Producto Amazon B0DVCFNN5J",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DVCFNN5J.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DVCFNN5J"
     },
     {
       "id": "B0F1G4KWH1",
@@ -2399,7 +1391,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F1G4KWH1.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41AaQS77n4L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F1G4KWH1"
     },
     {
@@ -2411,7 +1403,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 59.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DZXY46HC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51JmGiTwHoL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DZXY46HC"
     },
     {
@@ -2423,7 +1415,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 44.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F8C1XMKS.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oD75INUmL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F8C1XMKS"
     },
     {
@@ -2435,20 +1427,8 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 53.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C7X5Q6R1.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SVJrcF+ZL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0C7X5Q6R1"
-    },
-    {
-      "id": "B0DQ5WMN4H",
-      "title": "Producto Amazon B0DQ5WMN4H",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo",
-      "price": 31.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DQ5WMN4H.01._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DQ5WMN4H"
     },
     {
       "id": "B0B5FC2K3Z",
@@ -2459,7 +1439,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 52.6,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B5FC2K3Z.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41qO4nYXoIL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B5FC2K3Z"
     },
     {
@@ -2471,7 +1451,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 57.94,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B3QKWSCW.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ZP9Od9gFL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3QKWSCW"
     },
     {
@@ -2483,7 +1463,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 153,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DZKTNGW7.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51dHOm6oBXL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DZKTNGW7"
     },
     {
@@ -2495,7 +1475,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 37.26,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08B4HHNNM.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nUZl8UlKL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08B4HHNNM"
     },
     {
@@ -2507,7 +1487,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F8C77R1T.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oD75INUmL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F8C77R1T"
     },
     {
@@ -2519,7 +1499,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 47,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CVBDSSN9.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51XsS8Y5o0L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CVBDSSN9"
     },
     {
@@ -2531,7 +1511,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08WSYLHJ9.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51jji8y+lCL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08WSYLHJ9"
     },
     {
@@ -2543,7 +1523,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 24.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09Y8RXHYC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41s11jpDsPL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09Y8RXHYC"
     },
     {
@@ -2555,7 +1535,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 23.63,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F4RQ9K6S.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/512WChj1+7L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F4RQ9K6S"
     },
     {
@@ -2567,7 +1547,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 16.99,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CXDX9ZJ3.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51fN-8PyPaL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CXDX9ZJ3"
     },
     {
@@ -2579,7 +1559,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 35.1,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CFFPS2CJ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41tHqJxfo3L._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CFFPS2CJ"
     },
     {
@@ -2591,8 +1571,20 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 27.94,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D54CLFMC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41kFYFctKYL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0D54CLFMC"
+    },
+    {
+      "id": "B0DQDS4CHZ",
+      "title": "Producto Amazon B0DQDS4CHZ",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "price": 27.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/514uERhaRvL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DQDS4CHZ"
     },
     {
       "id": "B0B3H68ND1",
@@ -2603,7 +1595,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 0,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B3H68ND1.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/513y2a-x+DL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3H68ND1"
     },
     {
@@ -2615,7 +1607,7 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 39.95,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F9L9S8RC.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41rwHe6mZRL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F9L9S8RC"
     },
     {
@@ -2627,8 +1619,500 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "price": 29.9,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09GGNBRZJ.01._SL300_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51k7k+YddwL._SS135_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09GGNBRZJ"
+    },
+    {
+      "id": "B08GMSQBDZ",
+      "title": "Producto Amazon B08GMSQBDZ",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 28.06,
+      "imageUrl": "https://m.media-amazon.com/images/I/51qUtxPNHeL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08GMSQBDZ"
+    },
+    {
+      "id": "B0DWBB33D9",
+      "title": "Producto Amazon B0DWBB33D9",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 22.16,
+      "imageUrl": "https://m.media-amazon.com/images/I/41LQGo4wh2L._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DWBB33D9"
+    },
+    {
+      "id": "B0BMMBS3M9",
+      "title": "Producto Amazon B0BMMBS3M9",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 51.17,
+      "imageUrl": "https://m.media-amazon.com/images/I/51qT4tmmLRL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BMMBS3M9"
+    },
+    {
+      "id": "B0BCLGHD2D",
+      "title": "Producto Amazon B0BCLGHD2D",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/41fFwoWt4FL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BCLGHD2D"
+    },
+    {
+      "id": "B07HCVN3D1",
+      "title": "Producto Amazon B07HCVN3D1",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 45.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51A2ITCX3QL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07HCVN3D1"
+    },
+    {
+      "id": "B0CQD2BBWM",
+      "title": "Producto Amazon B0CQD2BBWM",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 46.65,
+      "imageUrl": "https://m.media-amazon.com/images/I/518fCkUswEL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CQD2BBWM"
+    },
+    {
+      "id": "B07L43F2T6",
+      "title": "Producto Amazon B07L43F2T6",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 28.44,
+      "imageUrl": "https://m.media-amazon.com/images/I/41PrmejX2wL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07L43F2T6"
+    },
+    {
+      "id": "B0BBSFL56R",
+      "title": "Producto Amazon B0BBSFL56R",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 26.35,
+      "imageUrl": "https://m.media-amazon.com/images/I/51i7HnycbBL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BBSFL56R"
+    },
+    {
+      "id": "B0B75D7XBH",
+      "title": "Producto Amazon B0B75D7XBH",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 31.44,
+      "imageUrl": "https://m.media-amazon.com/images/I/51I9TxR8BdL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0B75D7XBH"
+    },
+    {
+      "id": "B07BNNHQJL",
+      "title": "Producto Amazon B07BNNHQJL",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 14.25,
+      "imageUrl": "https://m.media-amazon.com/images/I/51JXNmfyHmL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07BNNHQJL"
+    },
+    {
+      "id": "B0DF2NF4H3",
+      "title": "Producto Amazon B0DF2NF4H3",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 32.5,
+      "imageUrl": "https://m.media-amazon.com/images/I/41ZCdfN9oaL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DF2NF4H3"
+    },
+    {
+      "id": "B0BF54SNKB",
+      "title": "Producto Amazon B0BF54SNKB",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 26.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51x7v1wLwXL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BF54SNKB"
+    },
+    {
+      "id": "B09BBWTPP2",
+      "title": "Producto Amazon B09BBWTPP2",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 36.56,
+      "imageUrl": "https://m.media-amazon.com/images/I/519KqBOT-8L._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09BBWTPP2"
+    },
+    {
+      "id": "B07TSCGD9W",
+      "title": "Producto Amazon B07TSCGD9W",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 36.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51TI0-NBdNL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07TSCGD9W"
+    },
+    {
+      "id": "B0DM2N36T7",
+      "title": "Producto Amazon B0DM2N36T7",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 40.34,
+      "imageUrl": "https://m.media-amazon.com/images/I/51fwVY67NdL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DM2N36T7"
+    },
+    {
+      "id": "B0CW3LJWV1",
+      "title": "Producto Amazon B0CW3LJWV1",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 26.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/415iW1r-RQL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CW3LJWV1"
+    },
+    {
+      "id": "B0CXQ9JM4L",
+      "title": "Producto Amazon B0CXQ9JM4L",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 49.97,
+      "imageUrl": "https://m.media-amazon.com/images/I/51sAd9JaegL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CXQ9JM4L"
+    },
+    {
+      "id": "B07HCRY5L9",
+      "title": "Producto Amazon B07HCRY5L9",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 49.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51yXaN8KiaL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07HCRY5L9"
+    },
+    {
+      "id": "B0D7D9BN9J",
+      "title": "Producto Amazon B0D7D9BN9J",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 49.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51ZacBm87GL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0D7D9BN9J"
+    },
+    {
+      "id": "B01MZ973SY",
+      "title": "Producto Amazon B01MZ973SY",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 46.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/516j5CEKMAL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B01MZ973SY"
+    },
+    {
+      "id": "B0D7DBHVWV",
+      "title": "Producto Amazon B0D7DBHVWV",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 46.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/51OIeNA-xHL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0D7DBHVWV"
+    },
+    {
+      "id": "B0DLKRX4V5",
+      "title": "Producto Amazon B0DLKRX4V5",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 39.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/513yLTF0-rL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DLKRX4V5"
+    },
+    {
+      "id": "B0BVBQ8XNB",
+      "title": "Producto Amazon B0BVBQ8XNB",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 36.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/414O9ktDq3L._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BVBQ8XNB"
+    },
+    {
+      "id": "B0CXQPRBB9",
+      "title": "Producto Amazon B0CXQPRBB9",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 49.78,
+      "imageUrl": "https://m.media-amazon.com/images/I/51wGrc4rbyL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CXQPRBB9"
+    },
+    {
+      "id": "B0BVZHCN3P",
+      "title": "Producto Amazon B0BVZHCN3P",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 29.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/512buR8zhUL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BVZHCN3P"
+    },
+    {
+      "id": "B0F4R8QCFQ",
+      "title": "Producto Amazon B0F4R8QCFQ",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 34.3,
+      "imageUrl": "https://m.media-amazon.com/images/I/51GPAOvXrQL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0F4R8QCFQ"
+    },
+    {
+      "id": "B09T743NKS",
+      "title": "Producto Amazon B09T743NKS",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z8wj5r8FL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09T743NKS"
+    },
+    {
+      "id": "B0977RRHJG",
+      "title": "Producto Amazon B0977RRHJG",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 29.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/51G6a8PPPFL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0977RRHJG"
+    },
+    {
+      "id": "B0D9BTLG12",
+      "title": "Producto Amazon B0D9BTLG12",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 19.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51U0l7bdL9L._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0D9BTLG12"
+    },
+    {
+      "id": "B0C46RSRLH",
+      "title": "Producto Amazon B0C46RSRLH",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 34.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51kloekVTIL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0C46RSRLH"
+    },
+    {
+      "id": "B0DNR49K8C",
+      "title": "Producto Amazon B0DNR49K8C",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 39.98,
+      "imageUrl": "https://m.media-amazon.com/images/I/51fK6VqwjWL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DNR49K8C"
+    },
+    {
+      "id": "B098TWJKFW",
+      "title": "Producto Amazon B098TWJKFW",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 46.84,
+      "imageUrl": "https://m.media-amazon.com/images/I/51HuYtasNKS._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B098TWJKFW"
+    },
+    {
+      "id": "B0CB8RPPFC",
+      "title": "Producto Amazon B0CB8RPPFC",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 15.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/61rDQ0bhaoL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CB8RPPFC"
+    },
+    {
+      "id": "B0BS9MGPDD",
+      "title": "Producto Amazon B0BS9MGPDD",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 29.05,
+      "imageUrl": "https://m.media-amazon.com/images/I/41nPDRSrEpL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BS9MGPDD"
+    },
+    {
+      "id": "B07NQ6MP8N",
+      "title": "Producto Amazon B07NQ6MP8N",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 25.2,
+      "imageUrl": "https://m.media-amazon.com/images/I/51Ss+tVn10L._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07NQ6MP8N"
+    },
+    {
+      "id": "B0847WWP3T",
+      "title": "Producto Amazon B0847WWP3T",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 19.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/511Tz2+4yJL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0847WWP3T"
+    },
+    {
+      "id": "B08LNF3XGW",
+      "title": "Producto Amazon B08LNF3XGW",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/41GBwP1IwWL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08LNF3XGW"
+    },
+    {
+      "id": "B09T76K8D4",
+      "title": "Producto Amazon B09T76K8D4",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/41aeYTVwFrL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09T76K8D4"
+    },
+    {
+      "id": "B01MZ977QM",
+      "title": "Producto Amazon B01MZ977QM",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 52.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z-yacAbbL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B01MZ977QM"
+    },
+    {
+      "id": "B0B4RHJNMT",
+      "title": "Producto Amazon B0B4RHJNMT",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 56.07,
+      "imageUrl": "https://m.media-amazon.com/images/I/41PD56P98GL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0B4RHJNMT"
+    },
+    {
+      "id": "B0B6GCS2LV",
+      "title": "Producto Amazon B0B6GCS2LV",
+      "category": "videojuegos",
+      "platformFamily": "nintendo",
+      "generation": "switch",
+      "platformLabel": "Nintendo Switch",
+      "condition": "nuevo",
+      "price": 30.24,
+      "imageUrl": "https://m.media-amazon.com/images/I/51V1S5XVKzL._SS135_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0B6GCS2LV"
     }
   ]
 }

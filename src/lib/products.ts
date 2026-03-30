@@ -147,11 +147,50 @@ export function getDiscountPercentage(product: Product): number {
   return Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100);
 }
 
+/**
+ * Hash determinista del ID → valor 0..1
+ * Permite un "shuffle estable": mismo resultado en cada build,
+ * pero sin seguir el orden de importación.
+ */
+function idHash(id: string): number {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) {
+    h = (Math.imul(h, 31) + id.charCodeAt(i)) | 0;
+  }
+  return (h >>> 0) / 0xffffffff;
+}
+
+/**
+ * Puntuación de relevancia para ordenar el grid principal.
+ * Criterios (de mayor a menor peso):
+ *   1. Productos destacados (featured)
+ *   2. % de descuento real
+ *   3. Precio bajo (chollos baratos suben ligeramente)
+ *   4. Variación pseudoaleatoria por ASIN (evita orden de importación)
+ */
+function relevanceScore(p: Product): number {
+  let score = 0;
+  if (p.featured) score += 10_000;
+  score += getDiscountPercentage(p) * 100;       // 0 – 10 000
+  score += Math.min(100 / Math.max(p.price, 1), 50); // hasta 50 pts por precio bajo
+  score += idHash(p.id) * 200;                   // ±200 pts de variación estable por ASIN
+  return score;
+}
+
+/** Productos con precio real (disponibles en Amazon), ordenados por relevancia */
+export function getAvailableProducts(category?: ProductCategory): Product[] {
+  return getProducts(category)
+    .filter((p) => p.price > 0)
+    .sort((a, b) => relevanceScore(b) - relevanceScore(a));
+}
+
 export function getTopDeals(limit = 10): Product[] {
-  if (PRODUCTS.length === 0) return [];
+  // Solo productos con precio conocido (disponibles en Amazon)
+  const available = PRODUCTS.filter((p) => p.price > 0);
+  if (available.length === 0) return [];
 
   // 1. Primero los que tienen descuento real, ordenados por % de ahorro
-  const withDiscount = [...PRODUCTS]
+  const withDiscount = available
     .filter((p) => p.oldPrice && p.oldPrice > p.price)
     .sort((a, b) => {
       const diff = getDiscountPercentage(b) - getDiscountPercentage(a);
@@ -160,9 +199,9 @@ export function getTopDeals(limit = 10): Product[] {
 
   if (withDiscount.length >= limit) return withDiscount.slice(0, limit);
 
-  // 2. Si no hay suficientes con descuento, rellena con los más baratos del resto
+  // 2. Si no hay suficientes con descuento, rellena con los más baratos disponibles
   const usedIds = new Set(withDiscount.map((p) => p.id));
-  const cheapest = [...PRODUCTS]
+  const cheapest = available
     .filter((p) => !usedIds.has(p.id))
     .sort((a, b) => a.price - b.price);
 

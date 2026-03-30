@@ -71,7 +71,8 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({ ok: true, action: idx >= 0 ? "updated" : "created" });
 }
 
-/* ── DELETE: eliminar producto por id ──────────────────── */
+/* ── DELETE: eliminar producto por id  ─────────────────── */
+/*            o vaciar todo el catálogo si no se pasa id    */
 export async function DELETE(req: NextRequest) {
   if (!isLocalhost(req)) {
     return NextResponse.json(
@@ -80,9 +81,22 @@ export async function DELETE(req: NextRequest) {
     );
   }
 
-  const { id } = await req.json();
+  const body = await req.json() as { id?: string; clearAll?: boolean };
+
+  // ── Vaciar catálogo completo ──
+  if (body.clearAll) {
+    const catalog = await readCatalog();
+    const removed = catalog.products.length;
+    catalog.products = [];
+    catalog.updatedAt = new Date().toISOString();
+    await writeCatalog(catalog);
+    return NextResponse.json({ ok: true, removed });
+  }
+
+  // ── Eliminar producto individual ──
+  const { id } = body;
   if (!id) {
-    return NextResponse.json({ error: "Falta el campo id" }, { status: 400 });
+    return NextResponse.json({ error: "Falta el campo id o clearAll" }, { status: 400 });
   }
 
   const catalog = await readCatalog();

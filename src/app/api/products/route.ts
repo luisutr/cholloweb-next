@@ -1,6 +1,6 @@
 import {
   getCatalogMeta,
-  getProducts,
+  getAvailableProducts,
   isProductCategory,
   searchProducts,
 } from "@/lib/products";
@@ -11,7 +11,10 @@ export async function GET(request: Request) {
   const queryParam = searchParams.get("q")?.trim() ?? "";
 
   if (!categoryParam) {
-    const products = queryParam ? searchProducts(queryParam) : getProducts();
+    const base = getAvailableProducts();
+    const products = queryParam
+      ? base.filter((p) => p.title.toLowerCase().includes(queryParam.toLowerCase()))
+      : base;
     return Response.json({ meta: getCatalogMeta(), products });
   }
 
@@ -22,9 +25,10 @@ export async function GET(request: Request) {
     );
   }
 
+  const base = getAvailableProducts(categoryParam);
   const products = queryParam
-    ? searchProducts(queryParam, categoryParam)
-    : getProducts(categoryParam);
+    ? base.filter((p) => p.title.toLowerCase().includes(queryParam.toLowerCase()))
+    : base;
 
   return Response.json({ meta: getCatalogMeta(), products });
 }

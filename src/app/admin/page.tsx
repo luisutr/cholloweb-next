@@ -130,8 +130,11 @@ function parseAmazonWishlistHtml(html: string): ExtractedItem[] {
     // Auto-detección de metadatos
     const meta = detectProductMeta(title, conditionText);
 
+    // Productos sin precio = no disponibles en Amazon → desactivados por defecto
+    const available = price > 0;
+
     results.push({
-      selected: true,
+      selected: available,
       asin,
       title: title.trim(),
       imageUrl: finalImage,
@@ -441,6 +444,12 @@ function TabImportList({ onImported }: { onImported: () => void }) {
   const [importing, setImporting]       = useState(false);
   const [importResult, setImportResult] = useState<string | null>(null);
 
+  // Plataforma/generación/categoría/condición por defecto para este lote
+  const [defPlatform,   setDefPlatform]   = useState<Platform>("playstation");
+  const [defGeneration, setDefGeneration] = useState<string>("ps5");
+  const [defCategory,   setDefCategory]   = useState<Category>("videojuegos");
+  const [defCondition,  setDefCondition]  = useState<Condition>("nuevo");
+
   function handleFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -452,7 +461,20 @@ function TabImportList({ onImported }: { onImported: () => void }) {
   function handleParse() {
     if (!htmlInput.trim()) return;
     const extracted = parseAmazonWishlistHtml(htmlInput);
-    setItems(extracted);
+
+    // Aplicar los defaults a los campos que no pudieron detectarse
+    const withDefaults = extracted.map((item) => ({
+      ...item,
+      // Plataforma: si quedó como "multi" (no detectada), usar el default del usuario
+      platformFamily: item.platformFamily === "multi" ? defPlatform : item.platformFamily,
+      generation:     item.platformFamily === "multi" ? defGeneration : item.generation,
+      // Categoría: si quedó como "videojuegos" (default), usar el seleccionado
+      category:       item.category === "videojuegos" ? defCategory : item.category,
+      // Condición: aplicar default solo si el título no menciona nada especial
+      condition:      item.condition === "nuevo" ? defCondition : item.condition,
+    }));
+
+    setItems(withDefaults);
     setParsed(true);
     setImportResult(null);
   }
@@ -501,6 +523,8 @@ function TabImportList({ onImported }: { onImported: () => void }) {
 
   const selectedCount = items.filter((it) => it.selected).length;
 
+  const selectCls2 = "rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white focus:border-orange-500 focus:outline-none";
+
   return (
     <div className="space-y-6">
       {/* Instrucciones */}
@@ -512,8 +536,63 @@ function TabImportList({ onImported }: { onImported: () => void }) {
           <li>O guarda la página: <kbd className="rounded bg-blue-900 px-1.5">Ctrl+S</kbd> → sube el .html</li>
         </ol>
         <p className="mt-2 text-blue-400 text-xs">
-          ✨ La web detecta automáticamente la plataforma, categoría y condición de cada producto. Solo revisa y corrige si algo está mal.
+          ⚠️ Amazon carga los títulos con JavaScript, por lo que el parser puede no extraerlos. Usa los <strong>valores por defecto</strong> de abajo para asignar la plataforma correcta a todo el lote.
         </p>
+      </div>
+
+      {/* Selector de plataforma/categoría/condición por defecto */}
+      <div className="rounded-2xl border border-orange-800/50 bg-orange-900/10 p-5">
+        <h3 className="mb-3 text-sm font-semibold text-orange-300">
+          📂 ¿De qué lista es este lote? — Valores por defecto
+        </h3>
+        <p className="mb-4 text-xs text-zinc-400">
+          Si Amazon no pudo incluir los títulos en el HTML estático, los productos no se auto-clasifican.
+          Selecciona aquí la plataforma, categoría y condición de tu lista para que se apliquen a todos los que no puedan detectarse.
+        </p>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div>
+            <label className={labelCls}>Plataforma</label>
+            <select className={`${selectCls2} w-full`} value={defPlatform}
+              onChange={(e) => {
+                const p = e.target.value as Platform;
+                setDefPlatform(p);
+                setDefGeneration(GENERATIONS[p][0]);
+              }}>
+              <option value="playstation">PlayStation</option>
+              <option value="xbox">Xbox</option>
+              <option value="nintendo">Nintendo</option>
+              <option value="multi">Multi / Sin plataforma</option>
+            </select>
+          </div>
+          <div>
+            <label className={labelCls}>Generación</label>
+            <select className={`${selectCls2} w-full`} value={defGeneration}
+              onChange={(e) => setDefGeneration(e.target.value)}>
+              {GENERATIONS[defPlatform].map((g) => (
+                <option key={g} value={g}>{PLATFORM_LABELS[g] ?? (g || "—")}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className={labelCls}>Categoría</label>
+            <select className={`${selectCls2} w-full`} value={defCategory}
+              onChange={(e) => setDefCategory(e.target.value as Category)}>
+              <option value="videojuegos">Videojuegos</option>
+              <option value="consolas">Consolas</option>
+              <option value="accesorios">Accesorios</option>
+              <option value="figuras">Figuras</option>
+            </select>
+          </div>
+          <div>
+            <label className={labelCls}>Condición</label>
+            <select className={`${selectCls2} w-full`} value={defCondition}
+              onChange={(e) => setDefCondition(e.target.value as Condition)}>
+              <option value="nuevo">Nuevo</option>
+              <option value="reacondicionado">Reacondicionado</option>
+              <option value="segunda-mano">Segunda mano</option>
+            </select>
+          </div>
+        </div>
       </div>
 
       {/* Input HTML */}
@@ -573,7 +652,11 @@ function TabImportList({ onImported }: { onImported: () => void }) {
               </thead>
               <tbody className="divide-y divide-zinc-800/60">
                 {items.map((item, idx) => (
-                  <tr key={item.asin + idx} className={item.selected ? "" : "opacity-35"}>
+                  <tr key={item.asin + idx} className={
+                    item.price === 0
+                      ? "bg-red-900/10 opacity-50"
+                      : item.selected ? "" : "opacity-35"
+                  }>
                     <td className="py-2 pr-2">
                       <input type="checkbox" className="accent-orange-500"
                         checked={item.selected} onChange={() => toggleItem(idx)} />
@@ -637,9 +720,13 @@ function TabImportList({ onImported }: { onImported: () => void }) {
                     </td>
                     {/* Precios */}
                     <td className="py-2 pr-2">
-                      <input className={`${miniSelect} w-full`} type="number" step="0.01" min="0"
-                        value={item.price || ""} placeholder="0.00"
-                        onChange={(e) => updateItem(idx, { price: parseFloat(e.target.value) || 0 })} />
+                      {item.price === 0 ? (
+                        <span className="text-xs font-medium text-red-400">No disponible</span>
+                      ) : (
+                        <input className={`${miniSelect} w-full`} type="number" step="0.01" min="0"
+                          value={item.price || ""} placeholder="0.00"
+                          onChange={(e) => updateItem(idx, { price: parseFloat(e.target.value) || 0 })} />
+                      )}
                     </td>
                     <td className="py-2">
                       <input className={`${miniSelect} w-full`} type="number" step="0.01" min="0"
@@ -690,6 +777,44 @@ function TabCatalog({
   const [redetecting, setRedetecting] = useState(false);
   const [redetectMsg, setRedetectMsg] = useState<string | null>(null);
 
+  const [clearing, setClearing]         = useState(false);
+
+  async function handleClearAll() {
+    if (!confirm(`¿Vaciar el catálogo completo? Se eliminarán los ${products.length} productos. Esta acción no se puede deshacer.`)) return;
+    setClearing(true);
+    const res = await fetch("/api/admin/products", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ clearAll: true }),
+    });
+    const data = await res.json();
+    if (res.ok) {
+      onRefresh();
+    } else {
+      alert(`Error: ${data.error}`);
+    }
+    setClearing(false);
+  }
+
+  // Reasignación en lote
+  const [showBulk, setShowBulk]         = useState(false);
+  const [bulkFilter, setBulkFilter]     = useState<string>("multi"); // plataforma origen a filtrar
+  const [bulkPlatform, setBulkPlatform] = useState<Platform>("playstation");
+  const [bulkGen, setBulkGen]           = useState<string>("ps5");
+  const [bulkCat, setBulkCat]           = useState<string>("");     // "" = no cambiar
+  const [bulkCond, setBulkCond]         = useState<string>("");     // "" = no cambiar
+  const [bulking, setBulking]           = useState(false);
+  const [bulkMsg, setBulkMsg]           = useState<string | null>(null);
+
+  const selectCls3 = "rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white focus:border-orange-500 focus:outline-none";
+
+  // Estadísticas de plataformas en el catálogo actual
+  const platformStats = products.reduce<Record<string, number>>((acc, p) => {
+    const pf = String(p.platformFamily ?? "multi");
+    acc[pf] = (acc[pf] ?? 0) + 1;
+    return acc;
+  }, {});
+
   const filtered = products.filter((p) =>
     !q || String(p.title ?? "").toLowerCase().includes(q.toLowerCase()),
   );
@@ -708,22 +833,161 @@ function TabCatalog({
     setRedetecting(false);
   }
 
+  async function handleBulkUpdate() {
+    if (!confirm(`¿Reasignar todos los productos con plataforma "${bulkFilter}" a ${PLATFORM_LABELS[bulkGen] ?? bulkPlatform}?`)) return;
+    setBulking(true);
+    setBulkMsg(null);
+
+    const platLabel = PLATFORM_LABELS[bulkGen] ?? bulkPlatform;
+    const update: Record<string, unknown> = {
+      platformFamily: bulkPlatform,
+      generation:     bulkGen || null,
+      platformLabel:  platLabel,
+    };
+    if (bulkCat)  update.category  = bulkCat;
+    if (bulkCond) update.condition = bulkCond;
+
+    const res = await fetch("/api/admin/bulk-update", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ filter: { platformFamily: bulkFilter }, update }),
+    });
+    const data = await res.json();
+    if (res.ok) {
+      setBulkMsg(`✅ ${data.changed} productos reasignados a ${platLabel}`);
+      onRefresh();
+    } else {
+      setBulkMsg(`❌ Error: ${data.error}`);
+    }
+    setBulking(false);
+  }
+
   return (
     <div>
-      <div className="mb-4 flex items-center gap-3">
-        <input className={`${inputCls} flex-1`} placeholder="Buscar por título…"
+      {/* Estadísticas de plataformas */}
+      {products.length > 0 && (
+        <div className="mb-4 flex flex-wrap gap-2">
+          {Object.entries(platformStats).map(([pf, count]) => (
+            <span key={pf} className={`rounded-full px-3 py-1 text-xs font-medium ${
+              pf === "multi"        ? "bg-zinc-700 text-zinc-300" :
+              pf === "playstation"  ? "bg-blue-900/60 text-blue-300" :
+              pf === "xbox"         ? "bg-green-900/60 text-green-300" :
+                                      "bg-red-900/60 text-red-300"
+            }`}>
+              {pf}: {count}
+            </span>
+          ))}
+          {(platformStats["multi"] ?? 0) > 0 && (
+            <span className="rounded-full bg-amber-900/50 px-3 py-1 text-xs font-medium text-amber-300">
+              ⚠️ {platformStats["multi"]} sin plataforma asignada
+            </span>
+          )}
+        </div>
+      )}
+
+      <div className="mb-4 flex flex-wrap items-center gap-2">
+        <input className={`${inputCls} min-w-0 flex-1`} placeholder="Buscar por título…"
           value={q} onChange={(e) => setQ(e.target.value)} />
+        <button
+          onClick={() => setShowBulk((v) => !v)}
+          className="shrink-0 rounded-lg border border-zinc-700 px-4 py-2 text-xs text-zinc-300 hover:border-orange-500 hover:text-orange-400"
+        >
+          🔧 Reasignar en lote
+        </button>
         <button
           onClick={handleRedetect}
           disabled={redetecting || products.length === 0}
-          title="Re-aplica la auto-detección de plataforma, categoría y condición a todos los productos"
+          title="Re-aplica detección de categoría y condición (nunca sobreescribe plataforma ya asignada)"
           className="shrink-0 rounded-lg border border-zinc-700 px-4 py-2 text-xs text-zinc-300 hover:border-orange-500 hover:text-orange-400 disabled:opacity-40"
         >
-          {redetecting ? "Analizando…" : "🔄 Re-detectar categorías"}
+          {redetecting ? "Analizando…" : "🔄 Re-detectar"}
+        </button>
+        <button
+          onClick={handleClearAll}
+          disabled={clearing || products.length === 0}
+          title="Elimina todos los productos del catálogo"
+          className="shrink-0 rounded-lg border border-red-800 px-4 py-2 text-xs text-red-400 hover:border-red-500 hover:bg-red-900/20 hover:text-red-300 disabled:opacity-40"
+        >
+          {clearing ? "Vaciando…" : "🗑️ Vaciar catálogo"}
         </button>
       </div>
+
       {redetectMsg && (
         <p className="mb-3 rounded-lg bg-zinc-800 px-4 py-2 text-xs text-emerald-400">{redetectMsg}</p>
+      )}
+
+      {/* Panel de reasignación en lote */}
+      {showBulk && (
+        <div className="mb-5 rounded-2xl border border-orange-800/50 bg-orange-900/10 p-5">
+          <h3 className="mb-2 text-sm font-semibold text-orange-300">🔧 Reasignación en lote</h3>
+          <p className="mb-4 text-xs text-zinc-400">
+            Selecciona qué productos cambiar (por plataforma actual) y a qué plataforma/generación moverlos.
+            Útil para recuperar productos que quedaron como &quot;multi&quot; tras el redetect.
+          </p>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+            <div>
+              <label className={labelCls}>Filtrar por plataforma actual</label>
+              <select className={`${selectCls3} w-full`} value={bulkFilter}
+                onChange={(e) => setBulkFilter(e.target.value)}>
+                <option value="multi">multi (sin asignar)</option>
+                <option value="playstation">PlayStation</option>
+                <option value="xbox">Xbox</option>
+                <option value="nintendo">Nintendo</option>
+              </select>
+            </div>
+            <div>
+              <label className={labelCls}>Nueva plataforma</label>
+              <select className={`${selectCls3} w-full`} value={bulkPlatform}
+                onChange={(e) => {
+                  const p = e.target.value as Platform;
+                  setBulkPlatform(p);
+                  setBulkGen(GENERATIONS[p][0]);
+                }}>
+                <option value="playstation">PlayStation</option>
+                <option value="xbox">Xbox</option>
+                <option value="nintendo">Nintendo</option>
+                <option value="multi">Multi</option>
+              </select>
+            </div>
+            <div>
+              <label className={labelCls}>Nueva generación</label>
+              <select className={`${selectCls3} w-full`} value={bulkGen}
+                onChange={(e) => setBulkGen(e.target.value)}>
+                {GENERATIONS[bulkPlatform].map((g) => (
+                  <option key={g} value={g}>{PLATFORM_LABELS[g] ?? (g || "—")}</option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className={labelCls}>Categoría (opcional)</label>
+              <select className={`${selectCls3} w-full`} value={bulkCat}
+                onChange={(e) => setBulkCat(e.target.value)}>
+                <option value="">— No cambiar —</option>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="consolas">Consolas</option>
+                <option value="accesorios">Accesorios</option>
+                <option value="figuras">Figuras</option>
+              </select>
+            </div>
+            <div>
+              <label className={labelCls}>Condición (opcional)</label>
+              <select className={`${selectCls3} w-full`} value={bulkCond}
+                onChange={(e) => setBulkCond(e.target.value)}>
+                <option value="">— No cambiar —</option>
+                <option value="nuevo">Nuevo</option>
+                <option value="reacondicionado">Reacondicionado</option>
+                <option value="segunda-mano">Segunda mano</option>
+              </select>
+            </div>
+          </div>
+          <div className="mt-4 flex items-center gap-4">
+            <button onClick={handleBulkUpdate} disabled={bulking}
+              className="rounded-lg bg-orange-500 px-5 py-2 text-sm font-semibold text-white hover:bg-orange-400 disabled:opacity-50">
+              {bulking ? "Aplicando…" : `Aplicar a todos los "${bulkFilter}"`}
+            </button>
+            {bulkMsg && <span className="text-sm text-emerald-400">{bulkMsg}</span>}
+          </div>
+        </div>
       )}
       <div className="overflow-hidden rounded-2xl border border-zinc-800">
         <table className="w-full text-left text-sm">

@@ -1,9 +1,15 @@
 /**
  * POST /api/admin/redetect
  *
- * Recorre todos los productos del catálogo y re-aplica la auto-detección
- * de plataforma, generación, categoría y condición a partir del título.
- * Solo disponible en entorno local.
+ * Re-aplica la auto-detección SOLO para los campos donde tiene sentido:
+ *
+ *  - category:  actualiza si detecta accesorios/consolas/figuras
+ *              (NO toca si ya es videojuegos y el título no da pistas claras)
+ *  - condition: actualiza solo si el título dice explícitamente "reacondicionado" o "segunda mano"
+ *  - platformFamily/generation: NUNCA sobreescribe un valor específico ya asignado.
+ *              Solo actualiza si el actual es "multi" Y la detección encuentra algo concreto.
+ *
+ * Regla clave: nunca DEGRADA información (específico → multi).
  */
 
 import fs from "node:fs/promises";
@@ -32,36 +38,45 @@ export async function POST(req: NextRequest) {
   let changed = 0;
 
   catalog.products = catalog.products.map((p) => {
+    // Si el título es un placeholder genérico, no hay información útil → no tocar nada
+    if (!p.title || /^producto amazon\s+\w+$/i.test(p.title.trim())) {
+      return p;
+    }
+
     const meta = detectProductMeta(p.title);
+    const updated = { ...p };
+    let dirty = false;
 
-    const updated: Product = {
-      ...p,
-      category:       meta.category       as Product["category"],
-      platformFamily: meta.platformFamily  as Product["platformFamily"],
-      generation:     (meta.generation || null) as Product["generation"],
-      platformLabel:  meta.platformLabel,
-      // La condición solo se sobreescribe si el producto no tiene condición definida
-      // o si el título menciona explícitamente reacondicionado/segunda mano
-      condition: meta.condition !== "nuevo" ? meta.condition : p.condition,
-    };
+    // ── Categoría ──
+    // Solo actualiza si detecta algo más específico que el default (videojuegos)
+    if (meta.category !== "videojuegos" && meta.category !== p.category) {
+      updated.category = meta.category as Product["category"];
+      dirty = true;
+    }
 
-    const dirty =
-      updated.category       !== p.category       ||
-      updated.platformFamily !== p.platformFamily  ||
-      updated.generation     !== p.generation      ||
-      updated.condition      !== p.condition;
+    // ── Plataforma / generación ──
+    // SOLO actualiza si el valor actual es "multi" y la detección encuentra algo concreto
+    if (p.platformFamily === "multi" && meta.platformFamily !== "multi") {
+      updated.platformFamily = meta.platformFamily as Product["platformFamily"];
+      updated.generation     = (meta.generation || null) as Product["generation"];
+      updated.platformLabel  = meta.platformLabel;
+      dirty = true;
+    }
+    // NUNCA sobreescribe playstation/xbox/nintendo con multi
+
+    // ── Condición ──
+    // Solo actualiza si el título menciona explícitamente reacondicionado o segunda mano
+    if (meta.condition !== "nuevo" && meta.condition !== p.condition) {
+      updated.condition = meta.condition;
+      dirty = true;
+    }
 
     if (dirty) changed++;
     return updated;
   });
 
   catalog.updatedAt = new Date().toISOString();
-
   await fs.writeFile(CATALOG_PATH, `${JSON.stringify(catalog, null, 2)}\n`, "utf-8");
 
-  return NextResponse.json({
-    ok: true,
-    total: catalog.products.length,
-    changed,
-  });
+  return NextResponse.json({ ok: true, total: catalog.products.length, changed });
 }

@@ -1,9 +1,9 @@
 import { CatalogFilters } from "@/components/catalog-filters";
 import { TopDealsCarousel } from "@/components/top-deals-carousel";
-import { getProducts, getTopDeals } from "@/lib/products";
+import { getAvailableProducts, getTopDeals } from "@/lib/products";
 
 export default function Home() {
-  const products = getProducts();
+  const products = getAvailableProducts();
   const topDeals = getTopDeals(10);
 
   return (
