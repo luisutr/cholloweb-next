@@ -11,15 +11,23 @@ export default function Home() {
       <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
 
         {/* Hero */}
-        <section className="rounded-xl bg-zinc-900 px-4 py-4 text-white sm:px-6">
+        <section className="overflow-hidden rounded-xl bg-[#0d1b4e] px-4 py-5 text-white sm:px-6">
           <div className="flex items-center justify-between gap-4">
             <div>
-              <p className="text-xs uppercase tracking-[0.15em] text-zinc-300">cholloweb.es</p>
-              <h1 className="text-lg font-bold sm:text-xl">Ofertas gaming y tecnología</h1>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">cholloweb.es</p>
+              <h1 className="mt-0.5 text-lg font-bold sm:text-xl">Ofertas gaming y tecnología</h1>
+              <p className="mt-1 text-xs text-zinc-400">
+                Chollos en videojuegos, consolas, figuras y reacondicionados.
+              </p>
             </div>
-            <p className="max-w-md text-right text-xs text-zinc-300 sm:text-sm">
-              Chollos en videojuegos, consolas, figuras y reacondicionados.
-            </p>
+            {/* Decoración: logo grande semi-transparente */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.png"
+              alt=""
+              aria-hidden="true"
+              className="hidden h-20 w-20 object-contain opacity-90 drop-shadow-lg sm:block"
+            />
           </div>
         </section>
 

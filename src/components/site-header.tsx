@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
 
@@ -88,12 +89,12 @@ function SimpleDropdown({
     >
       {/* puente transparente para que no se pierda el hover */}
       <div className="absolute -top-1 left-0 right-0 h-2" />
-      <div className="rounded-xl border border-zinc-700 bg-zinc-800 py-1.5 shadow-2xl ring-1 ring-black/20">
+      <div className="rounded-xl border border-[#1a2f6a] bg-[#0d1b4e] py-1.5 shadow-2xl ring-1 ring-black/30">
         {items.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-zinc-700 hover:text-orange-400"
+            className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400"
           >
             {item.label}
           </Link>
@@ -126,14 +127,14 @@ function MegaMenu({
     >
       {/* puente transparente */}
       <div className="absolute -top-1 left-0 right-0 h-2" />
-      <div className="rounded-xl border border-zinc-700 bg-zinc-800 p-5 shadow-2xl ring-1 ring-black/20">
+      <div className="rounded-xl border border-[#1a2f6a] bg-[#0d1b4e] p-5 shadow-2xl ring-1 ring-black/30">
         <div className={`grid gap-6 ${gridCols}`}>
           {platform.generations.map((gen) => (
             <div key={gen.slug}>
               {/* Nivel 2: generación */}
               <Link
                 href={`/consolas/${platform.slug}?gen=${gen.slug}`}
-                className="mb-2.5 block border-b border-zinc-600 pb-1.5 text-xs font-bold uppercase tracking-widest text-orange-400 hover:text-orange-300"
+                className="mb-2.5 block border-b border-[#1e2f6a] pb-1.5 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-amber-300"
               >
                 {gen.label}
               </Link>
@@ -143,7 +144,7 @@ function MegaMenu({
                   <Link
                     key={kind.slug}
                     href={`/${platform.slug}/${gen.slug}/${kind.slug}`}
-                    className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm text-zinc-300 transition hover:bg-zinc-700 hover:text-orange-400"
+                    className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400"
                   >
                     <span className="text-zinc-500">›</span>
                     {kind.label}
@@ -166,19 +167,31 @@ export function SiteHeader() {
   const triggerClass = (id: string) =>
     `inline-flex cursor-pointer select-none items-center whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-150 ${
       open === id
-        ? "bg-orange-500/20 text-orange-400"
-        : "text-zinc-300 hover:bg-zinc-700/60 hover:text-white"
+        ? "bg-amber-500/20 text-amber-400"
+        : "text-zinc-300 hover:bg-[#1e2f6a]/60 hover:text-white"
     }`;
 
   return (
-    <header className="sticky top-0 z-40 border-b border-zinc-700/60 bg-zinc-900/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-2.5 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-40 border-b border-[#1a2f6a]/60 bg-[#0d1b4e]/95 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-2 sm:px-6 lg:px-8">
         {/* Logo */}
+        <Link href="/" className="shrink-0" aria-label="cholloweb.es — inicio">
+          <Image
+            src="/logo.png"
+            alt="cholloweb.es"
+            width={40}
+            height={40}
+            className="h-10 w-10 object-contain drop-shadow-md"
+            priority
+          />
+        </Link>
+
+        {/* Nombre de la web junto al logo */}
         <Link
           href="/"
-          className="shrink-0 text-sm font-extrabold tracking-tight text-white sm:text-base"
+          className="hidden shrink-0 text-sm font-extrabold tracking-tight text-white sm:block"
         >
-          <span className="text-orange-400">chollo</span>web.es
+          <span className="text-amber-400">chollo</span>web.es
         </Link>
 
         {/* Nav */}
@@ -186,7 +199,7 @@ export function SiteHeader() {
           {/* Inicio */}
           <Link
             href="/"
-            className="inline-flex whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-700/60 hover:text-white"
+            className="inline-flex whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-zinc-300 transition hover:bg-[#1e2f6a]/60 hover:text-white"
           >
             Inicio
           </Link>
@@ -273,12 +286,12 @@ export function SiteHeader() {
                 onMouseLeave={leave}
               >
                 <div className="absolute -top-1 left-0 right-0 h-2" />
-                <div className="rounded-xl border border-zinc-700 bg-zinc-800 py-1.5 shadow-2xl ring-1 ring-black/20">
+                <div className="rounded-xl border border-[#1a2f6a] bg-[#0d1b4e] py-1.5 shadow-2xl ring-1 ring-black/30">
                   {MARKETPLACE_ITEMS.map((item) => (
                     <Link
                       key={item.href}
                       href={item.href}
-                      className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-zinc-700 hover:text-orange-400"
+                      className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400"
                     >
                       {item.label}
                     </Link>

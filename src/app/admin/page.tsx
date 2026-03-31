@@ -1142,7 +1142,7 @@ export default function AdminPage() {
         <div className="mb-6 flex items-start justify-between">
           <div>
             <h1 className="text-2xl font-bold">
-              <span className="text-orange-400">chollo</span>web.es — Admin
+              <span className="text-amber-400">chollo</span>web.es — Admin
             </h1>
             <p className="mt-1 text-xs text-zinc-500">
               Tras cualquier cambio ejecuta{" "}

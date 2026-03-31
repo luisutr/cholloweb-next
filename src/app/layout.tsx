@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   description:
     "Ofertas de videojuegos, consolas, figuras y reacondicionados con enlaces de afiliado de Amazon.",
   metadataBase: new URL("https://cholloweb.es"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/logo.png",    type: "image/png", sizes: "512x512" },
+    ],
+    apple: { url: "/logo.png", sizes: "180x180" },
+  },
 };
 
 export default function RootLayout({
