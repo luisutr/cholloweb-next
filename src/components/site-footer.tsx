@@ -11,6 +11,8 @@ const CATALOG_LINKS = [
   { href: "/videojuegos",    label: "Videojuegos" },
   { href: "/consolas",       label: "Consolas" },
   { href: "/accesorios",     label: "Accesorios" },
+  { href: "/figuras",        label: "Figuras" },
+  { href: "/peliculas",      label: "Películas" },
   { href: "/reacondicionados", label: "Reacondicionados" },
   { href: "/segunda-mano",   label: "Segunda mano" },
   { href: "/ofertas",        label: "Ofertas" },

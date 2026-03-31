@@ -37,7 +37,7 @@ export default function AfiliacionPage() {
 
       <h2>2. Cómo identificar los enlaces de afiliado</h2>
       <p>
-        Todos los botones "Ver en Amazon" y enlaces a productos de este sitio son enlaces
+        Todos los botones &quot;Ver en Amazon&quot; y enlaces a productos de este sitio son enlaces
         de afiliado. Incluyen el parámetro <code>?tag=cholloweb0c-21</code> (u otro según
         el país) en la URL de Amazon.
       </p>

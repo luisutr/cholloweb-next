@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { SectionStateFilters } from "@/components/section-state-filters";
 import {
   getGenerationLabel,
+  getPlatformKinds,
   getPlatformLabel,
   isGenerationSlug,
   isKindSlug,
@@ -23,8 +24,9 @@ type HierarchyPageProps = {
 export async function generateStaticParams() {
   const params: Array<{ platform: MainPlatform; generation: GenerationSlug; kind: KindSlug }> = [];
   for (const platform of PLATFORM_TREE) {
+    const kinds = getPlatformKinds(platform.slug);
     for (const generation of platform.generations) {
-      for (const kind of KIND_OPTIONS) {
+      for (const kind of kinds) {
         params.push({ platform: platform.slug, generation: generation.slug, kind: kind.slug });
       }
     }
@@ -109,16 +111,17 @@ const PAGE_INTRO: Partial<
       accesorios:  "Accesorios para Xbox 360: mandos inalámbricos, cables, kits de memoria y más.",
     },
   },
+  evercade: {
+    "evercade-handheld": {
+      videojuegos: "Los cartuchos de Evercade incluyen colecciones completas de clásicos retro: Atari, Namco, Data East, Interplay y muchos más. Cada cartucho contiene varios juegos originales con licencia oficial.",
+      consolas:    "La Evercade original es una consola portátil de cartuchos retro. Pantalla panorámica, controles físicos y compatibilidad con toda la biblioteca de cartuchos Evercade. Ideal para coleccionistas.",
+    },
+  },
   nintendo: {
     switch: {
       videojuegos: "Nintendo Switch tiene exclusivos irrepetibles: The Legend of Zelda, Mario Kart 8 Deluxe, Animal Crossing y Pokémon. Juegos para toda la familia a precios competitivos en Amazon.",
       consolas:    "Nintendo Switch es única por su versatibilidad: juega en el salón o llévala contigo. Disponible en versión estándar, Switch Lite y Switch OLED. Compara precios y bundles.",
       accesorios:  "Accesorios para Nintendo Switch: Joy-Con adicionales, fundas de transporte, bases extra, volantes y mucho más. Protege y amplía tu Switch al mejor precio.",
-    },
-    "switch-oled": {
-      videojuegos: "Los mismos títulos de Nintendo Switch son 100% compatibles con la versión OLED. Disfruta de los mejores juegos de Nintendo con una pantalla OLED de 7 pulgadas.",
-      consolas:    "Nintendo Switch OLED: la versión premium de Switch con pantalla OLED de 7 pulgadas, mayor almacenamiento interno y altavoces mejorados. Encuentra las mejores ofertas en Amazon.",
-      accesorios:  "Accesorios específicos para Switch OLED y compatibles con todas las versiones de Switch: fundas, protectores de pantalla, bases y Joy-Con.",
     },
   },
 };

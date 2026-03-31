@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
 import { notFound } from "next/navigation";
 import { CONSOLE_FAMILIES, getConsoleFamily } from "@/lib/console-families";
+import { getPlatformKinds, isMainPlatform } from "@/lib/platform-hierarchy";
 import { getProductsByPlatformFamily } from "@/lib/products";
 import type { PlatformFamily } from "@/lib/products";
 
@@ -70,10 +71,16 @@ export default async function ConsolePage({ params, searchParams }: ConsolePageP
   const games       = products.filter((p) => p.category === "videojuegos");
   const accessories = products.filter((p) => p.category === "accesorios");
 
-  const visibleSections: Array<"consolas" | "videojuegos" | "accesorios"> =
+  // Secciones permitidas según la plataforma (Evercade no tiene accesorios)
+  const allowedKinds = isMainPlatform(family.slug)
+    ? getPlatformKinds(family.slug).map((k) => k.slug)
+    : (["consolas", "videojuegos", "accesorios"] as const);
+
+  const visibleSections = (
     sectionParam === "consolas" || sectionParam === "videojuegos" || sectionParam === "accesorios"
       ? [sectionParam]
-      : ["consolas", "videojuegos", "accesorios"];
+      : ["consolas", "videojuegos", "accesorios"]
+  ).filter((s) => allowedKinds.includes(s as "consolas" | "videojuegos" | "accesorios")) as Array<"consolas" | "videojuegos" | "accesorios">;
 
   return (
     <div className="bg-zinc-50 text-zinc-900">

@@ -2,7 +2,6 @@ import {
   getCatalogMeta,
   getAvailableProducts,
   isProductCategory,
-  searchProducts,
 } from "@/lib/products";
 
 export async function GET(request: Request) {

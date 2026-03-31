@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-import { KIND_OPTIONS, PLATFORM_TREE } from "@/lib/platform-hierarchy";
+import { getPlatformKinds, PLATFORM_TREE } from "@/lib/platform-hierarchy";
 
 /* ─── Datos del menú ─────────────────────────────────────── */
 
@@ -30,6 +30,8 @@ const MARKETPLACE_ITEMS = [
   { href: "/segunda-mano",    label: "Segunda mano" },
   { href: "/reacondicionados",label: "Reacondicionados" },
   { href: "/nuevos",          label: "Nuevos" },
+  { href: "/figuras",         label: "🗿 Figuras" },
+  { href: "/peliculas",       label: "🎬 Películas" },
 ];
 
 /* ─── Hook: menú desktop con retraso de cierre ───────────── */
@@ -99,8 +101,9 @@ function MegaMenu({
   onMouseLeave: () => void;
 }) {
   const colCount = platform.generations.length;
-  const gridCols = colCount === 3 ? "grid-cols-3" : "grid-cols-2";
-  const minWidth = colCount === 3 ? "min-w-[480px]" : "min-w-[340px]";
+  const gridCols = colCount >= 3 ? "grid-cols-3" : "grid-cols-2";
+  const minWidth = colCount >= 3 ? "min-w-[480px]" : "min-w-[340px]";
+  const kinds    = getPlatformKinds(platform.slug);
 
   return (
     <div className={`absolute left-0 top-full z-50 ${minWidth} pt-1`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
@@ -114,7 +117,7 @@ function MegaMenu({
                 {gen.label}
               </Link>
               <div className="space-y-0.5">
-                {KIND_OPTIONS.map((kind) => (
+                {kinds.map((kind) => (
                   <Link key={kind.slug} href={`/${platform.slug}/${gen.slug}/${kind.slug}`}
                     className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400">
                     <span className="text-zinc-500">›</span>
@@ -288,22 +291,25 @@ export function SiteHeader() {
             </Link>
 
             {/* Plataformas */}
-            {PLATFORM_TREE.map((platform) => (
-              <MobileSection key={platform.slug} label={platform.label}>
-                {platform.generations.map((gen) => (
-                  <div key={gen.slug} className="px-5 pb-1 pt-2">
-                    <p className="mb-1 text-xs font-bold uppercase tracking-wider text-amber-400">{gen.label}</p>
-                    {KIND_OPTIONS.map((kind) => (
-                      <Link key={kind.slug} href={`/${platform.slug}/${gen.slug}/${kind.slug}`}
-                        onClick={() => setMobileOpen(false)}
-                        className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm text-zinc-300 hover:bg-[#1e2f6a] hover:text-amber-400">
-                        <span className="text-zinc-500">›</span>{kind.label}
-                      </Link>
-                    ))}
-                  </div>
-                ))}
-              </MobileSection>
-            ))}
+            {PLATFORM_TREE.map((platform) => {
+              const kinds = getPlatformKinds(platform.slug);
+              return (
+                <MobileSection key={platform.slug} label={platform.label}>
+                  {platform.generations.map((gen) => (
+                    <div key={gen.slug} className="px-5 pb-1 pt-2">
+                      <p className="mb-1 text-xs font-bold uppercase tracking-wider text-amber-400">{gen.label}</p>
+                      {kinds.map((kind) => (
+                        <Link key={kind.slug} href={`/${platform.slug}/${gen.slug}/${kind.slug}`}
+                          onClick={() => setMobileOpen(false)}
+                          className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm text-zinc-300 hover:bg-[#1e2f6a] hover:text-amber-400">
+                          <span className="text-zinc-500">›</span>{kind.label}
+                        </Link>
+                      ))}
+                    </div>
+                  ))}
+                </MobileSection>
+              );
+            })}
 
             {/* Videojuegos */}
             <MobileSection label="Videojuegos">

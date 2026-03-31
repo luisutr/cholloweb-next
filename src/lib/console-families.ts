@@ -27,7 +27,14 @@ export const CONSOLE_FAMILIES: ConsoleFamily[] = [
     title: "Nintendo",
     description:
       "Sección Nintendo desde Switch en adelante, con juegos y accesorios destacados.",
-    generations: ["Nintendo Switch", "Nintendo Switch OLED"],
+    generations: ["Switch", "Switch 2"],
+  },
+  {
+    slug: "evercade",
+    title: "Evercade",
+    description:
+      "Consola retro de cartuchos de Blaze Entertainment. Coleccionismo y retrogaming al mejor precio.",
+    generations: ["Evercade"],
   },
 ];
 

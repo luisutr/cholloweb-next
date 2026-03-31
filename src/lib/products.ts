@@ -5,17 +5,19 @@ export type ProductCategory =
   | "videojuegos"
   | "consolas"
   | "accesorios"
-  | "figuras";
+  | "figuras"
+  | "peliculas";
 
 export const PRODUCT_CATEGORIES: ProductCategory[] = [
   "videojuegos",
   "consolas",
   "accesorios",
   "figuras",
+  "peliculas",
 ];
 
 export type ProductCondition = "nuevo" | "segunda-mano" | "reacondicionado";
-export type PlatformFamily = "playstation" | "xbox" | "nintendo" | "multi";
+export type PlatformFamily = "playstation" | "xbox" | "nintendo" | "evercade" | "multi";
 export type CatalogSection =
   | "destacados"
   | "ofertas"
@@ -54,12 +56,13 @@ const CATALOG = rawCatalog as CatalogData;
 const GENERIC_TITLE_RE = /^producto amazon\s+\w+$/i;
 
 /**
- * Catálogo limpio: excluye productos con título genérico o precio 0
- * (no disponibles). Actúa como red de seguridad independientemente
- * del contenido del JSON.
+ * Catálogo limpio: excluye solo los productos con título genérico de prueba.
+ * Los productos con precio 0 (no disponibles) SÍ se incluyen para que aparezcan
+ * en el catálogo marcados como "No disponible", pero quedan excluidos del
+ * Top Deals y del grid principal de inicio (ver getTopDeals y getAvailableProducts).
  */
 const PRODUCTS: Product[] = CATALOG.products.filter(
-  (p) => p.price > 0 && !GENERIC_TITLE_RE.test(p.title?.trim() ?? ""),
+  (p) => !GENERIC_TITLE_RE.test(p.title?.trim() ?? ""),
 );
 
 export function getCatalogMeta() {
@@ -217,6 +220,33 @@ export function getTopDeals(limit = 10): Product[] {
     .sort((a, b) => a.price - b.price);
 
   return [...withDiscount, ...cheapest].slice(0, limit);
+}
+
+/** Relacionados primarios: misma plataforma y misma categoría, disponibles */
+export function getRelatedProducts(product: Product, limit = 8): Product[] {
+  return PRODUCTS.filter(
+    (p) =>
+      p.id !== product.id &&
+      p.price > 0 &&
+      p.platformFamily === product.platformFamily &&
+      p.category === product.category,
+  )
+    .sort((a, b) => relevanceScore(b) - relevanceScore(a))
+    .slice(0, limit);
+}
+
+/** Relacionados amplios: misma categoría, excluyendo IDs ya mostrados */
+export function getSimilarProducts(
+  product: Product,
+  excludeIds: string[] = [],
+  limit = 8,
+): Product[] {
+  const excluded = new Set([product.id, ...excludeIds]);
+  return PRODUCTS.filter(
+    (p) => !excluded.has(p.id) && p.price > 0 && p.category === product.category,
+  )
+    .sort((a, b) => relevanceScore(b) - relevanceScore(a))
+    .slice(0, limit);
 }
 
 export function isProductCategory(value: string): value is ProductCategory {

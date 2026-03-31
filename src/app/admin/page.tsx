@@ -16,14 +16,15 @@
  */
 
 import Image from "next/image";
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import { detectProductMeta, detectCondition } from "@/lib/detect-product-meta";
+import { detectProductMeta } from "@/lib/detect-product-meta";
 
 /* ─── Tipos ──────────────────────────────────────────────── */
 
-type Category   = "consolas" | "videojuegos" | "accesorios" | "figuras";
-type Platform   = "playstation" | "xbox" | "nintendo" | "multi";
+type Category   = "consolas" | "videojuegos" | "accesorios" | "figuras" | "peliculas";
+type Platform   = "playstation" | "xbox" | "nintendo" | "evercade" | "multi";
 type Condition  = "nuevo" | "segunda-mano" | "reacondicionado";
 
 type ProductForm = {
@@ -61,21 +62,26 @@ type ExtractedItem = {
 const GENERATIONS: Record<Platform, string[]> = {
   playstation: ["ps3", "ps4", "ps5"],
   xbox:        ["xbox-360", "xbox-one", "xbox-series"],
-  nintendo:    ["switch", "switch-oled"],
+  nintendo:    ["switch", "switch-2"],
+  evercade:    ["evercade-handheld"],
   multi:       [""],
 };
 
 const PLATFORM_LABELS: Record<string, string> = {
-  ps3:          "PS3",
-  ps4:          "PS4",
-  ps5:          "PS5",
-  "xbox-360":   "Xbox 360",
-  "xbox-one":   "Xbox One",
-  "xbox-series":"Xbox Series X/S",
-  switch:       "Nintendo Switch",
-  "switch-oled":"Nintendo Switch OLED",
-  "":           "Multi",
+  ps3:                "PS3",
+  ps4:                "PS4",
+  ps5:                "PS5",
+  "xbox-360":         "Xbox 360",
+  "xbox-one":         "Xbox One",
+  "xbox-series":      "Xbox Series X/S",
+  switch:             "Switch",
+  "switch-2":         "Switch 2",
+  "evercade-handheld":"Evercade",
+  "":                 "Multi",
 };
+
+/** Categorías que no están ligadas a ninguna plataforma de hardware */
+const PLATFORM_FREE_CATEGORIES: Category[] = ["figuras", "peliculas"];
 
 const EMPTY_FORM: ProductForm = {
   id: "", title: "", category: "videojuegos", platformFamily: "playstation",
@@ -118,134 +124,133 @@ function parseAmazonWishlistHtml(html: string): ExtractedItem[] {
   ) {
     if (!asin || seen.has(asin)) return;
     seen.add(asin);
-
-    // Preferir imagen real de Amazon CDN; fallback por ASIN
-    const finalImage =
-      imageUrl && imageUrl.includes("media-amazon.com") && !imageUrl.includes("widgets")
-        ? imageUrl
-        : imageUrl && imageUrl.includes("ssl-images-amazon.com") && !imageUrl.includes("widgets")
-          ? imageUrl
-          : amazonImageUrl(asin);
-
-    // Auto-detección de metadatos
     const meta = detectProductMeta(title, conditionText);
-
-    // Productos sin precio = no disponibles en Amazon → desactivados por defecto
-    const available = price > 0;
-
     results.push({
-      selected: available,
+      selected: true,
       asin,
       title: title.trim(),
-      imageUrl: finalImage,
+      imageUrl,
       price,
       oldPrice,
-      category:       meta.category,
+      category:       meta.category as Category,
       platformFamily: meta.platformFamily as Platform,
       generation:     meta.generation,
       condition:      meta.condition,
     });
   }
 
-  /* ── Estrategia 1: elementos con data-asin (listas de Amazon) ── */
+  /** Reconstruye URL de Amazon CDN desde la ruta local que guarda el navegador */
+  function fixImageUrl(src: string, asin: string): string {
+    if (!src || src.includes("placeholder")) return amazonImageUrl(asin);
+    // Página guardada localmente: "./ps4_files/51GJnJ4DaOL._SS135_.jpg"
+    if (src.startsWith("./") || src.startsWith("../")) {
+      const filename = src.split("/").pop() ?? "";
+      if (filename) {
+        // Aumentar resolución: SS135 → SL300
+        const hd = filename.replace(/\._SS\d+_/, "._SL300_").replace(/\._AC_\w+_/, "._SL300_");
+        return `https://m.media-amazon.com/images/I/${hd}`;
+      }
+    }
+    // URL ya correcta de Amazon CDN
+    if (src.includes("media-amazon.com") || src.includes("ssl-images-amazon.com")) return src;
+    return amazonImageUrl(asin);
+  }
+
+  /* ══════════════════════════════════════════════════════════
+   * Estrategia 1 (PRINCIPAL): listas de Amazon guardadas con Ctrl+S
+   * Estructura: <li data-itemid="I…" data-price="39.99"
+   *   data-reposition-action-params='{"itemExternalId":"ASIN:B073ZTH4MN|…"}'>
+   *   <a id="itemName_I…" title="Nombre del producto" href="/dp/B073ZTH4MN/…">
+   *   <img src="./ps4_files/51GJnJ4DaOL._SS135_.jpg">
+   *   <span id="itemPrice_I…"><span class="a-offscreen">39,99 €</span>
+   * ══════════════════════════════════════════════════════════ */
+  doc.querySelectorAll("li[data-itemid]").forEach((li) => {
+    // 1. ASIN desde data-reposition-action-params JSON
+    const params = li.getAttribute("data-reposition-action-params") ?? "";
+    const asinFromParams = params.match(/"itemExternalId"\s*:\s*"ASIN:([A-Z0-9]{10})/)?.[1] ?? "";
+
+    // 2. Enlace del producto (contiene título y ASIN en href)
+    const nameLink = li.querySelector("a[id^='itemName_']") as HTMLAnchorElement | null;
+    const title = nameLink?.getAttribute("title")?.trim() ?? "";
+    const hrefAsin = (nameLink?.getAttribute("href") ?? "").match(/\/dp\/([A-Z0-9]{10})/)?.[1] ?? "";
+
+    const asin = asinFromParams || hrefAsin;
+    if (!asin) return;
+
+    // 3. Precio: primero data-price del <li>, luego span.a-offscreen
+    const dataPrice = parseFloat(li.getAttribute("data-price") ?? "");
+    const offscreenText = li.querySelector(`[id^='itemPrice_'] .a-offscreen`)?.textContent?.trim() ?? "";
+    const price = (!isNaN(dataPrice) && dataPrice > 0)
+      ? dataPrice
+      : parsePrice(offscreenText);
+
+    // 4. Precio anterior (tachado)
+    const oldPriceText = li.querySelector(".a-text-strike, .a-price.a-text-strike .a-offscreen")?.textContent?.trim() ?? "";
+    const oldPrice = parsePrice(oldPriceText);
+
+    // 5. Imagen (puede ser ruta local tras Ctrl+S → reconstruir CDN)
+    const imgEl = li.querySelector("img") as HTMLImageElement | null;
+    const rawSrc = imgEl?.getAttribute("src") ?? "";
+    const imageUrl = fixImageUrl(rawSrc, asin);
+
+    // 6. Condición
+    const conditionText = li.querySelector(".a-color-secondary, [id^='item-condition-']")?.textContent?.trim() ?? "";
+
+    addItem(asin, title, imageUrl, price, oldPrice, conditionText);
+  });
+
+  if (results.length > 0) return results;
+
+  /* ══════════════════════════════════════════════════════════
+   * Estrategia 2: elementos [data-asin] (resultados de búsqueda, etc.)
+   * ══════════════════════════════════════════════════════════ */
   doc.querySelectorAll("[data-asin]").forEach((el) => {
     const asin = el.getAttribute("data-asin")?.trim() ?? "";
     if (!asin) return;
 
     const title =
-      el.querySelector(".g-itemname, [id^='itemName_'], h2 a, .a-size-base-plus")
-        ?.textContent?.trim() ??
+      el.querySelector("a[id^='itemName_']")?.getAttribute("title")?.trim() ??
+      el.querySelector(".g-itemname, h2 a span, .a-size-base-plus")?.textContent?.trim() ??
       el.querySelector("a[title]")?.getAttribute("title")?.trim() ??
       "";
 
-    const imgEl = el.querySelector("img[src*='amazon']") as HTMLImageElement | null;
-    const imageUrl = imgEl?.src ?? amazonImageUrl(asin);
+    const imgEl = el.querySelector("img") as HTMLImageElement | null;
+    const rawSrc = imgEl?.getAttribute("src") ?? "";
+    const imageUrl = fixImageUrl(rawSrc, asin);
 
-    const priceText =
-      el.querySelector(".a-price .a-offscreen, [id^='itemPrice_'] .a-offscreen")
-        ?.textContent?.trim() ?? "";
+    const priceText = el.querySelector(".a-price .a-offscreen, [id^='itemPrice_'] .a-offscreen")?.textContent?.trim() ?? "";
     const price = parsePrice(priceText);
-
     const oldPriceText = el.querySelector(".a-text-strike")?.textContent?.trim() ?? "";
     const oldPrice = parsePrice(oldPriceText);
-
-    // Extraer texto de condición del HTML (Amazon lo incluye cerca del precio)
-    const conditionText =
-      el.querySelector(".a-color-secondary span, [id^='item-condition-']")
-        ?.textContent?.trim() ?? "";
+    const conditionText = el.querySelector(".a-color-secondary span, [id^='item-condition-']")?.textContent?.trim() ?? "";
 
     addItem(asin, title, imageUrl, price, oldPrice, conditionText);
   });
 
-  /* ── Estrategia 2: links /dp/ASIN (cualquier página de Amazon) ── */
-  if (results.length === 0) {
-    doc.querySelectorAll("a[href*='/dp/']").forEach((link) => {
-      const href = link.getAttribute("href") ?? "";
-      const asin = href.match(/\/dp\/([A-Z0-9]{10})/)?.[1] ?? "";
-      if (!asin) return;
+  if (results.length > 0) return results;
 
-      const title = link.textContent?.trim() ?? link.getAttribute("title")?.trim() ?? "";
-      const container =
-        link.closest("li, div[id^='item-'], .s-result-item") ?? link.parentElement;
-      const imgEl = container?.querySelector("img[src*='amazon']") as HTMLImageElement | null;
-      const imageUrl = imgEl?.src ?? amazonImageUrl(asin);
-      const priceText =
-        container?.querySelector(".a-price .a-offscreen")?.textContent?.trim() ?? "";
+  /* ══════════════════════════════════════════════════════════
+   * Estrategia 3: enlaces /dp/ASIN (cualquier página de Amazon)
+   * ══════════════════════════════════════════════════════════ */
+  doc.querySelectorAll("a[href*='/dp/']").forEach((link) => {
+    const href = link.getAttribute("href") ?? "";
+    const asin = href.match(/\/dp\/([A-Z0-9]{10})/)?.[1] ?? "";
+    if (!asin) return;
 
-      addItem(asin, title, imageUrl, parsePrice(priceText), 0);
-    });
-  }
+    const title =
+      link.getAttribute("title")?.trim() ??
+      link.textContent?.trim() ??
+      "";
+    const container = link.closest("li, div[id^='item-'], .s-result-item") ?? link.parentElement;
+    const imgEl = container?.querySelector("img") as HTMLImageElement | null;
+    const rawSrc = imgEl?.getAttribute("src") ?? "";
+    const imageUrl = fixImageUrl(rawSrc, asin);
+    const priceText = container?.querySelector(".a-price .a-offscreen")?.textContent?.trim() ?? "";
 
-  /* ── Estrategia 3: ASINs en atributos data-* ── */
-  if (results.length === 0) {
-    doc.querySelectorAll("[data-item-prime-info], [data-csa-c-item-id]").forEach((el) => {
-      const raw =
-        el.getAttribute("data-item-prime-info") ?? el.getAttribute("data-csa-c-item-id") ?? "";
-      const asin = raw.match(/([A-Z0-9]{10})/)?.[1] ?? "";
-      if (asin) addItem(asin, "", amazonImageUrl(asin), 0, 0);
-    });
-  }
+    addItem(asin, title, imageUrl, parsePrice(priceText), 0);
+  });
 
   return results;
-}
-
-/* ─── Componente de selector de plataforma/generación ────── */
-
-function PlatformSelectors({
-  platform, generation, onChange,
-}: {
-  platform: Platform;
-  generation: string;
-  onChange: (p: Platform, g: string) => void;
-}) {
-  const selectCls = "rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-white focus:border-orange-500 focus:outline-none";
-  return (
-    <div className="flex gap-2">
-      <select
-        className={selectCls}
-        value={platform}
-        onChange={(e) => {
-          const p = e.target.value as Platform;
-          const g = GENERATIONS[p][0];
-          onChange(p, g);
-        }}
-      >
-        <option value="playstation">PlayStation</option>
-        <option value="xbox">Xbox</option>
-        <option value="nintendo">Nintendo</option>
-        <option value="multi">Multi</option>
-      </select>
-      <select
-        className={selectCls}
-        value={generation}
-        onChange={(e) => onChange(platform, e.target.value)}
-      >
-        {GENERATIONS[platform].map((g) => (
-          <option key={g} value={g}>{PLATFORM_LABELS[g] ?? g}</option>
-        ))}
-      </select>
-    </div>
-  );
 }
 
 /* ─── Estilos reutilizables ──────────────────────────────── */
@@ -268,8 +273,6 @@ function TabAddProduct({
   const [status, setStatus] = useState<{ ok: boolean; msg: string } | null>(null);
   const [loading, setLoading] = useState(false);
   const editing = Boolean(initial);
-
-  useEffect(() => { if (initial) setForm(initial); }, [initial]);
 
   function set<K extends keyof ProductForm>(key: K, val: ProductForm[K]) {
     setForm((prev) => {
@@ -345,7 +348,8 @@ function TabAddProduct({
             <option value="consolas">Consolas</option>
             <option value="videojuegos">Videojuegos</option>
             <option value="accesorios">Accesorios</option>
-            <option value="figuras">Figuras</option>
+            <option value="figuras">Figuras y coleccionables</option>
+            <option value="peliculas">Películas y series</option>
           </select>
         </div>
         <div>
@@ -364,6 +368,7 @@ function TabAddProduct({
             <option value="playstation">PlayStation</option>
             <option value="xbox">Xbox</option>
             <option value="nintendo">Nintendo</option>
+            <option value="evercade">Evercade</option>
             <option value="multi">Multi</option>
           </select>
         </div>
@@ -444,6 +449,11 @@ function TabImportList({ onImported }: { onImported: () => void }) {
   const [importing, setImporting]       = useState(false);
   const [importResult, setImportResult] = useState<string | null>(null);
 
+  // Enriquecimiento de títulos desde Amazon
+  const [enriching, setEnriching]         = useState(false);
+  const [enrichProgress, setEnrichProgress] = useState(0);
+  const [enrichMsg, setEnrichMsg]         = useState<string | null>(null);
+
   // Plataforma/generación/categoría/condición por defecto para este lote
   const [defPlatform,   setDefPlatform]   = useState<Platform>("playstation");
   const [defGeneration, setDefGeneration] = useState<string>("ps5");
@@ -485,6 +495,66 @@ function TabImportList({ onImported }: { onImported: () => void }) {
 
   function updateItem(idx: number, patch: Partial<ExtractedItem>) {
     setItems((prev) => prev.map((it, i) => (i === idx ? { ...it, ...patch } : it)));
+  }
+
+  async function handleEnrich() {
+    const withoutTitle = items.filter((it) => !it.title?.trim());
+    if (!withoutTitle.length || enriching) return;
+
+    setEnriching(true);
+    setEnrichMsg(null);
+    setEnrichProgress(0);
+
+    const BATCH = 5;
+    let enriched = 0;
+
+    for (let i = 0; i < withoutTitle.length; i += BATCH) {
+      const batch = withoutTitle.slice(i, i + BATCH);
+      try {
+        const res = await fetch("/api/admin/enrich-asins", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ asins: batch.map((it) => it.asin) }),
+        });
+        const data = await res.json() as {
+          results: { asin: string; title: string | null; price: number | null; imageUrl: string | null }[]
+        };
+
+        setItems((prev) =>
+          prev.map((item) => {
+            const found = data.results.find((r) => r.asin === item.asin);
+            if (!found?.title) return item;
+
+            enriched++;
+            const meta = detectProductMeta(found.title);
+            return {
+              ...item,
+              title:          found.title,
+              price:          found.price ?? item.price,
+              imageUrl:       found.imageUrl ?? item.imageUrl,
+              category:       meta.category as Category,
+              platformFamily: (meta.platformFamily !== "multi"
+                ? meta.platformFamily
+                : item.platformFamily) as Platform,
+              generation:     meta.platformFamily !== "multi"
+                ? meta.generation
+                : item.generation,
+              condition:      meta.condition !== "nuevo" ? meta.condition : item.condition,
+            };
+          }),
+        );
+      } catch {
+        // continuar con el siguiente lote si falla uno
+      }
+      setEnrichProgress(Math.min(i + BATCH, withoutTitle.length));
+    }
+
+    setEnrichMsg(
+      enriched > 0
+        ? `✅ ${enriched} títulos obtenidos de Amazon`
+        : "⚠️ No se pudieron obtener títulos (Amazon puede haber bloqueado temporalmente). Inténtalo de nuevo o edítalos manualmente.",
+    );
+    setEnriching(false);
   }
 
   async function handleImport() {
@@ -551,8 +621,28 @@ function TabImportList({ onImported }: { onImported: () => void }) {
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           <div>
+            <label className={labelCls}>Categoría</label>
+            <select className={`${selectCls2} w-full`} value={defCategory}
+              onChange={(e) => {
+                const cat = e.target.value as Category;
+                setDefCategory(cat);
+                // Si la categoría no tiene plataforma, forzar "multi"
+                if (PLATFORM_FREE_CATEGORIES.includes(cat)) {
+                  setDefPlatform("multi");
+                  setDefGeneration("");
+                }
+              }}>
+              <option value="videojuegos">🎮 Videojuegos</option>
+              <option value="consolas">🕹️ Consolas</option>
+              <option value="accesorios">🎧 Accesorios</option>
+              <option value="figuras">🗿 Figuras y coleccionables</option>
+              <option value="peliculas">🎬 Películas y series</option>
+            </select>
+          </div>
+          <div>
             <label className={labelCls}>Plataforma</label>
             <select className={`${selectCls2} w-full`} value={defPlatform}
+              disabled={PLATFORM_FREE_CATEGORIES.includes(defCategory)}
               onChange={(e) => {
                 const p = e.target.value as Platform;
                 setDefPlatform(p);
@@ -561,26 +651,18 @@ function TabImportList({ onImported }: { onImported: () => void }) {
               <option value="playstation">PlayStation</option>
               <option value="xbox">Xbox</option>
               <option value="nintendo">Nintendo</option>
+              <option value="evercade">Evercade</option>
               <option value="multi">Multi / Sin plataforma</option>
             </select>
           </div>
           <div>
             <label className={labelCls}>Generación</label>
             <select className={`${selectCls2} w-full`} value={defGeneration}
+              disabled={PLATFORM_FREE_CATEGORIES.includes(defCategory) || defPlatform === "multi"}
               onChange={(e) => setDefGeneration(e.target.value)}>
               {GENERATIONS[defPlatform].map((g) => (
                 <option key={g} value={g}>{PLATFORM_LABELS[g] ?? (g || "—")}</option>
               ))}
-            </select>
-          </div>
-          <div>
-            <label className={labelCls}>Categoría</label>
-            <select className={`${selectCls2} w-full`} value={defCategory}
-              onChange={(e) => setDefCategory(e.target.value as Category)}>
-              <option value="videojuegos">Videojuegos</option>
-              <option value="consolas">Consolas</option>
-              <option value="accesorios">Accesorios</option>
-              <option value="figuras">Figuras</option>
             </select>
           </div>
           <div>
@@ -621,6 +703,37 @@ function TabImportList({ onImported }: { onImported: () => void }) {
         </div>
       </div>
 
+      {/* Banner de enriquecimiento — aparece cuando hay productos sin título */}
+      {parsed && items.some((it) => !it.title?.trim()) && (
+        <div className="rounded-xl border border-amber-700/50 bg-amber-900/20 p-4">
+          <p className="mb-1 text-sm font-semibold text-amber-300">
+            ⚠️ {items.filter((it) => !it.title?.trim()).length} productos sin título
+          </p>
+          <p className="mb-3 text-xs text-amber-200">
+            Amazon carga los títulos con JavaScript. Sin título no se puede auto-detectar
+            plataforma, categoría ni condición. Pulsa el botón para obtenerlos directamente
+            desde Amazon (tu servidor local los descarga uno a uno).
+          </p>
+          <div className="flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              onClick={handleEnrich}
+              disabled={enriching}
+              className="rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white hover:bg-amber-500 disabled:opacity-50"
+            >
+              {enriching
+                ? `⏳ Obteniendo títulos… ${enrichProgress}/${items.filter((it) => !it.title?.trim()).length}`
+                : `🔍 Obtener títulos desde Amazon (${items.filter((it) => !it.title?.trim()).length})`}
+            </button>
+            {enrichMsg && (
+              <span className={`text-sm ${enrichMsg.startsWith("✅") ? "text-emerald-400" : "text-amber-300"}`}>
+                {enrichMsg}
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Tabla de productos extraídos con metadata auto-detectada */}
       {parsed && items.length > 0 && (
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
@@ -654,7 +767,7 @@ function TabImportList({ onImported }: { onImported: () => void }) {
                 {items.map((item, idx) => (
                   <tr key={item.asin + idx} className={
                     item.price === 0
-                      ? "bg-red-900/10 opacity-50"
+                      ? "bg-zinc-800/20"
                       : item.selected ? "" : "opacity-35"
                   }>
                     <td className="py-2 pr-2">
@@ -687,6 +800,7 @@ function TabImportList({ onImported }: { onImported: () => void }) {
                         <option value="playstation">PlayStation</option>
                         <option value="xbox">Xbox</option>
                         <option value="nintendo">Nintendo</option>
+                        <option value="evercade">Evercade</option>
                         <option value="multi">Multi</option>
                       </select>
                       <select className={`${miniSelect} w-full`} value={item.generation}
@@ -704,6 +818,7 @@ function TabImportList({ onImported }: { onImported: () => void }) {
                         <option value="videojuegos">Videojuegos</option>
                         <option value="accesorios">Accesorios</option>
                         <option value="figuras">Figuras</option>
+                        <option value="peliculas">Películas</option>
                       </select>
                     </td>
                     {/* Condición */}
@@ -933,6 +1048,7 @@ function TabCatalog({
                 <option value="playstation">PlayStation</option>
                 <option value="xbox">Xbox</option>
                 <option value="nintendo">Nintendo</option>
+                <option value="evercade">Evercade</option>
               </select>
             </div>
             <div>
@@ -946,6 +1062,7 @@ function TabCatalog({
                 <option value="playstation">PlayStation</option>
                 <option value="xbox">Xbox</option>
                 <option value="nintendo">Nintendo</option>
+                <option value="evercade">Evercade</option>
                 <option value="multi">Multi</option>
               </select>
             </div>
@@ -967,6 +1084,7 @@ function TabCatalog({
                 <option value="consolas">Consolas</option>
                 <option value="accesorios">Accesorios</option>
                 <option value="figuras">Figuras</option>
+                <option value="peliculas">Películas</option>
               </select>
             </div>
             <div>
@@ -1071,9 +1189,9 @@ function ProductionBlock() {
           npm run dev<br />
           # → localhost:3000/admin
         </p>
-        <a href="/" className="mt-6 inline-block rounded-lg bg-orange-500 px-5 py-2 text-sm font-semibold text-white hover:bg-orange-400">
+        <Link href="/" className="mt-6 inline-block rounded-lg bg-orange-500 px-5 py-2 text-sm font-semibold text-white hover:bg-orange-400">
           Volver a la web
-        </a>
+        </Link>
       </div>
     </div>
   );
@@ -1087,14 +1205,19 @@ export default function AdminPage() {
   const [products, setProducts]   = useState<Record<string, unknown>[]>([]);
   const [editingProd, setEditingProd] = useState<ProductForm | undefined>(undefined);
 
-  if (isProduction) return <ProductionBlock />;
-
   async function refreshProducts() {
-    const d = await fetch("/api/products").then((r) => r.json());
+    const d = await fetch("/api/admin/catalog").then((r) => r.json());
     setProducts(d.products ?? []);
   }
 
-  useEffect(() => { void refreshProducts(); }, []);
+  useEffect(() => {
+    if (isProduction) return;
+    const loadProducts = async () => {
+      const d = await fetch("/api/admin/catalog").then((r) => r.json());
+      setProducts(d.products ?? []);
+    };
+    void loadProducts();
+  }, [isProduction]);
 
   function handleEdit(p: Record<string, unknown>) {
     const pp = p as { id: string; title: string; category: Category; platformFamily: Platform;
@@ -1128,12 +1251,14 @@ export default function AdminPage() {
     setEditingProd(undefined);
   }
 
-  const tabBtn = (t: Tab, label: string) =>
+  const tabBtn = (t: Tab) =>
     `px-4 py-2 text-sm font-medium rounded-lg transition ${
       tab === t
         ? "bg-orange-500 text-white"
         : "text-zinc-400 hover:bg-zinc-800 hover:text-white"
     }`;
+
+  if (isProduction) return <ProductionBlock />;
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
@@ -1158,22 +1283,22 @@ export default function AdminPage() {
 
         {/* Pestañas */}
         <div className="mb-6 flex gap-1.5 rounded-xl border border-zinc-800 bg-zinc-900 p-1.5">
-          <button className={tabBtn("import", "Importar lista")}
+          <button className={tabBtn("import")}
             onClick={() => { setTab("import"); setEditingProd(undefined); }}>
             📥 Importar lista Amazon
           </button>
-          <button className={tabBtn("add", "Añadir")}
+          <button className={tabBtn("add")}
             onClick={() => setTab("add")}>
             {editingProd ? "✏️ Editar producto" : "➕ Añadir producto"}
           </button>
-          <button className={tabBtn("catalog", "Catálogo")}
+          <button className={tabBtn("catalog")}
             onClick={() => { setTab("catalog"); setEditingProd(undefined); }}>
             📋 Catálogo ({products.length})
           </button>
         </div>
 
         {/* Contenido de pestaña */}
-        {tab === "add"     && <TabAddProduct initial={editingProd} onSaved={handleSaved} />}
+        {tab === "add"     && <TabAddProduct key={editingProd?.id ?? "new"} initial={editingProd} onSaved={handleSaved} />}
         {tab === "import"  && <TabImportList onImported={refreshProducts} />}
         {tab === "catalog" && (
           <TabCatalog products={products} onEdit={handleEdit} onDelete={handleDelete} onRefresh={refreshProducts} />

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LegalLayout } from "@/components/legal-layout";
 
 export const metadata: Metadata = {
@@ -39,7 +40,7 @@ export default function PrivacidadPage() {
         <li>
           <strong>Cookies:</strong> se utilizan cookies técnicas necesarias para el
           funcionamiento del sitio. Consulta nuestra{" "}
-          <a href="/cookies">Política de cookies</a> para más detalle.
+          <Link href="/cookies">Política de cookies</Link> para más detalle.
         </li>
       </ul>
 

@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { CONSOLE_FAMILIES } from "@/lib/console-families";
 import { INTENT_SEO_PAGES } from "@/lib/intent-seo-pages";
-import { KIND_OPTIONS, PLATFORM_TREE } from "@/lib/platform-hierarchy";
+import { getPlatformKinds, PLATFORM_TREE } from "@/lib/platform-hierarchy";
+import { getProducts } from "@/lib/products";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://cholloweb.es";
@@ -117,6 +118,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
     {
+      url: `${baseUrl}/figuras`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.75,
+    },
+    {
+      url: `${baseUrl}/peliculas`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.75,
+    },
+    {
       url: `${baseUrl}/guias`,
       lastModified: now,
       changeFrequency: "daily",
@@ -162,16 +175,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const hierarchyRoutes: MetadataRoute.Sitemap = PLATFORM_TREE.flatMap((platform) =>
-    platform.generations.flatMap((generation) =>
-      KIND_OPTIONS.map((kind) => ({
+  const hierarchyRoutes: MetadataRoute.Sitemap = PLATFORM_TREE.flatMap((platform) => {
+    const kinds = getPlatformKinds(platform.slug);
+    return platform.generations.flatMap((generation) =>
+      kinds.map((kind) => ({
         url: `${baseUrl}/${platform.slug}/${generation.slug}/${kind.slug}`,
         lastModified: now,
-        changeFrequency: "daily",
+        changeFrequency: "daily" as const,
         priority: 0.78,
       })),
-    ),
-  );
+    );
+  });
 
-  return [...staticRoutes, ...consoleRoutes, ...guideRoutes, ...hierarchyRoutes];
+  const productRoutes: MetadataRoute.Sitemap = getProducts()
+    .filter((p) => p.price > 0)
+    .map((p) => ({
+      url: `${baseUrl}/producto/${p.id}`,
+      lastModified: now,
+      changeFrequency: "daily" as const,
+      priority: 0.7,
+    }));
+
+  return [...staticRoutes, ...consoleRoutes, ...guideRoutes, ...hierarchyRoutes, ...productRoutes];
 }
