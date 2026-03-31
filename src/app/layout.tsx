@@ -26,6 +26,26 @@ export const metadata: Metadata = {
     ],
     apple: { url: "/logo.png", sizes: "180x180" },
   },
+  openGraph: {
+    type:        "website",
+    siteName:    "cholloweb.es",
+    locale:      "es_ES",
+    images: [
+      {
+        url:    "/logo.png",
+        width:  512,
+        height: 512,
+        alt:    "cholloweb.es — Ofertas gaming y tecnología",
+      },
+    ],
+  },
+  twitter: {
+    card:  "summary",
+    title: "cholloweb.es | Ofertas gaming y tecnología",
+    description:
+      "Ofertas de videojuegos, consolas y reacondicionados con enlaces de afiliado de Amazon.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({

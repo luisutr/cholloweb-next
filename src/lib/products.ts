@@ -49,7 +49,18 @@ type CatalogData = {
 };
 
 const CATALOG = rawCatalog as CatalogData;
-const PRODUCTS: Product[] = CATALOG.products;
+
+/** Títulos genéricos generados durante importaciones de prueba — nunca deben mostrarse */
+const GENERIC_TITLE_RE = /^producto amazon\s+\w+$/i;
+
+/**
+ * Catálogo limpio: excluye productos con título genérico o precio 0
+ * (no disponibles). Actúa como red de seguridad independientemente
+ * del contenido del JSON.
+ */
+const PRODUCTS: Product[] = CATALOG.products.filter(
+  (p) => p.price > 0 && !GENERIC_TITLE_RE.test(p.title?.trim() ?? ""),
+);
 
 export function getCatalogMeta() {
   return {

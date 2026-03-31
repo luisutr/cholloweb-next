@@ -1,17 +1,21 @@
+import type { Metadata } from "next";
 import { ProductListingPage } from "@/components/product-listing-page";
 import { getProductsBySection } from "@/lib/products";
 
-export const metadata = {
-  title: "Segunda mano gaming | cholloweb.es",
+export const metadata: Metadata = {
+  title: "Videojuegos y consolas de segunda mano baratos | cholloweb.es",
   description:
-    "Catálogo de productos gaming de segunda mano con foco en precio, estado y oportunidad de compra.",
+    "Catálogo de videojuegos, consolas y accesorios de segunda mano con foco en precio, estado y oportunidad de compra en Amazon.",
+  alternates: { canonical: "/segunda-mano" },
 };
 
 export default function SecondHandPage() {
   return (
     <ProductListingPage
       title="Segunda mano"
-      description="Listado de artículos de segunda mano para ahorrar sin salir del ecosistema gaming."
+      badge="Usado · En buen estado"
+      icon="♻️"
+      description="Videojuegos, consolas y accesorios de segunda mano vendidos en Amazon. Ahorra respecto al precio de nuevo sin sacrificar calidad."
       products={getProductsBySection("segunda-mano")}
     />
   );

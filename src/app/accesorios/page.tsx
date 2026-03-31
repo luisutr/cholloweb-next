@@ -1,56 +1,23 @@
-import Link from "next/link";
-
+import type { Metadata } from "next";
 import { ProductListingPage } from "@/components/product-listing-page";
 import { getAccesoriosBySection } from "@/lib/products";
 
-export const metadata = {
-  title: "Accesorios gaming baratos | cholloweb.es",
+export const metadata: Metadata = {
+  title: "Accesorios gaming baratos | Mandos, auriculares y más | cholloweb.es",
   description:
-    "Accesorios para consola y setup gaming: mandos, auriculares, almacenamiento y periféricos con ofertas destacadas.",
+    "Accesorios gaming para PlayStation, Xbox y Nintendo al mejor precio: mandos, auriculares, fundas, cables y periféricos.",
+  alternates: { canonical: "/accesorios" },
 };
 
 export default function AccessoriesPage() {
-  const products = getAccesoriosBySection("todos");
-
   return (
-    <div>
-      <main className="mx-auto mt-8 max-w-6xl px-4 sm:px-6 lg:px-8">
-        <section className="rounded-xl border border-zinc-200 bg-white p-4">
-          <h2 className="text-sm font-semibold text-zinc-800">Secciones de accesorios</h2>
-          <div className="mt-2 flex flex-wrap gap-2">
-            <Link
-              href="/accesorios/nuevos"
-              className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800"
-            >
-              Nuevos
-            </Link>
-            <Link
-              href="/accesorios/segunda-mano"
-              className="rounded-full bg-amber-100 px-3 py-1 text-sm font-medium text-amber-800"
-            >
-              Segunda mano
-            </Link>
-            <Link
-              href="/accesorios/reacondicionados"
-              className="rounded-full bg-amber-100 px-3 py-1 text-sm font-medium text-amber-800"
-            >
-              Reacondicionados
-            </Link>
-            <Link
-              href="/accesorios/ofertas"
-              className="rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-800"
-            >
-              Ofertas
-            </Link>
-          </div>
-        </section>
-      </main>
-
-      <ProductListingPage
-        title="Accesorios"
-        description="Mira accesorios gaming por plataforma para completar tu setup al mejor precio."
-        products={products}
-      />
-    </div>
+    <ProductListingPage
+      title="Accesorios gaming"
+      badge="Catálogo completo"
+      icon="🎧"
+      description="Mandos extra, auriculares, bases de carga, fundas y periféricos para PlayStation, Xbox y Nintendo. Nuevos, reacondicionados y de segunda mano."
+      products={getAccesoriosBySection("todos")}
+      crumbs={[{ label: "Accesorios" }]}
+    />
   );
 }
