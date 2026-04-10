@@ -55,6 +55,19 @@ npm run sync:local:simulate
 
 El script actualiza `src/data/products.json` y renueva `updatedAt`.
 
+## Sync con Amazon PA-API (cuando tengas acceso)
+
+Script: `scripts/sync-paapi.mjs`
+
+- Incremental por ASIN (recomendado para productos ya cargados):
+  - `node scripts/sync-paapi.mjs`
+- Regeneración completa por búsquedas:
+  - `node scripts/sync-paapi.mjs --mode=search`
+- Prueba sin escribir cambios:
+  - `node scripts/sync-paapi.mjs --dry-run`
+
+El modo incremental toma los ASIN de `products.json` (campo `id` o URL `/dp/ASIN`) y refresca precio/oldPrice/estado/imagen/título manteniendo categorías y metadatos editoriales.
+
 ## Uso de la API interna
 
 - Todos los productos: `/api/products`

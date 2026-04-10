@@ -10,8 +10,9 @@
  *   NEXT_PUBLIC_AMAZON_TAG_ES → tu tag de afiliado para España
  *
  * Uso:
- *   node scripts/sync-paapi.mjs
- *   node scripts/sync-paapi.mjs --dry-run   (muestra resultados sin escribir)
+ *   node scripts/sync-paapi.mjs                 -> incremental por ASIN (recomendado)
+ *   node scripts/sync-paapi.mjs --mode=search   -> regenera catálogo por búsquedas
+ *   node scripts/sync-paapi.mjs --dry-run       -> muestra cambios sin escribir
  *
  * En GitHub Actions se ejecuta automáticamente cada día (ver
  * .github/workflows/sync-products.yml).
@@ -49,6 +50,8 @@ const PARTNER_TAG =
   process.env.NEXT_PUBLIC_AMAZON_TAG_ES || process.env.NEXT_PUBLIC_AMAZON_TAG || "";
 
 const DRY_RUN = process.argv.includes("--dry-run");
+const MODE_ARG = process.argv.find((arg) => arg.startsWith("--mode="));
+const SYNC_MODE = MODE_ARG ? MODE_ARG.replace("--mode=", "") : "asin";
 
 /* ─── Configuración PA-API ─────────────────────────────── */
 
@@ -57,6 +60,8 @@ const REGION = "eu-west-1";
 const SERVICE = "ProductAdvertisingAPI";
 const PATH_SEARCH = "/paapi5/searchitems";
 const TARGET_SEARCH = "com.amazon.paapi5.v1.ProductAdvertisingAPIv1.SearchItems";
+const PATH_GET_ITEMS = "/paapi5/getitems";
+const TARGET_GET_ITEMS = "com.amazon.paapi5.v1.ProductAdvertisingAPIv1.GetItems";
 
 /* ─── Consultas por categoría/plataforma ───────────────── */
 
@@ -113,7 +118,7 @@ function getSigningKey(secretKey, dateStamp) {
   return hmacSha256(Buffer.from(kService, "binary"), "aws4_request", "binary");
 }
 
-function buildAuthHeaders(body) {
+function buildAuthHeaders(body, requestPath, requestTarget) {
   const now = new Date();
   const amzDate  = now.toISOString().replace(/[:\-]|\.\d{3}/g, "").slice(0, 15) + "Z";
   const dateStamp = amzDate.slice(0, 8);
@@ -126,13 +131,13 @@ function buildAuthHeaders(body) {
     `content-type:application/json; charset=utf-8\n` +
     `host:${HOST}\n` +
     `x-amz-date:${amzDate}\n` +
-    `x-amz-target:${TARGET_SEARCH}\n`;
+    `x-amz-target:${requestTarget}\n`;
 
   const signedHeaders = "content-encoding;content-type;host;x-amz-date;x-amz-target";
 
   const canonicalRequest = [
     "POST",
-    PATH_SEARCH,
+    requestPath,
     "",             // query string vacío
     canonicalHeaders,
     signedHeaders,
@@ -156,14 +161,35 @@ function buildAuthHeaders(body) {
     "Content-Type":       "application/json; charset=utf-8",
     "Host":               HOST,
     "X-Amz-Date":         amzDate,
-    "X-Amz-Target":       TARGET_SEARCH,
+    "X-Amz-Target":       requestTarget,
   };
 }
 
 /* ─── Llamada a la API ─────────────────────────────────── */
 
+async function paapiPost({ requestPath, requestTarget, payload }) {
+  const body = JSON.stringify(payload);
+  const headers = buildAuthHeaders(body, requestPath, requestTarget);
+
+  const res = await fetch(`https://${HOST}${requestPath}`, {
+    method: "POST",
+    headers,
+    body,
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`PA-API ${res.status}: ${text}`);
+  }
+
+  return res.json();
+}
+
 async function searchItems(query) {
-  const body = JSON.stringify({
+  const data = await paapiPost({
+    requestPath: PATH_SEARCH,
+    requestTarget: TARGET_SEARCH,
+    payload: {
     Keywords:      query.keywords,
     SearchIndex:   query.searchIndex,
     PartnerTag:    PARTNER_TAG,
@@ -177,23 +203,33 @@ async function searchItems(query) {
       "Offers.Listings.Condition",
       "Offers.Listings.SavingBasis",
     ],
+    },
   });
 
-  const headers = buildAuthHeaders(body);
-
-  const res = await fetch(`https://${HOST}${PATH_SEARCH}`, {
-    method:  "POST",
-    headers,
-    body,
-  });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`PA-API ${res.status}: ${text}`);
-  }
-
-  const data = await res.json();
   return data?.SearchResult?.Items ?? [];
+}
+
+async function getItemsByAsins(asins) {
+  const data = await paapiPost({
+    requestPath: PATH_GET_ITEMS,
+    requestTarget: TARGET_GET_ITEMS,
+    payload: {
+      ItemIds: asins,
+      ItemIdType: "ASIN",
+      PartnerTag: PARTNER_TAG,
+      PartnerType: "Associates",
+      Marketplace: "www.amazon.es",
+      Resources: [
+        "Images.Primary.Large",
+        "ItemInfo.Title",
+        "Offers.Listings.Price",
+        "Offers.Listings.Condition",
+        "Offers.Listings.SavingBasis",
+      ],
+    },
+  });
+
+  return data?.ItemsResult?.Items ?? [];
 }
 
 /* ─── Mapeo PA-API → Product ───────────────────────────── */
@@ -245,6 +281,54 @@ function mapItem(item, query) {
   };
 }
 
+function isLikelyAsin(value) {
+  return typeof value === "string" && /^[A-Z0-9]{10}$/.test(value.toUpperCase());
+}
+
+function chunkArray(values, size) {
+  const chunks = [];
+  for (let i = 0; i < values.length; i += size) {
+    chunks.push(values.slice(i, i + size));
+  }
+  return chunks;
+}
+
+function readAsinFromProduct(product) {
+  if (isLikelyAsin(product?.id)) {
+    return product.id.toUpperCase();
+  }
+  const fromUrl = product?.amazonUrl?.match(/\/dp\/([A-Z0-9]{10})/i)?.[1];
+  return fromUrl ? fromUrl.toUpperCase() : null;
+}
+
+function mergeIncrementalProduct(existingProduct, apiItem) {
+  const asin = apiItem?.ASIN ?? readAsinFromProduct(existingProduct);
+  const title = apiItem?.ItemInfo?.Title?.DisplayValue;
+  const imageUrl = apiItem?.Images?.Primary?.Large?.URL;
+  const listing = apiItem?.Offers?.Listings?.[0];
+  const price = listing?.Price?.Amount;
+  const oldPrice = listing?.SavingBasis?.Amount;
+  const condition = listing?.Condition?.Value ? conditionFromApi(listing.Condition.Value) : undefined;
+
+  const merged = {
+    ...existingProduct,
+    id: asin ?? existingProduct.id,
+    ...(title ? { title } : {}),
+    ...(imageUrl ? { imageUrl } : {}),
+    ...(condition ? { condition } : {}),
+    ...(typeof price === "number" ? { price } : {}),
+    amazonUrl: asin ? `https://www.amazon.es/dp/${asin}` : existingProduct.amazonUrl,
+  };
+
+  if (typeof oldPrice === "number" && typeof merged.price === "number" && oldPrice > merged.price) {
+    merged.oldPrice = oldPrice;
+  } else {
+    delete merged.oldPrice;
+  }
+
+  return merged;
+}
+
 /* ─── Ejecución principal ──────────────────────────────── */
 
 async function run() {
@@ -263,40 +347,108 @@ async function run() {
     return;
   }
 
-  console.log(`🔄  Iniciando sync PA-API (${SEARCH_QUERIES.length} consultas)…`);
+  const rawCatalog = await fs.readFile(CATALOG_PATH, "utf8");
+  const existingCatalog = JSON.parse(rawCatalog);
 
-  const products = [];
-  const seen     = new Set();
+  let products = [];
+  let source = "paapi5";
 
-  for (const query of SEARCH_QUERIES) {
-    try {
-      console.log(`   📦  "${query.keywords}" → ${query.category}/${query.platformFamily}`);
-      const items = await searchItems(query);
+  if (SYNC_MODE === "asin") {
+    const productsInCatalog = existingCatalog?.products ?? [];
+    const asinToProduct = new Map();
+    const asinOrder = [];
 
-      for (const item of items) {
-        if (!seen.has(item.ASIN)) {
-          seen.add(item.ASIN);
-          products.push(mapItem(item, query));
+    for (const product of productsInCatalog) {
+      const asin = readAsinFromProduct(product);
+      if (!asin) continue;
+      if (!asinToProduct.has(asin)) {
+        asinToProduct.set(asin, product);
+        asinOrder.push(asin);
+      }
+    }
+
+    if (!asinOrder.length) {
+      console.warn("⚠️  No se encontraron ASIN válidos en el catálogo. Cambio automático a modo search.");
+    } else {
+      console.log(`🔄  Iniciando sync incremental por ASIN (${asinOrder.length} ASINs)…`);
+      const chunks = chunkArray(asinOrder, 10);
+      const apiByAsin = new Map();
+
+      for (const chunk of chunks) {
+        try {
+          console.log(`   📦  GetItems batch (${chunk.length} ASINs)`);
+          const items = await getItemsByAsins(chunk);
+          for (const item of items) {
+            if (item?.ASIN) apiByAsin.set(item.ASIN.toUpperCase(), item);
+          }
+          // Pausa para no superar el rate-limit de PA-API (1 req/s)
+          await new Promise((r) => setTimeout(r, 1100));
+        } catch (err) {
+          console.warn(`   ⚠️  Error en batch ASIN: ${err.message}`);
         }
       }
 
-      // Pausa para no superar el rate-limit de PA-API (1 req/s)
-      await new Promise((r) => setTimeout(r, 1100));
-    } catch (err) {
-      console.warn(`   ⚠️  Error en "${query.keywords}": ${err.message}`);
+      let updatedCount = 0;
+      let missingCount = 0;
+
+      products = productsInCatalog.map((product) => {
+        const asin = readAsinFromProduct(product);
+        if (!asin) return product;
+        const apiItem = apiByAsin.get(asin);
+        if (!apiItem) {
+          missingCount += 1;
+          return product;
+        }
+        const merged = mergeIncrementalProduct(product, apiItem);
+        if (JSON.stringify(merged) !== JSON.stringify(product)) {
+          updatedCount += 1;
+        }
+        return merged;
+      });
+
+      source = "paapi5-asin-incremental";
+      console.log(`✅  Incremental completado: ${updatedCount} productos actualizados, ${missingCount} sin respuesta API.`);
     }
   }
 
-  console.log(`✅  ${products.length} productos obtenidos.`);
+  if (!products.length) {
+    console.log(`🔄  Iniciando sync PA-API por búsqueda (${SEARCH_QUERIES.length} consultas)…`);
+    const fullProducts = [];
+    const seen = new Set();
+
+    for (const query of SEARCH_QUERIES) {
+      try {
+        console.log(`   📦  "${query.keywords}" → ${query.category}/${query.platformFamily}`);
+        const items = await searchItems(query);
+
+        for (const item of items) {
+          if (!seen.has(item.ASIN)) {
+            seen.add(item.ASIN);
+            fullProducts.push(mapItem(item, query));
+          }
+        }
+
+        // Pausa para no superar el rate-limit de PA-API (1 req/s)
+        await new Promise((r) => setTimeout(r, 1100));
+      } catch (err) {
+        console.warn(`   ⚠️  Error en "${query.keywords}": ${err.message}`);
+      }
+    }
+
+    products = fullProducts;
+    source = "paapi5-search";
+    console.log(`✅  ${products.length} productos obtenidos por búsqueda.`);
+  }
 
   const catalog = {
+    ...existingCatalog,
     updatedAt: new Date().toISOString(),
-    source:    "paapi5",
+    source,
     products,
   };
 
   if (DRY_RUN) {
-    console.log("\n📋  DRY-RUN — muestra de los 3 primeros productos:");
+    console.log(`\n📋  DRY-RUN (${source}) — muestra de los 3 primeros productos:`);
     console.log(JSON.stringify(products.slice(0, 3), null, 2));
     console.log("\n⚠️  No se ha escrito nada en products.json (--dry-run activo).");
     return;
