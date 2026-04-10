@@ -2,13 +2,14 @@ name: Sync Amazon Products
 
 # ─── Cuándo se ejecuta ────────────────────────────────────────────────────────
 #
-#  • Automáticamente cada día a las 7:00 AM (hora de España en verano = UTC+2)
-#  • O manualmente desde la pestaña Actions de GitHub
+#  • Solo manual (workflow_dispatch). El cron diario está desactivado hasta que
+#    existan secrets PA-API en GitHub; si no, cada ejecución fallaba y enviaba correos.
+#  • Para reactivar el sync automático, descomenta el bloque schedule:
+#      schedule:
+#        - cron: "0 5 * * *"   # 05:00 UTC ≈ 07:00 España (verano)
 #
 on:
-  schedule:
-    - cron: "0 5 * * *"   # 05:00 UTC = 07:00 España (verano)
-  workflow_dispatch:        # botón "Run workflow" manual en GitHub
+  workflow_dispatch:
 
 # ─── Permisos necesarios para hacer push del products.json actualizado ────────
 permissions:
