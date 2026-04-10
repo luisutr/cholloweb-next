@@ -7,7 +7,7 @@
  * Pestañas:
  *  1. Añadir/editar producto individual
  *  2. Importar desde lista de Amazon (pegar HTML o subir fichero)
- *  3. Catálogo completo (editar/eliminar)
+ *  3. Catálogo completo (editar/eliminar, sync PA-API en local)
  *
  * Workflow:
  *  1. Gestiona productos aquí
@@ -892,6 +892,10 @@ function TabCatalog({
   const [redetecting, setRedetecting] = useState(false);
   const [redetectMsg, setRedetectMsg] = useState<string | null>(null);
 
+  const [syncPaapi, setSyncPaapi] = useState(false);
+  const [syncPaapiMsg, setSyncPaapiMsg] = useState<string | null>(null);
+  const [syncPaapiLog, setSyncPaapiLog] = useState<string | null>(null);
+
   const [clearing, setClearing]         = useState(false);
 
   async function handleClearAll() {
@@ -946,6 +950,55 @@ function TabCatalog({
       setRedetectMsg(`❌ Error: ${data.error}`);
     }
     setRedetecting(false);
+  }
+
+  async function handleSyncPaapi(dryRun: boolean) {
+    if (!dryRun && !confirm(
+      "Esto llamará a Amazon PA-API para todos los ASIN del catálogo. Puede tardar varios minutos. ¿Continuar?",
+    )) return;
+
+    setSyncPaapi(true);
+    setSyncPaapiMsg(null);
+    setSyncPaapiLog(null);
+
+    const res = await fetch("/api/admin/sync-paapi", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ dryRun }),
+    });
+    const data = await res.json() as {
+      ok?: boolean;
+      error?: string;
+      stdout?: string;
+      stderr?: string;
+      exitCode?: number;
+    };
+
+    if (!res.ok) {
+      setSyncPaapiMsg(`❌ ${data.error ?? "Error de red"}`);
+      setSyncPaapiLog(data.stderr ?? "");
+      setSyncPaapi(false);
+      return;
+    }
+
+    if (data.ok) {
+      setSyncPaapiMsg(
+        dryRun
+          ? "✅ Simulación PA-API terminada (no se ha guardado products.json)."
+          : "✅ Precios actualizados en products.json. Haz commit y push para publicar en la web.",
+      );
+      const tail = (data.stdout ?? "").trim().split("\n").slice(-8).join("\n");
+      if (tail) setSyncPaapiLog(tail);
+      if (!dryRun) onRefresh();
+    } else {
+      setSyncPaapiMsg(
+        `❌ PA-API terminó con error (código ${data.exitCode ?? "?"}). Revisa credenciales en .env.local o el log.`,
+      );
+      const log = [data.stderr, data.stdout].filter(Boolean).join("\n---\n");
+      setSyncPaapiLog(log || data.error || "");
+    }
+
+    setSyncPaapi(false);
   }
 
   async function handleBulkUpdate() {
@@ -1018,6 +1071,24 @@ function TabCatalog({
           {redetecting ? "Analizando…" : "🔄 Re-detectar"}
         </button>
         <button
+          type="button"
+          onClick={() => void handleSyncPaapi(false)}
+          disabled={syncPaapi || products.length === 0}
+          title="Requiere PAAPI_ACCESS_KEY, PAAPI_SECRET_KEY y NEXT_PUBLIC_AMAZON_TAG_ES en .env.local"
+          className="shrink-0 rounded-lg border border-emerald-800 bg-emerald-950/40 px-4 py-2 text-xs font-medium text-emerald-300 hover:border-emerald-500 hover:bg-emerald-900/30 disabled:opacity-40"
+        >
+          {syncPaapi ? "Sincronizando PA-API…" : "💰 Actualizar precios (PA-API)"}
+        </button>
+        <button
+          type="button"
+          onClick={() => void handleSyncPaapi(true)}
+          disabled={syncPaapi || products.length === 0}
+          title="Mismas llamadas a la API pero sin escribir products.json"
+          className="shrink-0 rounded-lg border border-zinc-600 px-3 py-2 text-xs text-zinc-400 hover:border-zinc-500 hover:text-zinc-200 disabled:opacity-40"
+        >
+          Simular
+        </button>
+        <button
           onClick={handleClearAll}
           disabled={clearing || products.length === 0}
           title="Elimina todos los productos del catálogo"
@@ -1029,6 +1100,17 @@ function TabCatalog({
 
       {redetectMsg && (
         <p className="mb-3 rounded-lg bg-zinc-800 px-4 py-2 text-xs text-emerald-400">{redetectMsg}</p>
+      )}
+
+      {syncPaapiMsg && (
+        <div className="mb-3 rounded-lg border border-zinc-700 bg-zinc-900/80 px-4 py-3 text-xs">
+          <p className={syncPaapiMsg.startsWith("✅") ? "text-emerald-400" : "text-red-400"}>{syncPaapiMsg}</p>
+          {syncPaapiLog && (
+            <pre className="mt-2 max-h-40 overflow-auto whitespace-pre-wrap break-all rounded bg-black/40 p-2 font-mono text-[10px] text-zinc-400">
+              {syncPaapiLog}
+            </pre>
+          )}
+        </div>
       )}
 
       {/* Panel de reasignación en lote */}

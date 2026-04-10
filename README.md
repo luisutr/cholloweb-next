@@ -68,6 +68,8 @@ Script: `scripts/sync-paapi.mjs`
 
 El modo incremental toma los ASIN de `products.json` (campo `id` o URL `/dp/ASIN`) y refresca precio/oldPrice/estado/imagen/título manteniendo categorías y metadatos editoriales.
 
+En **localhost**, pestaña **Admin → Catálogo**, hay botones **Actualizar precios (PA-API)** y **Simular** (llaman a `POST /api/admin/sync-paapi`). En producción ese endpoint no está disponible.
+
 ## Uso de la API interna
 
 - Todos los productos: `/api/products`
