@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-31T22:57:58.492Z",
+  "updatedAt": "2026-04-10T10:46:56.574Z",
   "source": "manual",
   "products": [
     {
@@ -1362,7 +1362,7 @@
     {
       "id": "B0F2VVMVX9",
       "title": "Hot Wheels Mattel Dream Mobile, edición de coleccionista del 80 Aniversario, Modelo de Coche Fundido a presión, Rojo",
-      "category": "figuras",
+      "category": "accesorios",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
@@ -1374,7 +1374,7 @@
     {
       "id": "B0CMJY5LD5",
       "title": "Barbie Signature Batman 85 Aniversario Muñeca Poison Ivy, Inspirada en la película, Juguete de colección para Adultos y Fans, HRM51",
-      "category": "figuras",
+      "category": "peliculas",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
@@ -1386,7 +1386,7 @@
     {
       "id": "B0CMJSXWZS",
       "title": "Barbie Signature Batman 85 Aniversario Muñeca Harley Quinn, Inspirada en la película, Juguete de colección para Adultos y Fans, HRM84",
-      "category": "figuras",
+      "category": "peliculas",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
@@ -1410,7 +1410,7 @@
     {
       "id": "B0FN4DRRFW",
       "title": "Console Heroes Street Fighter",
-      "category": "figuras",
+      "category": "consolas",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
@@ -1422,7 +1422,7 @@
     {
       "id": "B0FN4DH72B",
       "title": "Console Heroes Mega Drive Boss Level Sonic 1",
-      "category": "figuras",
+      "category": "consolas",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
@@ -1554,7 +1554,7 @@
     {
       "id": "B0DY7YZ7P9",
       "title": "Evercade Atari Arcade Arcade 2",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "evercade",
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
@@ -1602,7 +1602,7 @@
     {
       "id": "B09Z3B81VY",
       "title": "Blaze Evercade Gaelco Arcade Cartridge 2",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "evercade",
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
@@ -1614,7 +1614,7 @@
     {
       "id": "B0DH88R8Y9",
       "title": "Data East Arcade Collection 2",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "evercade",
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
@@ -1650,7 +1650,7 @@
     {
       "id": "B0C5XZ19TQ",
       "title": "Piko Arcade Collection 1, Evercade",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "evercade",
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
@@ -1698,7 +1698,7 @@
     {
       "id": "B0DK7FR423",
       "title": "Evercade Toaplan Arcade Collection 4",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "evercade",
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
@@ -1710,7 +1710,7 @@
     {
       "id": "B094KD3YQS",
       "title": "Cartucho Evercade Gaelco Arcade 1 (Piko Arcade)",
-      "category": "videojuegos",
+      "category": "accesorios",
       "platformFamily": "evercade",
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
@@ -1734,7 +1734,7 @@
     {
       "id": "B07YZRTTD5",
       "title": "Nintendo SupaBoy Consola de Videojuegos 256 x 224 Px USB",
-      "category": "consolas",
+      "category": "accesorios",
       "platformFamily": "nintendo",
       "generation": "switch",
       "platformLabel": "Switch",
