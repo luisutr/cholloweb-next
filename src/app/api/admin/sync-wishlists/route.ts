@@ -1,14 +1,12 @@
 /**
- * POST /api/admin/sync-paapi
+ * POST /api/admin/sync-wishlists
  *
- * Ejecuta `scripts/sync-paapi.mjs` en el servidor de desarrollo local.
- * Las credenciales PA-API deben estar en `.env.local` (no se exponen al navegador).
+ * Ejecuta `scripts/sync-wishlists.mjs` en el servidor de desarrollo local.
  *
  * Body JSON opcional:
- *   { "dryRun": true }           → --dry-run (no escribe products.json)
- *   { "mode": "search" }       → --mode=search (regenera por búsquedas)
+ *   { "dryRun": true }  → --dry-run (no escribe products.json)
  *
- * Solo disponible en localhost (mismo criterio que el resto del admin).
+ * Solo disponible en localhost.
  */
 
 import { execFile } from "node:child_process";
@@ -21,7 +19,7 @@ export const runtime = "nodejs";
 
 const execFileAsync = promisify(execFile);
 
-const CATALOG_REL = ["scripts", "sync-paapi.mjs"] as const;
+const SCRIPT_REL = ["scripts", "sync-wishlists.mjs"] as const;
 
 function isLocalhost(req: NextRequest): boolean {
   const host = req.headers.get("host") ?? "";
@@ -39,18 +37,15 @@ export async function POST(req: NextRequest) {
   }
 
   let dryRun = false;
-  let modeSearch = false;
   try {
-    const body = (await req.json()) as { dryRun?: boolean; mode?: string };
+    const body = (await req.json()) as { dryRun?: boolean };
     dryRun = Boolean(body?.dryRun);
-    modeSearch = body?.mode === "search";
   } catch {
     // sin body → defaults
   }
 
-  const scriptPath = path.join(process.cwd(), ...CATALOG_REL);
+  const scriptPath = path.join(process.cwd(), ...SCRIPT_REL);
   const args = [scriptPath];
-  if (modeSearch) args.push("--mode=search");
   if (dryRun) args.push("--dry-run");
 
   const nodeBin = process.execPath;
@@ -66,7 +61,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({
       ok: true,
       dryRun,
-      mode: modeSearch ? "search" : "asin",
       stdout: stdout.toString(),
       stderr: stderr.toString(),
     });
@@ -81,11 +75,10 @@ export async function POST(req: NextRequest) {
       {
         ok: false,
         dryRun,
-        mode: modeSearch ? "search" : "asin",
         exitCode: typeof e.code === "number" ? e.code : 1,
         stdout: e.stdout?.toString() ?? "",
         stderr: e.stderr?.toString() ?? "",
-        error: e.message ?? "sync-paapi falló",
+        error: e.message ?? "sync-wishlists falló",
       },
       { status: 200 },
     );

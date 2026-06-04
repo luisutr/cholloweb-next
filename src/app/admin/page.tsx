@@ -896,6 +896,10 @@ function TabCatalog({
   const [syncPaapiMsg, setSyncPaapiMsg] = useState<string | null>(null);
   const [syncPaapiLog, setSyncPaapiLog] = useState<string | null>(null);
 
+  const [syncWishlists, setSyncWishlists] = useState(false);
+  const [syncWishlistsMsg, setSyncWishlistsMsg] = useState<string | null>(null);
+  const [syncWishlistsLog, setSyncWishlistsLog] = useState<string | null>(null);
+
   const [clearing, setClearing]         = useState(false);
 
   async function handleClearAll() {
@@ -1001,6 +1005,55 @@ function TabCatalog({
     setSyncPaapi(false);
   }
 
+  async function handleSyncWishlists(dryRun: boolean) {
+    if (!dryRun && !confirm(
+      "Esto descargará y analizará tus 6 listas públicas de deseos de Amazon para incorporar nuevos productos y actualizar precios. ¿Continuar?",
+    )) return;
+
+    setSyncWishlists(true);
+    setSyncWishlistsMsg(null);
+    setSyncWishlistsLog(null);
+
+    const res = await fetch("/api/admin/sync-wishlists", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ dryRun }),
+    });
+    const data = await res.json() as {
+      ok?: boolean;
+      error?: string;
+      stdout?: string;
+      stderr?: string;
+      exitCode?: number;
+    };
+
+    if (!res.ok) {
+      setSyncWishlistsMsg(`❌ ${data.error ?? "Error de red"}`);
+      setSyncWishlistsLog(data.stderr ?? "");
+      setSyncWishlists(false);
+      return;
+    }
+
+    if (data.ok) {
+      setSyncWishlistsMsg(
+        dryRun
+          ? "✅ Simulación de listas de deseos terminada (no se ha guardado products.json)."
+          : "✅ Catálogo sincronizado desde listas de deseos. Haz commit y push de products.json para publicar.",
+      );
+      const tail = (data.stdout ?? "").trim().split("\n").slice(-8).join("\n");
+      if (tail) setSyncWishlistsLog(tail);
+      if (!dryRun) onRefresh();
+    } else {
+      setSyncWishlistsMsg(
+        `❌ Sincronización terminó con error (código ${data.exitCode ?? "?"}). Revisa logs.`,
+      );
+      const log = [data.stderr, data.stdout].filter(Boolean).join("\n---\n");
+      setSyncWishlistsLog(log || data.error || "");
+    }
+
+    setSyncWishlists(false);
+  }
+
   async function handleBulkUpdate() {
     if (!confirm(`¿Reasignar todos los productos con plataforma "${bulkFilter}" a ${PLATFORM_LABELS[bulkGen] ?? bulkPlatform}?`)) return;
     setBulking(true);
@@ -1072,6 +1125,24 @@ function TabCatalog({
         </button>
         <button
           type="button"
+          onClick={() => void handleSyncWishlists(false)}
+          disabled={syncWishlists}
+          title="Descarga y analiza las 6 listas de deseos públicas de Amazon para actualizar productos"
+          className="shrink-0 rounded-lg border border-orange-850 bg-orange-950/40 px-4 py-2 text-xs font-medium text-orange-300 hover:border-orange-500 hover:bg-orange-900/30 disabled:opacity-40"
+        >
+          {syncWishlists ? "Sincronizando Listas…" : "🔄 Sincronizar Listas Deseos (Scraping)"}
+        </button>
+        <button
+          type="button"
+          onClick={() => void handleSyncWishlists(true)}
+          disabled={syncWishlists}
+          title="Simula la sincronización de listas sin escribir products.json"
+          className="shrink-0 rounded-lg border border-zinc-600 px-3 py-2 text-xs text-zinc-400 hover:border-zinc-500 hover:text-zinc-200 disabled:opacity-40"
+        >
+          Simular Listas
+        </button>
+        <button
+          type="button"
           onClick={() => void handleSyncPaapi(false)}
           disabled={syncPaapi || products.length === 0}
           title="Requiere PAAPI_ACCESS_KEY, PAAPI_SECRET_KEY y NEXT_PUBLIC_AMAZON_TAG_ES en .env.local"
@@ -1086,7 +1157,7 @@ function TabCatalog({
           title="Mismas llamadas a la API pero sin escribir products.json"
           className="shrink-0 rounded-lg border border-zinc-600 px-3 py-2 text-xs text-zinc-400 hover:border-zinc-500 hover:text-zinc-200 disabled:opacity-40"
         >
-          Simular
+          Simular PA-API
         </button>
         <button
           onClick={handleClearAll}
@@ -1100,6 +1171,17 @@ function TabCatalog({
 
       {redetectMsg && (
         <p className="mb-3 rounded-lg bg-zinc-800 px-4 py-2 text-xs text-emerald-400">{redetectMsg}</p>
+      )}
+
+      {syncWishlistsMsg && (
+        <div className="mb-3 rounded-lg border border-zinc-700 bg-zinc-900/80 px-4 py-3 text-xs">
+          <p className={syncWishlistsMsg.startsWith("✅") ? "text-emerald-400" : "text-red-400"}>{syncWishlistsMsg}</p>
+          {syncWishlistsLog && (
+            <pre className="mt-2 max-h-40 overflow-auto whitespace-pre-wrap break-all rounded bg-black/40 p-2 font-mono text-[10px] text-zinc-400">
+              {syncWishlistsLog}
+            </pre>
+          )}
+        </div>
       )}
 
       {syncPaapiMsg && (
