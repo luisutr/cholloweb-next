@@ -28,7 +28,7 @@ function isLocalhost(req: NextRequest): boolean {
   return host.startsWith("localhost") || host.startsWith("127.0.0.1");
 }
 
-export const maxDuration = 900;
+export const maxDuration = 300;
 
 export async function POST(req: NextRequest) {
   if (!isLocalhost(req)) {
