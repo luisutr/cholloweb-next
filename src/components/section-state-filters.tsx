@@ -52,7 +52,7 @@ export function SectionStateFilters({ products }: SectionStateFiltersProps) {
   return (
     <section className="mt-6">
       <div className="mb-4">
-        <label htmlFor="section-search" className="mb-2 block text-sm font-medium text-zinc-700">
+        <label htmlFor="section-search" className="mb-2 block text-sm font-medium text-zinc-400">
           Buscar en esta sección
         </label>
         <input
@@ -60,7 +60,7 @@ export function SectionStateFilters({ products }: SectionStateFiltersProps) {
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Buscar producto..."
-          className="w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-500"
+          className="w-full rounded-lg border border-zinc-800 bg-[#0d0d0d] px-3 py-2 text-sm text-zinc-100 placeholder-zinc-500 outline-none focus:border-primary transition"
         />
       </div>
 
@@ -70,10 +70,10 @@ export function SectionStateFilters({ products }: SectionStateFiltersProps) {
             key={filter}
             type="button"
             onClick={() => setActiveFilter(filter)}
-            className={`rounded-full px-3 py-1 text-sm font-medium ${
+            className={`rounded-full px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider transition ${
               activeFilter === filter
-                ? "bg-zinc-900 text-white"
-                : "bg-blue-100 text-blue-800"
+                ? "bg-primary text-black"
+                : "bg-[#141414] text-zinc-400 border border-zinc-800 hover:bg-[#1c1c1c] hover:text-zinc-200"
             }`}
           >
             {FILTER_LABELS[filter]}
@@ -88,7 +88,7 @@ export function SectionStateFilters({ products }: SectionStateFiltersProps) {
           ))}
         </div>
       ) : (
-        <p className="rounded-xl border border-zinc-200 bg-white p-6 text-sm text-zinc-600">
+        <p className="rounded-xl border border-zinc-800 bg-[#0d0d0d] p-6 text-sm text-zinc-450">
           No hay resultados para este filtro en la sección.
         </p>
       )}

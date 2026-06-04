@@ -30,9 +30,9 @@ const CONDITION_LABELS: Record<string, string> = {
 };
 
 const CONDITION_COLORS: Record<string, string> = {
-  nuevo: "bg-blue-100 text-blue-800",
-  reacondicionado: "bg-amber-100 text-amber-800",
-  "segunda-mano": "bg-zinc-100 text-zinc-700",
+  nuevo: "bg-blue-950/40 text-blue-400 border border-blue-900/60",
+  reacondicionado: "bg-amber-950/40 text-amber-400 border border-amber-900/60",
+  "segunda-mano": "bg-zinc-900/40 text-zinc-400 border border-zinc-800",
 };
 
 const CATEGORY_LABELS: Record<ProductCategory, string> = {
@@ -108,8 +108,8 @@ function RelatedCarousel({
   return (
     <section className="mt-12">
       <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-lg font-bold text-zinc-900">{title}</h2>
-        <span className="text-xs text-zinc-400">{products.length} productos</span>
+        <h2 className="text-lg font-brand font-bold uppercase tracking-wider text-zinc-100">{title}</h2>
+        <span className="text-xs text-zinc-500">{products.length} productos</span>
       </div>
       <div className="flex gap-4 overflow-x-auto pb-4 [scrollbar-width:none] [-webkit-overflow-scrolling:touch]">
         {products.map((p) => (
@@ -147,7 +147,7 @@ export default async function ProductoPage({ params }: Props) {
       : `Más ${CATEGORY_LABELS[product.category]}`;
 
   return (
-    <div className="bg-zinc-50 min-h-screen">
+    <div className="bg-black text-zinc-100 min-h-screen">
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
 
         {/* ── Breadcrumb ────────────────────────────────────────────────── */}
@@ -155,28 +155,28 @@ export default async function ProductoPage({ params }: Props) {
           className="mb-6 flex flex-wrap items-center gap-1.5 text-xs text-zinc-500"
           aria-label="Ruta de navegación"
         >
-          <Link href="/" className="hover:text-zinc-800 hover:underline">
+          <Link href="/" className="hover:text-zinc-350 hover:underline">
             Inicio
           </Link>
           <span aria-hidden>/</span>
           <Link
             href={getCategoryUrl(product)}
-            className="capitalize hover:text-zinc-800 hover:underline"
+            className="capitalize hover:text-zinc-350 hover:underline"
           >
             {CATEGORY_LABELS[product.category]}
           </Link>
           <span aria-hidden>/</span>
-          <span className="max-w-xs truncate font-medium text-zinc-700">
+          <span className="max-w-xs truncate font-medium text-zinc-300">
             {product.title}
           </span>
         </nav>
 
         {/* ── Hero del producto ──────────────────────────────────────────── */}
-        <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+        <div className="overflow-hidden rounded-2xl border border-zinc-800 bg-[#0d0d0d] shadow-2xl">
           <div className="flex flex-col sm:flex-row">
 
             {/* Imagen */}
-            <div className="relative flex h-72 w-full shrink-0 items-center justify-center bg-zinc-100 sm:h-auto sm:w-72 lg:w-96">
+            <div className="relative flex h-72 w-full shrink-0 items-center justify-center bg-black/40 sm:h-auto sm:w-72 lg:w-96 border-r border-zinc-900">
               {product.imageUrl ? (
                 <Image
                   src={product.imageUrl}
@@ -214,41 +214,41 @@ export default async function ProductoPage({ params }: Props) {
                 {/* Etiquetas */}
                 <div className="mb-4 flex flex-wrap gap-2">
                   <span
-                    className={`rounded-full px-3 py-1 text-xs font-semibold ${CONDITION_COLORS[product.condition] ?? "bg-zinc-100 text-zinc-700"}`}
+                    className={`rounded-full px-3 py-1 text-xs font-semibold ${CONDITION_COLORS[product.condition] ?? "bg-zinc-900/40 text-zinc-400 border border-zinc-800"}`}
                   >
                     {CONDITION_LABELS[product.condition] ?? product.condition}
                   </span>
-                  <span className="rounded-full bg-[#0d1b4e]/10 px-3 py-1 text-xs font-semibold text-[#0d1b4e]">
+                  <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary border border-primary/20">
                     {product.platformLabel}
                   </span>
-                  <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-600">
+                  <span className="rounded-full bg-zinc-900/40 px-3 py-1 text-xs font-semibold text-zinc-400 border border-zinc-800">
                     {CATEGORY_LABELS[product.category]}
                   </span>
                   {product.featured && (
-                    <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-700">
+                    <span className="rounded-full bg-amber-950/40 px-3 py-1 text-xs font-semibold text-amber-400 border border-amber-900/40">
                       ★ Destacado
                     </span>
                   )}
                 </div>
 
                 {/* Título */}
-                <h1 className="text-xl font-bold leading-snug text-zinc-900 sm:text-2xl lg:text-3xl">
+                <h1 className="text-xl font-bold leading-snug text-white sm:text-2xl lg:text-3xl">
                   {product.title}
                 </h1>
 
                 {/* Precio */}
                 <div className="mt-5 flex items-end gap-3">
                   {unavailable ? (
-                    <p className="text-lg font-semibold text-zinc-400">
+                    <p className="text-lg font-semibold text-zinc-500">
                       No disponible actualmente
                     </p>
                   ) : (
                     <>
-                      <span className="text-3xl font-extrabold tabular-nums text-zinc-900">
+                      <span className="text-3xl font-extrabold tabular-nums text-white">
                         {formatPrice(product.price)}
                       </span>
                       {product.oldPrice && product.oldPrice > product.price && (
-                        <span className="mb-0.5 text-base text-zinc-400 line-through">
+                        <span className="mb-0.5 text-base text-zinc-500 line-through">
                           {formatPrice(product.oldPrice)}
                         </span>
                       )}
@@ -257,7 +257,7 @@ export default async function ProductoPage({ params }: Props) {
                 </div>
 
                 {discount > 0 && !unavailable && (
-                  <p className="mt-1 text-sm font-medium text-emerald-700">
+                  <p className="mt-1 text-sm font-medium text-emerald-450">
                     Ahorro aprox. del {discount}% respecto al precio habitual
                   </p>
                 )}
@@ -272,7 +272,7 @@ export default async function ProductoPage({ params }: Props) {
                   aria-disabled={unavailable}
                   className={`flex items-center justify-center gap-2 rounded-xl px-8 py-3.5 text-base font-bold shadow-sm transition active:scale-95 ${
                     unavailable
-                      ? "pointer-events-none bg-zinc-200 text-zinc-400"
+                      ? "pointer-events-none bg-zinc-850 text-zinc-500"
                       : "bg-[#FF9900] text-zinc-900 hover:bg-[#e08800]"
                   }`}
                 >
@@ -281,13 +281,13 @@ export default async function ProductoPage({ params }: Props) {
 
                 <Link
                   href={getCategoryUrl(product)}
-                  className="flex items-center justify-center gap-1 rounded-xl border border-zinc-300 px-6 py-3.5 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-50"
+                  className="flex items-center justify-center gap-1 rounded-xl border border-zinc-800 bg-zinc-900 px-6 py-3.5 text-sm font-semibold text-zinc-300 transition hover:bg-zinc-850 hover:text-white"
                 >
                   ← Ver más ofertas
                 </Link>
               </div>
 
-              <p className="mt-4 text-xs text-zinc-400">
+              <p className="mt-4 text-xs text-zinc-500">
                 Los precios pueden variar. Confirma el precio final en Amazon antes de comprar.
                 Este enlace es de afiliado: si compras, recibimos una pequeña comisión sin coste extra para ti.
               </p>

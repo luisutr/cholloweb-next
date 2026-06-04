@@ -25,7 +25,7 @@ export function ProductListingPage({
   badge,
 }: ProductListingPageProps) {
   return (
-    <div className="bg-zinc-50 text-zinc-900">
+    <div className="bg-black text-white min-h-screen">
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
 
         {/* Breadcrumb */}
@@ -42,30 +42,30 @@ export function ProductListingPage({
             </span>
           ))}
           <span>/</span>
-          <span className="font-medium text-zinc-700">{title}</span>
+          <span className="font-medium text-zinc-300">{title}</span>
         </nav>
 
         {/* Hero de sección */}
-        <section className="rounded-xl bg-[#0d1b4e] px-6 py-6 text-white">
+        <section className="rounded-xl border border-zinc-800 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black px-6 py-6 text-white">
           <div className="flex items-start justify-between gap-4">
             <div>
               {badge && (
-                <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-amber-400">
+                <p className="mb-1 text-xs font-brand font-semibold uppercase tracking-widest text-primary">
                   {badge}
                 </p>
               )}
-              <h1 className="text-xl font-bold sm:text-2xl">
+              <h1 className="text-xl font-brand font-bold uppercase sm:text-2xl">
                 {icon && <span className="mr-2">{icon}</span>}
                 {title}
               </h1>
-              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-300">
+              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">
                 {description}
               </p>
             </div>
             {products.length > 0 && (
-              <div className="hidden shrink-0 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-center sm:block">
-                <p className="text-2xl font-bold text-amber-400">{products.length}</p>
-                <p className="text-xs text-zinc-400">productos</p>
+              <div className="hidden shrink-0 rounded-xl border border-zinc-800 bg-zinc-900/30 px-4 py-3 text-center sm:block">
+                <p className="text-2xl font-brand font-bold text-primary">{products.length}</p>
+                <p className="text-xs text-zinc-500">productos</p>
               </div>
             )}
           </div>

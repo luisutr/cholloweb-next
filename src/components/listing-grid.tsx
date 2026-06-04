@@ -11,7 +11,7 @@ export function ListingGrid({ products }: { products: Product[] }) {
 
   if (!products.length) {
     return (
-      <p className="rounded-xl border border-zinc-200 bg-white p-6 text-sm text-zinc-600">
+      <p className="rounded-xl border border-zinc-800 bg-[#0d0d0d] p-6 text-sm text-zinc-400">
         Aún no hay productos en esta sección. Vuelve pronto — actualizamos el catálogo
         regularmente.
       </p>
@@ -26,8 +26,8 @@ export function ListingGrid({ products }: { products: Product[] }) {
     <>
       <p className="mb-4 text-sm text-zinc-500">
         Mostrando{" "}
-        <span className="font-medium text-zinc-700">{visible.length}</span> de{" "}
-        <span className="font-medium text-zinc-700">{products.length}</span> producto(s)
+        <span className="font-semibold text-zinc-300">{visible.length}</span> de{" "}
+        <span className="font-semibold text-zinc-300">{products.length}</span> producto(s)
       </p>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -38,19 +38,19 @@ export function ListingGrid({ products }: { products: Product[] }) {
 
       {hasMore && (
         <div className="mt-10 flex flex-col items-center gap-3">
-          <div className="h-1.5 w-64 overflow-hidden rounded-full bg-zinc-200">
+          <div className="h-1.5 w-64 overflow-hidden rounded-full bg-zinc-900">
             <div
-              className="h-full rounded-full bg-[#0d1b4e] transition-all duration-300"
+              className="h-full rounded-full bg-primary transition-all duration-300"
               style={{ width: `${Math.round((visibleCount / products.length) * 100)}%` }}
             />
           </div>
-          <p className="text-xs text-zinc-400">
+          <p className="text-xs text-zinc-500">
             {visibleCount} de {products.length} — quedan {remaining} más
           </p>
           <button
             type="button"
             onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
-            className="mt-1 rounded-xl border border-zinc-300 bg-white px-8 py-2.5 text-sm font-semibold text-zinc-700 shadow-sm hover:border-zinc-400 hover:bg-zinc-50 active:scale-95"
+            className="mt-1 rounded-xl border border-zinc-800 bg-zinc-900 px-8 py-2.5 text-sm font-semibold text-zinc-350 shadow-sm hover:border-zinc-700 hover:bg-zinc-850 hover:text-white transition active:scale-95"
           >
             Ver {Math.min(remaining, PAGE_SIZE)} más
           </button>

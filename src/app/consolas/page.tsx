@@ -19,20 +19,20 @@ const COVER_IMAGES: Partial<Record<PlatformFamily, string>> = {
 
 export default function ConsolesIndexPage() {
   return (
-    <div className="bg-zinc-50 text-zinc-900">
+    <div className="bg-black text-white min-h-screen">
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
 
         {/* Breadcrumb */}
         <nav className="mb-5 flex items-center gap-1 text-xs text-zinc-500">
           <Link href="/" className="hover:underline">Inicio</Link>
           <span>/</span>
-          <span className="font-medium text-zinc-700">Consolas</span>
+          <span className="font-medium text-zinc-300">Consolas</span>
         </nav>
 
         {/* Hero */}
-        <section className="rounded-xl bg-[#0d1b4e] px-6 py-6 text-white">
-          <h1 className="text-xl font-bold sm:text-2xl">Consolas y plataformas</h1>
-          <p className="mt-2 max-w-2xl text-sm text-zinc-300">
+        <section className="rounded-xl border border-zinc-800 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black px-6 py-6 text-white">
+          <h1 className="text-xl font-brand font-bold uppercase sm:text-2xl">Consolas y plataformas</h1>
+          <p className="mt-2 max-w-2xl text-sm text-zinc-400">
             Elige tu plataforma favorita para ver consolas, videojuegos y accesorios
             con los mejores precios del momento en Amazon.
           </p>
@@ -46,7 +46,7 @@ export default function ConsolesIndexPage() {
               <Link
                 key={family.slug}
                 href={`/consolas/${family.slug}`}
-                className="group relative overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm transition hover:shadow-md"
+                className="group relative overflow-hidden rounded-xl border border-zinc-800 bg-surface-card shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,127,255,0.15)] hover:border-zinc-700"
               >
                 {/* Imagen de fondo */}
                 {cover && (
@@ -58,18 +58,18 @@ export default function ConsolesIndexPage() {
                       className="object-cover object-center transition duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0d1b4e]/80 to-transparent" />
-                    <h2 className="absolute bottom-3 left-4 text-xl font-bold text-white drop-shadow">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                    <h2 className="absolute bottom-3 left-4 text-xl font-brand font-black uppercase text-white drop-shadow">
                       {family.title}
                     </h2>
                   </div>
                 )}
                 <div className="p-4">
-                  <p className="text-sm text-zinc-600">{family.description}</p>
-                  <p className="mt-2 text-xs text-zinc-400">
+                  <p className="text-sm text-zinc-400 leading-relaxed">{family.description}</p>
+                  <p className="mt-2 text-xs text-zinc-500">
                     {family.generations.join(" · ")}
                   </p>
-                  <span className="mt-3 inline-block text-sm font-semibold text-amber-600 group-hover:underline">
+                  <span className="mt-4 inline-block text-sm font-semibold text-primary group-hover:underline">
                     Ver ofertas →
                   </span>
                 </div>

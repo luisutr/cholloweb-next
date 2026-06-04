@@ -79,10 +79,10 @@ function SimpleDropdown({
   return (
     <div className="absolute left-0 top-full z-50 min-w-52 pt-1" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       <div className="absolute -top-1 left-0 right-0 h-2" />
-      <div className="rounded-xl border border-[#1a2f6a] bg-[#0d1b4e] py-1.5 shadow-2xl ring-1 ring-black/30">
+      <div className="rounded-xl border border-zinc-800 bg-[#0d0d0d] py-1.5 shadow-2xl ring-1 ring-black/50">
         {items.map((item) => (
           <Link key={item.href} href={item.href}
-            className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400">
+            className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-zinc-900 hover:text-primary">
             {item.label}
           </Link>
         ))}
@@ -108,19 +108,19 @@ function MegaMenu({
   return (
     <div className={`absolute left-0 top-full z-50 ${minWidth} pt-1`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       <div className="absolute -top-1 left-0 right-0 h-2" />
-      <div className="rounded-xl border border-[#1a2f6a] bg-[#0d1b4e] p-5 shadow-2xl ring-1 ring-black/30">
+      <div className="rounded-xl border border-zinc-800 bg-[#0d0d0d] p-5 shadow-2xl ring-1 ring-black/50">
         <div className={`grid gap-6 ${gridCols}`}>
           {platform.generations.map((gen) => (
             <div key={gen.slug}>
               <Link href={`/consolas/${platform.slug}?gen=${gen.slug}`}
-                className="mb-2.5 block border-b border-[#1e2f6a] pb-1.5 text-xs font-bold uppercase tracking-widest text-amber-400 hover:text-amber-300">
+                className="mb-2.5 block border-b border-zinc-850 pb-1.5 text-xs font-brand font-bold uppercase tracking-widest text-primary hover:text-blue-400">
                 {gen.label}
               </Link>
               <div className="space-y-0.5">
                 {kinds.map((kind) => (
                   <Link key={kind.slug} href={`/${platform.slug}/${gen.slug}/${kind.slug}`}
-                    className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400">
-                    <span className="text-zinc-500">›</span>
+                    className="flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-sm text-zinc-300 transition hover:bg-zinc-900 hover:text-primary">
+                    <span className="text-zinc-650">›</span>
                     {kind.label}
                   </Link>
                 ))}
@@ -143,7 +143,7 @@ function MobileSection({
 }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="border-b border-[#1e2f6a]">
+    <div className="border-b border-zinc-800">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -152,7 +152,7 @@ function MobileSection({
         {label}
         <Chevron isOpen={open} />
       </button>
-      {open && <div className="bg-[#0a1640] pb-2">{children}</div>}
+      {open && <div className="bg-[#111112] pb-2">{children}</div>}
     </div>
   );
 }
@@ -173,13 +173,13 @@ export function SiteHeader() {
   const triggerCls = (id: string) =>
     `inline-flex cursor-pointer select-none items-center whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-150 ${
       open === id
-        ? "bg-amber-500/20 text-amber-400"
-        : "text-zinc-300 hover:bg-[#1e2f6a]/60 hover:text-white"
+        ? "bg-primary/20 text-primary"
+        : "text-zinc-300 hover:bg-zinc-900 hover:text-white"
     }`;
 
   return (
     <>
-      <header className="sticky top-0 z-40 border-b border-[#1a2f6a]/60 bg-[#0d1b4e]/95 backdrop-blur">
+      <header className="sticky top-0 z-40 border-b border-zinc-800 bg-black/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-2 sm:px-6 lg:px-8">
 
           {/* Logo */}
@@ -190,14 +190,14 @@ export function SiteHeader() {
 
           {/* Nombre (solo ≥ sm) */}
           <Link href="/" onClick={() => setMobileOpen(false)}
-            className="hidden shrink-0 text-sm font-extrabold tracking-tight text-white sm:block">
-            <span className="text-amber-400">chollo</span>web.es
+            className="hidden shrink-0 text-sm font-brand font-extrabold tracking-wider text-white sm:block">
+            <span className="text-primary">chollo</span>web.es
           </Link>
 
           {/* ── Nav desktop (oculta en móvil) ── */}
           <nav className="hidden flex-1 items-center gap-0.5 md:flex">
             <Link href="/"
-              className="inline-flex whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-zinc-300 transition hover:bg-[#1e2f6a]/60 hover:text-white">
+              className="inline-flex whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-900 hover:text-white">
               Inicio
             </Link>
 
@@ -228,19 +228,30 @@ export function SiteHeader() {
             </div>
 
             <Link href="/comparativas"
-              className="inline-flex shrink-0 whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-zinc-300 transition hover:bg-[#1e2f6a]/60 hover:text-white">
+              className="inline-flex shrink-0 whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-zinc-300 transition hover:bg-zinc-900 hover:text-white">
               Comparativas
             </Link>
+
+            {/* Enlaces de patrocinio cruzado a CoverLens y Covers */}
+            <Link href="/coverlens"
+              className="inline-flex shrink-0 whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-semibold text-zinc-300 transition hover:bg-zinc-900 hover:text-primary">
+              📱 CoverLens App
+            </Link>
+
+            <a href="https://covers.cholloweb.es/" target="_blank" rel="noreferrer"
+              className="inline-flex shrink-0 whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-semibold text-zinc-300 transition hover:bg-zinc-900 hover:text-primary">
+              🖼️ Covers ↗
+            </a>
 
             <div className="relative ml-auto shrink-0" onMouseEnter={() => enter("mas")} onMouseLeave={leave}>
               <span className={triggerCls("mas")}>Más<Chevron isOpen={open === "mas"} /></span>
               {open === "mas" && (
                 <div className="absolute right-0 top-full z-50 min-w-48 pt-1" onMouseEnter={cancel} onMouseLeave={leave}>
                   <div className="absolute -top-1 left-0 right-0 h-2" />
-                  <div className="rounded-xl border border-[#1a2f6a] bg-[#0d1b4e] py-1.5 shadow-2xl ring-1 ring-black/30">
+                  <div className="rounded-xl border border-zinc-800 bg-[#0d0d0d] py-1.5 shadow-2xl ring-1 ring-black/50">
                     {MARKETPLACE_ITEMS.map((item) => (
                       <Link key={item.href} href={item.href}
-                        className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-amber-400">
+                        className="block px-4 py-2 text-sm text-zinc-300 transition hover:bg-zinc-900 hover:text-primary">
                         {item.label}
                       </Link>
                     ))}
@@ -256,7 +267,7 @@ export function SiteHeader() {
             onClick={() => setMobileOpen((v) => !v)}
             aria-label={mobileOpen ? "Cerrar menú" : "Abrir menú"}
             aria-expanded={mobileOpen}
-            className="ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-zinc-300 transition hover:bg-[#1e2f6a] hover:text-white md:hidden"
+            className="ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-zinc-300 transition hover:bg-zinc-900 hover:text-white md:hidden"
           >
             {mobileOpen ? (
               /* X */
@@ -277,18 +288,29 @@ export function SiteHeader() {
       {mobileOpen && (
         <div className="fixed inset-0 z-30 md:hidden" onClick={() => setMobileOpen(false)}>
           {/* Overlay oscuro */}
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-black/60" />
 
           {/* Panel deslizante desde arriba */}
           <nav
-            className="absolute left-0 right-0 top-[57px] max-h-[calc(100vh-57px)] overflow-y-auto bg-[#0d1b4e] shadow-2xl"
+            className="absolute left-0 right-0 top-[57px] max-h-[calc(100vh-57px)] overflow-y-auto bg-black border-b border-zinc-800 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Enlace Inicio */}
             <Link href="/" onClick={() => setMobileOpen(false)}
-              className="flex items-center border-b border-[#1e2f6a] px-5 py-3.5 text-sm font-semibold text-white hover:bg-[#1e2f6a]">
+              className="flex items-center border-b border-zinc-800 px-5 py-3.5 text-sm font-semibold text-white hover:bg-zinc-900">
               🏠 Inicio
             </Link>
+
+            {/* Enlaces destacados de patrocinio en móvil */}
+            <Link href="/coverlens" onClick={() => setMobileOpen(false)}
+              className="flex items-center border-b border-zinc-800 px-5 py-3.5 text-sm font-semibold text-primary hover:bg-zinc-900">
+              📱 CoverLens App
+            </Link>
+
+            <a href="https://covers.cholloweb.es/" target="_blank" rel="noreferrer" onClick={() => setMobileOpen(false)}
+              className="flex items-center border-b border-zinc-800 px-5 py-3.5 text-sm font-semibold text-primary hover:bg-zinc-900">
+              🖼️ Covers Database ↗
+            </a>
 
             {/* Plataformas */}
             {PLATFORM_TREE.map((platform) => {
@@ -297,12 +319,12 @@ export function SiteHeader() {
                 <MobileSection key={platform.slug} label={platform.label}>
                   {platform.generations.map((gen) => (
                     <div key={gen.slug} className="px-5 pb-1 pt-2">
-                      <p className="mb-1 text-xs font-bold uppercase tracking-wider text-amber-400">{gen.label}</p>
+                      <p className="mb-1 text-xs font-brand font-bold uppercase tracking-wider text-primary">{gen.label}</p>
                       {kinds.map((kind) => (
                         <Link key={kind.slug} href={`/${platform.slug}/${gen.slug}/${kind.slug}`}
                           onClick={() => setMobileOpen(false)}
-                          className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm text-zinc-300 hover:bg-[#1e2f6a] hover:text-amber-400">
-                          <span className="text-zinc-500">›</span>{kind.label}
+                          className="flex items-center gap-2 rounded-lg px-2 py-2 text-sm text-zinc-300 hover:bg-zinc-900 hover:text-primary">
+                          <span className="text-zinc-650">›</span>{kind.label}
                         </Link>
                       ))}
                     </div>
@@ -315,7 +337,7 @@ export function SiteHeader() {
             <MobileSection label="Videojuegos">
               {VIDEOJUEGOS_ITEMS.map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}
-                  className="block px-8 py-2.5 text-sm text-zinc-300 hover:bg-[#1e2f6a] hover:text-amber-400">
+                  className="block px-8 py-2.5 text-sm text-zinc-300 hover:bg-zinc-900 hover:text-primary">
                   {item.label}
                 </Link>
               ))}
@@ -325,7 +347,7 @@ export function SiteHeader() {
             <MobileSection label="Accesorios">
               {ACCESORIOS_ITEMS.map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}
-                  className="block px-8 py-2.5 text-sm text-zinc-300 hover:bg-[#1e2f6a] hover:text-amber-400">
+                  className="block px-8 py-2.5 text-sm text-zinc-300 hover:bg-zinc-900 hover:text-primary">
                   {item.label}
                 </Link>
               ))}
@@ -333,7 +355,7 @@ export function SiteHeader() {
 
             {/* Comparativas */}
             <Link href="/comparativas" onClick={() => setMobileOpen(false)}
-              className="flex items-center border-b border-[#1e2f6a] px-5 py-3.5 text-sm font-semibold text-white hover:bg-[#1e2f6a]">
+              className="flex items-center border-b border-zinc-800 px-5 py-3.5 text-sm font-semibold text-white hover:bg-zinc-900">
               Comparativas
             </Link>
 
@@ -341,7 +363,7 @@ export function SiteHeader() {
             <MobileSection label="Más">
               {MARKETPLACE_ITEMS.map((item) => (
                 <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}
-                  className="block px-8 py-2.5 text-sm text-zinc-300 hover:bg-[#1e2f6a] hover:text-amber-400">
+                  className="block px-8 py-2.5 text-sm text-zinc-300 hover:bg-zinc-900 hover:text-primary">
                   {item.label}
                 </Link>
               ))}

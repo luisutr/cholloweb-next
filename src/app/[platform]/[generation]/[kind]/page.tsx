@@ -141,28 +141,28 @@ export default async function HierarchyPage({ params }: HierarchyPageProps) {
   const siblingKinds = KIND_OPTIONS.filter((k) => k.slug !== kind);
 
   return (
-    <div className="bg-zinc-50 text-zinc-900">
+    <div className="bg-black text-white min-h-screen">
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
 
         {/* Breadcrumb */}
         <nav className="mb-5 flex flex-wrap items-center gap-1 text-xs text-zinc-500">
-          <Link href="/" className="hover:underline">Inicio</Link>
+          <Link href="/" className="hover:underline hover:text-zinc-350">Inicio</Link>
           <span>/</span>
-          <Link href={`/consolas/${platform}`} className="hover:underline">{pLabel}</Link>
+          <Link href={`/consolas/${platform}`} className="hover:underline hover:text-zinc-355">{pLabel}</Link>
           <span>/</span>
-          <span className="text-zinc-700 font-medium">{gLabel} · {kLabel}</span>
+          <span className="text-zinc-300 font-medium">{gLabel} · {kLabel}</span>
         </nav>
 
         {/* Hero de sección */}
-        <section className="rounded-xl bg-[#0d1b4e] px-6 py-6 text-white">
-          <h1 className="text-xl font-bold sm:text-2xl">
+        <section className="rounded-xl border border-zinc-800 bg-[#0d0d0d] px-6 py-6 text-white shadow-2xl">
+          <h1 className="text-xl font-brand font-black uppercase tracking-wider text-white sm:text-2xl">
             {kLabel} {gLabel}
-            <span className="ml-2 text-amber-400">· Ofertas</span>
+            <span className="ml-2 text-primary">· Ofertas</span>
           </h1>
           {introText ? (
-            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-300">{introText}</p>
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">{introText}</p>
           ) : (
-            <p className="mt-2 text-sm text-zinc-300">
+            <p className="mt-2 text-sm text-zinc-400">
               Catálogo de {kLabel.toLowerCase()} para {gLabel} con los mejores precios y descuentos en Amazon España.
             </p>
           )}
@@ -173,14 +173,14 @@ export default async function HierarchyPage({ params }: HierarchyPageProps) {
               <Link
                 key={k.slug}
                 href={`/${platform}/${generation}/${k.slug}`}
-                className="rounded-full border border-white/20 px-3 py-1 text-xs text-zinc-300 transition hover:border-amber-400 hover:text-amber-400"
+                className="rounded-full border border-zinc-800 bg-zinc-950 px-3 py-1 text-xs text-zinc-300 transition hover:border-primary hover:text-primary"
               >
                 {k.label} {gLabel}
               </Link>
             ))}
             <Link
               href={`/consolas/${platform}`}
-              className="rounded-full border border-white/20 px-3 py-1 text-xs text-zinc-300 transition hover:border-amber-400 hover:text-amber-400"
+              className="rounded-full border border-zinc-800 bg-zinc-950 px-3 py-1 text-xs text-zinc-300 transition hover:border-primary hover:text-primary"
             >
               Todo {pLabel}
             </Link>
@@ -192,19 +192,19 @@ export default async function HierarchyPage({ params }: HierarchyPageProps) {
 
         {/* Bloque SEO inferior (solo si hay pocos productos) */}
         {products.length < 4 && (
-          <section className="mt-10 rounded-xl border border-zinc-200 bg-white p-6 text-sm text-zinc-600">
-            <h2 className="mb-3 text-base font-semibold text-zinc-900">
+          <section className="mt-10 rounded-xl border border-zinc-800 bg-[#0d0d0d] p-6 text-sm text-zinc-400 shadow-inner">
+            <h2 className="mb-3 text-base font-brand font-bold uppercase tracking-wider text-white">
               ¿Buscas {kLabel.toLowerCase()} de {gLabel}?
             </h2>
-            <p>
+            <p className="text-zinc-450 leading-relaxed">
               Estamos ampliando continuamente nuestro catálogo. Muy pronto tendrás disponibles
               las mejores ofertas de {kLabel.toLowerCase()} para {gLabel} con precios actualizados
               desde Amazon. También puedes explorar todo el catálogo de{" "}
-              <Link href={`/consolas/${platform}`} className="font-medium text-[#0d1b4e] hover:underline">
+              <Link href={`/consolas/${platform}`} className="font-semibold text-primary hover:underline">
                 {pLabel}
               </Link>{" "}
               o buscar en el{" "}
-              <Link href="/#catalogo" className="font-medium text-[#0d1b4e] hover:underline">
+              <Link href="/#catalogo" className="font-semibold text-primary hover:underline">
                 catálogo general
               </Link>.
             </p>

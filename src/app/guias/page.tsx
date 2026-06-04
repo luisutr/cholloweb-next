@@ -9,12 +9,12 @@ export const metadata = {
 
 export default function GuidesIndexPage() {
   return (
-    <div className="bg-zinc-50 text-zinc-900">
+    <div className="bg-black text-white min-h-screen">
       <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
-        <h1 className="text-2xl font-bold sm:text-3xl">
+        <h1 className="text-2xl font-brand font-black uppercase tracking-wider text-white sm:text-3xl">
           Guías de compra y ofertas gaming
         </h1>
-        <p className="mt-3 text-zinc-600">
+        <p className="mt-3 text-sm text-zinc-400">
           Esta sección agrupa páginas orientadas a búsquedas concretas con alta
           intención de compra.
         </p>
@@ -24,12 +24,12 @@ export default function GuidesIndexPage() {
             <Link
               key={page.slug}
               href={`/guias/${page.slug}`}
-              className="rounded-xl border border-zinc-200 bg-white p-5 transition hover:border-zinc-300 hover:shadow-sm"
+              className="group rounded-xl border border-zinc-800 bg-[#0d0d0d] p-5 transition duration-200 hover:-translate-y-0.5 hover:border-zinc-700 hover:shadow-[0_4px_12px_rgba(0,127,255,0.15)]"
             >
-              <h2 className="text-lg font-semibold">{page.shortName}</h2>
-              <p className="mt-2 text-sm text-zinc-600">{page.seoDescription}</p>
-              <span className="mt-3 inline-block text-sm font-medium text-blue-700">
-                Ver guía
+              <h2 className="text-lg font-bold text-white group-hover:text-primary transition-colors">{page.shortName}</h2>
+              <p className="mt-2 text-sm text-zinc-400 leading-relaxed">{page.seoDescription}</p>
+              <span className="mt-4 inline-block text-sm font-semibold text-primary group-hover:underline">
+                Ver guía →
               </span>
             </Link>
           ))}
