@@ -269,17 +269,17 @@ function getMarketplaceFromHost(hostname: string): AmazonMarketplace | null {
 
 function getAffiliateTagForMarketplace(marketplace: AmazonMarketplace): string {
   const tagByMarketplace: Record<AmazonMarketplace, string | undefined> = {
-    ES: process.env.NEXT_PUBLIC_AMAZON_TAG_ES,
-    IT: process.env.NEXT_PUBLIC_AMAZON_TAG_IT,
-    DE: process.env.NEXT_PUBLIC_AMAZON_TAG_DE,
-    UK: process.env.NEXT_PUBLIC_AMAZON_TAG_UK,
-    FR: process.env.NEXT_PUBLIC_AMAZON_TAG_FR,
+    ES: process.env.NEXT_PUBLIC_AMAZON_TAG_ES || "cholloweb0c-21",
+    IT: process.env.NEXT_PUBLIC_AMAZON_TAG_IT || "cholloweb03-21",
+    DE: process.env.NEXT_PUBLIC_AMAZON_TAG_DE || "cholloweb07-21",
+    UK: process.env.NEXT_PUBLIC_AMAZON_TAG_UK || "cholloweb05-21",
+    FR: process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "cholloweb0b-21",
   };
 
   return (
     tagByMarketplace[marketplace]?.trim() ||
     process.env.NEXT_PUBLIC_AMAZON_TAG?.trim() ||
-    ""
+    "cholloweb0c-21"
   );
 }
 
