@@ -108,10 +108,18 @@ export default function CoverLensPage() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
+              href="https://www.kickstarter.com/projects/1141521744/coverlens-video-game-catalog-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl bg-[#05ce78] px-8 py-3.5 text-sm font-bold text-black transition hover:bg-[#04b76a] active:scale-95 shadow-[0_4px_20px_rgba(5,206,120,0.3)] flex items-center gap-2"
+            >
+              💚 Ver en Kickstarter
+            </a>
+            <a
               href="#rewards"
               className="rounded-xl bg-primary px-8 py-3.5 text-sm font-bold text-white transition hover:bg-blue-600 active:scale-95 shadow-[0_4px_20px_rgba(0,127,255,0.4)]"
             >
-              Apoyar Proyecto
+              Ver Recompensas
             </a>
             <a
               href="#simulator"
@@ -298,25 +306,56 @@ export default function CoverLensPage() {
                   </p>
                 </div>
 
-                <div className="mt-5 pt-4 border-t border-zinc-900">
+                <div className="mt-5 pt-4 border-t border-zinc-900 flex flex-col justify-end flex-grow">
                   <h5 className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest mb-2">Incluye:</h5>
-                  <ul className="text-[10px] text-zinc-300 space-y-1">
+                  <ul className="text-[10px] text-zinc-300 space-y-1 mb-4 flex-grow">
                     {reward.includes.map((inc) => (
                       <li key={inc} className="flex items-center gap-1.5">
                         <span className="text-primary font-bold">✓</span> {inc}
                       </li>
                     ))}
                   </ul>
+                  <a
+                    href="https://www.kickstarter.com/projects/1141521744/coverlens-video-game-catalog-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full text-center rounded-lg bg-zinc-900 border border-zinc-800 hover:border-[#05ce78]/50 hover:bg-[#05ce78]/10 py-2 text-[10px] font-bold text-white transition active:scale-95"
+                  >
+                    Obtener Recompensa
+                  </a>
                 </div>
               </div>
             ))}
           </div>
         </section>
 
+        {/* Banner Campaña Kickstarter Activa */}
+        <section className="py-12 px-6 rounded-2xl border border-[#05ce78]/20 bg-[#05ce78]/5 text-center my-12 space-y-4">
+          <span className="inline-block rounded-full bg-[#05ce78]/10 border border-[#05ce78]/20 px-3 py-1 text-xs font-semibold text-[#05ce78] uppercase">
+            Campaña Aprobada y Activa
+          </span>
+          <h3 className="text-2xl font-brand font-black uppercase text-white tracking-wide">
+            ¡Ya puedes patrocinar CoverLens en Kickstarter!
+          </h3>
+          <p className="text-sm text-zinc-400 max-w-xl mx-auto leading-relaxed font-light">
+            La campaña de financiación colectiva ya está aprobada y lista para recibir mecenas. Ayúdanos a hacer realidad la aplicación definitiva para coleccionistas de videojuegos físicos.
+          </p>
+          <div>
+            <a
+              href="https://www.kickstarter.com/projects/1141521744/coverlens-video-game-catalog-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#05ce78] px-8 py-3.5 text-sm font-bold text-black transition hover:bg-[#04b76a] active:scale-95 shadow-[0_4px_20px_rgba(5,206,120,0.2)]"
+            >
+              💚 Ir a la Campaña en Kickstarter
+            </a>
+          </div>
+        </section>
+
         {/* Footer / Patrocinio Cruzado */}
         <section className="py-12 border-t border-zinc-900 text-center space-y-4">
           <h4 className="text-lg font-brand font-bold text-white uppercase tracking-wider">Un proyecto del Ecosistema CholloWeb</h4>
-          <p className="text-sm text-zinc-500 max-w-xl mx-auto">
+          <p className="text-sm text-zinc-500 max-w-xl mx-auto font-light">
             El catálogo y el motor de búsqueda de portadas de la app móvil están alojados en{" "}
             <a
               href="https://covers.cholloweb.es/"
