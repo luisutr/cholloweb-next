@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T21:20:59.150Z",
+  "updatedAt": "2026-06-05T08:44:42.789Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -34,7 +34,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.99,
+      "price": 26.98,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
       "oldPrice": 29
@@ -107,7 +107,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 30.03,
+      "price": 30.04,
       "imageUrl": "https://m.media-amazon.com/images/I/41ovDVQK6uL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS82RST"
     },
@@ -170,10 +170,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 17.09,
+      "price": 18.79,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC",
-      "oldPrice": 17.41
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
     },
     {
       "id": "B0DPQF98Z2",
@@ -384,7 +383,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 62.18,
+      "price": 65.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -543,14 +542,15 @@
     {
       "id": "B0FKT76KSP",
       "title": "Cronos: The New Dawn",
-      "price": 39.99,
+      "price": 37.9,
       "imageUrl": "https://m.media-amazon.com/images/I/41RhpEm2GnL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FKT76KSP",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 39.99
     },
     {
       "id": "B0GTR8256K",
@@ -620,7 +620,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 16.12,
+      "price": 16.24,
       "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07THFLR85"
     },
