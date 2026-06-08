@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T08:25:06.121Z",
+  "updatedAt": "2026-06-08T09:25:48.815Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,10 +10,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.84,
+      "price": 59.68,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
-      "oldPrice": 59.68
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
     },
     {
       "id": "B0F24M5Z3D",
@@ -23,7 +22,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.02,
+      "price": 54.91,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
       "oldPrice": 57.32
@@ -36,7 +35,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 26.98,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
       "oldPrice": 29
@@ -61,10 +60,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.58,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
-      "oldPrice": 59.99
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
     },
     {
       "id": "B0G1YZ2679",
@@ -86,10 +84,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 24.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
-      "oldPrice": 24.99
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
     },
     {
       "id": "B0CHS8BXXK",
@@ -99,10 +96,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 25.28,
+      "price": 30.59,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
-      "oldPrice": 30.59
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
     },
     {
       "id": "B0CHS82RST",
@@ -125,7 +121,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 27,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
     },
@@ -176,9 +172,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 19.12,
+      "price": 18.15,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC",
+      "oldPrice": 19.12
     },
     {
       "id": "B0DPQF98Z2",
@@ -253,6 +250,18 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41cO3-k-WZL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FN4DH72B",
       "oldPrice": 34.66
+    },
+    {
+      "id": "B01HHECH3Y",
+      "title": "Akira [Blu-ray]",
+      "category": "peliculas",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 18.76,
+      "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
     },
     {
       "id": "B091689H2B",
@@ -358,21 +367,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.9,
+      "price": 12.7,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
-    },
-    {
-      "id": "B07D57L9F8",
-      "title": "La isla de las cabezas cortadas",
-      "category": "peliculas",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 11.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/51VD-Xw+6uL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07D57L9F8"
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
+      "oldPrice": 12.9
     },
     {
       "id": "B00V374RPI",
@@ -586,7 +584,7 @@
     {
       "id": "B0GMTKT94L",
       "title": "Directive 8020 Deluxe Edition",
-      "price": 44.9,
+      "price": 44.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41mK0VXkzfL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GMTKT94L",
       "category": "videojuegos",
@@ -628,7 +626,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 16.24,
+      "price": 16.36,
       "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07THFLR85"
     },
@@ -745,6 +743,18 @@
       "oldPrice": 22
     },
     {
+      "id": "B07D57L9F8",
+      "title": "La isla de las cabezas cortadas",
+      "category": "peliculas",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 11.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51VD-Xw+6uL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07D57L9F8"
+    },
+    {
       "id": "B0053C8BMO",
       "title": "La Joya Del Nilo [DVD]",
       "category": "peliculas",
@@ -827,18 +837,6 @@
       "price": 14.99,
       "imageUrl": "https://m.media-amazon.com/images/I/415qxB5QOkL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F8JGKBMQ"
-    },
-    {
-      "id": "B01HHECH3Y",
-      "title": "Akira [Blu-ray]",
-      "category": "peliculas",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 18.48,
-      "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
     },
     {
       "id": "B00UU46IU2",
