@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T08:42:12.987Z",
+  "updatedAt": "2026-06-15T10:56:16.720Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -140,7 +140,7 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 61.09,
+      "price": 61.1,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
@@ -164,7 +164,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 67.23,
+      "price": 67.82,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -193,7 +193,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 11.25,
+      "price": 11.63,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D",
       "oldPrice": 13.74
@@ -206,7 +206,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 16.6,
+      "price": 16.81,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT"
     },
@@ -231,10 +231,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 17.31,
+      "price": 16.55,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC",
-      "oldPrice": 18.07
+      "oldPrice": 17.31
     },
     {
       "id": "B0DPQF98Z2",
@@ -384,7 +384,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 65.18,
+      "price": 65.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
