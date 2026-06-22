@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T08:58:17.917Z",
+  "updatedAt": "2026-06-22T10:41:27.826Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,9 +10,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 59.68,
+      "price": 48.84,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
+      "oldPrice": 59.68
     },
     {
       "id": "B0F24M5Z3D",
@@ -22,10 +23,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 51.85,
+      "price": 48.02,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
-      "oldPrice": 54.91
+      "oldPrice": 51.85
     },
     {
       "id": "B0DTHVS5L7",
@@ -35,10 +36,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.99,
+      "price": 20.65,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
-      "oldPrice": 29
+      "oldPrice": 24.99
     },
     {
       "id": "B0F24LGFBT",
@@ -60,9 +61,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 59.99,
+      "price": 49.58,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
+      "oldPrice": 59.99
     },
     {
       "id": "B0G1YZ2679",
@@ -84,9 +86,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.99,
+      "price": 20.65,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
+      "oldPrice": 24.99
     },
     {
       "id": "B0CHS8BXXK",
@@ -96,9 +99,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 30.59,
+      "price": 25.28,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
+      "oldPrice": 30.59
     },
     {
       "id": "B0CHS82RST",
@@ -124,6 +128,130 @@
       "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
+    },
+    {
+      "id": "B0DTBTPBP5",
+      "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
+      "price": 35.95,
+      "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0BQTJ5HGJ",
+      "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
+      "price": 51.01,
+      "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 62.02
+    },
+    {
+      "id": "B0CQMWHB9H",
+      "title": "Estatua Neo Matrix 25Cm",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 74.74
+    },
+    {
+      "id": "B09W4JVBLJ",
+      "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 66.59
+    },
+    {
+      "id": "B08GJFTDPW",
+      "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
+      "price": 58.14,
+      "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0CNX94Q5D",
+      "title": "Hot Wheels Tortugas Ninja TMNT Modelo Party Wagon Die Cast – Escala 1:64 – Longitud 7 cm Pop Culture HXF04",
+      "category": "accesorios",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 13.79,
+      "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
+    },
+    {
+      "id": "B0DPQH7LYT",
+      "title": "Masters of the Universe Origins & ThunderCats Figura de acción articulada de 14cm de He-Man, cruce de los años 80, juguete con armadura intercambiable, espada, escudo y un cómic en miniatura, JFW98",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 13.38,
+      "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
+      "oldPrice": 16.6
+    },
+    {
+      "id": "B0DPQHKFSK",
+      "title": "Masters of the Universe Origins & ThunderCats Figura de acción articulada de 14cm de Tygra, cruce de los años 80, juguete con armadura intercambiable, un accesorio de látigo con bolas y cómic, JFW96",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 21.48,
+      "imageUrl": "https://m.media-amazon.com/images/I/41BDkxMgMiL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK"
+    },
+    {
+      "id": "B0DPQG82LC",
+      "title": "Masters of the Universe Origins & ThunderCats Figura de acción, juguete de Cheetara, cruce de los años 80, figura articulada de 14cm con armadura extraíble, bastón y minicómic, JFW94",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 17.17,
+      "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
+    },
+    {
+      "id": "B0DPQF98Z2",
+      "title": "Masters of the Universe Origins & ThunderCats Figura de acción de León-O, cruce de los años 80, figura articulada de 14cm con armadura extraíble, accesorios y minicómic, JFW93",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41+6YFkN6EL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQF98Z2"
     },
     {
       "id": "B01HHECH3Y",
@@ -241,14 +369,15 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.9,
+      "price": 12.7,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
+      "oldPrice": 12.9
     },
     {
       "id": "B00V374RPI",
       "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 41.98,
+      "price": 34.69,
       "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
       "category": "videojuegos",
@@ -256,20 +385,19 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "oldPrice": 42.04
+      "oldPrice": 41.98
     },
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 62.18,
+      "price": 74.85,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 65.18
+      "condition": "nuevo"
     },
     {
       "id": "B073ZTH4MN",
@@ -291,7 +419,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 39.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
       "oldPrice": 45.95
@@ -304,10 +432,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 19.64,
+      "price": 22.25,
       "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
-      "oldPrice": 21.67
+      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP"
     },
     {
       "id": "B0DSPWX72V",
@@ -317,10 +444,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 26.69,
+      "price": 22.06,
       "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
-      "oldPrice": 33.65
+      "oldPrice": 26.69
     },
     {
       "id": "B0DM68QC68",
@@ -330,7 +457,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.48,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
     },
@@ -342,10 +469,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 32.98,
+      "price": 28.18,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
-      "oldPrice": 34.39
+      "oldPrice": 32.98
     },
     {
       "id": "B0B68Z86F1",
@@ -355,7 +482,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 12.07,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/513EajbZOPL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B68Z86F1"
     },
@@ -367,7 +494,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 12.26,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
     },
@@ -434,7 +561,7 @@
     {
       "id": "B0FSD6JBSK",
       "title": "Avatar: Frontiers of Pandora From the Ashes Edition (PS5)",
-      "price": 0,
+      "price": 31.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51KQEri+g1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FSD6JBSK",
       "category": "videojuegos",
@@ -447,14 +574,15 @@
     {
       "id": "B0G82NB8YY",
       "title": "Pragmata (PlayStation 5)",
-      "price": 69.9,
+      "price": 54.21,
       "imageUrl": "https://m.media-amazon.com/images/I/411bgbFrgqL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G82NB8YY",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 69.9
     },
     {
       "id": "B0FSSHFQ9R",
@@ -578,10 +706,9 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 29.98,
+      "price": 29.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0829M81QT",
-      "oldPrice": 29.99
+      "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
     },
     {
       "id": "B07BTPMJVG",
@@ -591,9 +718,10 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 17.36,
+      "price": 15.95,
       "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
+      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG",
+      "oldPrice": 17.36
     },
     {
       "id": "B08WQN78LT",
@@ -618,130 +746,6 @@
       "price": 20.14,
       "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY"
-    },
-    {
-      "id": "B0DTBTPBP5",
-      "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 35.95,
-      "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0BQTJ5HGJ",
-      "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 51.01,
-      "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 62.02
-    },
-    {
-      "id": "B0CQMWHB9H",
-      "title": "Estatua Neo Matrix 25Cm",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 74.74
-    },
-    {
-      "id": "B09W4JVBLJ",
-      "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 66.59
-    },
-    {
-      "id": "B08GJFTDPW",
-      "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 58.14,
-      "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0CNX94Q5D",
-      "title": "Hot Wheels Tortugas Ninja TMNT Modelo Party Wagon Die Cast – Escala 1:64 – Longitud 7 cm Pop Culture HXF04",
-      "category": "accesorios",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 13.74,
-      "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
-    },
-    {
-      "id": "B0DPQH7LYT",
-      "title": "Masters of the Universe Origins & ThunderCats Figura de acción articulada de 14cm de He-Man, cruce de los años 80, juguete con armadura intercambiable, espada, escudo y un cómic en miniatura, JFW98",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 13.38,
-      "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
-      "oldPrice": 16.6
-    },
-    {
-      "id": "B0DPQHKFSK",
-      "title": "Masters of the Universe Origins & ThunderCats Figura de acción articulada de 14cm de Tygra, cruce de los años 80, juguete con armadura intercambiable, un accesorio de látigo con bolas y cómic, JFW96",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 21.1,
-      "imageUrl": "https://m.media-amazon.com/images/I/41BDkxMgMiL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK"
-    },
-    {
-      "id": "B0DPQG82LC",
-      "title": "Masters of the Universe Origins & ThunderCats Figura de acción, juguete de Cheetara, cruce de los años 80, figura articulada de 14cm con armadura extraíble, bastón y minicómic, JFW94",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 17.03,
-      "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
-    },
-    {
-      "id": "B0DPQF98Z2",
-      "title": "Masters of the Universe Origins & ThunderCats Figura de acción de León-O, cruce de los años 80, figura articulada de 14cm con armadura extraíble, accesorios y minicómic, JFW93",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41+6YFkN6EL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQF98Z2"
     },
     {
       "id": "B0GTR8256K",
