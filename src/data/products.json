@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T08:12:50.148Z",
+  "updatedAt": "2026-07-03T08:11:54.197Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,10 +10,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.45,
+      "price": 59.83,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
-      "oldPrice": 59.83
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
     },
     {
       "id": "B0F24M5Z3D",
@@ -23,10 +22,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.02,
+      "price": 51.85,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
-      "oldPrice": 51.85
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
     },
     {
       "id": "B0DTHVS5L7",
@@ -36,10 +34,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 24.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
-      "oldPrice": 24.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
     },
     {
       "id": "B0F24LGFBT",
@@ -61,10 +58,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.58,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
-      "oldPrice": 59.99
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
     },
     {
       "id": "B0G1YZ2679",
@@ -86,10 +82,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 24.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
-      "oldPrice": 24.99
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
     },
     {
       "id": "B0CHS8BXXK",
@@ -99,10 +94,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 25.35,
+      "price": 30.67,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
-      "oldPrice": 30.67
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
     },
     {
       "id": "B0CHS82RST",
@@ -132,19 +126,20 @@
     {
       "id": "B0DTBTPBP5",
       "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 35.95,
+      "price": 35,
       "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 35.95
     },
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 51.01,
+      "price": 59.76,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
@@ -157,7 +152,7 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm",
-      "price": 0,
+      "price": 75.95,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -170,7 +165,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
+      "price": 81.86,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -182,14 +177,15 @@
     {
       "id": "B08GJFTDPW",
       "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 61.77,
+      "price": 29.99,
       "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 61.77
     },
     {
       "id": "B0CNX94Q5D",
@@ -199,9 +195,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.79,
+      "price": 10.85,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
+      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D",
+      "oldPrice": 13.79
     },
     {
       "id": "B0DPQH7LYT",
@@ -211,9 +208,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 16.38,
+      "price": 13.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
+      "oldPrice": 16.38
     },
     {
       "id": "B0DPQHKFSK",
@@ -223,9 +221,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 21.48,
+      "price": 19.86,
       "imageUrl": "https://m.media-amazon.com/images/I/41BDkxMgMiL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK",
+      "oldPrice": 21.48
     },
     {
       "id": "B0DPQG82LC",
@@ -235,10 +234,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 21.48,
+      "price": 25.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC",
-      "oldPrice": 25.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
     },
     {
       "id": "B0DPQF98Z2",
@@ -260,7 +258,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 15.53,
+      "price": 18.76,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
       "oldPrice": 18.79
@@ -297,10 +295,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 11.56,
+      "price": 13.99,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ",
-      "oldPrice": 13.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ"
     },
     {
       "id": "B00FCH1G18",
@@ -310,7 +307,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.05,
+      "price": 12.16,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
       "oldPrice": 12.66
@@ -323,10 +320,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 19.98,
+      "price": 25.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41zXsWN2PyL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV",
-      "oldPrice": 25.99
+      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV"
     },
     {
       "id": "B0CKW3P9RQ",
@@ -336,10 +332,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.02,
+      "price": 18.99,
       "imageUrl": "https://m.media-amazon.com/images/I/516xGy7e8OL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ",
-      "oldPrice": 18.99
+      "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ"
     },
     {
       "id": "B0DJ9GHFVQ",
@@ -349,10 +344,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.39,
+      "price": 14.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41z2+YETZIL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ",
-      "oldPrice": 14.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ"
     },
     {
       "id": "B0BS1JX3HY",
@@ -362,10 +356,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.74,
+      "price": 12.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41EzspGzNvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY",
-      "oldPrice": 12.99
+      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY"
     },
     {
       "id": "B01JBFRQM4",
@@ -375,52 +368,211 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.5,
+      "price": 12.7,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
-      "oldPrice": 12.6
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
+    },
+    {
+      "id": "B00V374RPI",
+      "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
+      "price": 42.07,
+      "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0B3SSM6T6",
+      "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
+      "price": 66.68,
+      "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B073ZTH4MN",
+      "title": "Velocity 2X Critical Mass Edition Ps Vita Game (#)",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/51GJnJ4DaOL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B073ZTH4MN"
+    },
+    {
+      "id": "B07N87ZP63",
+      "title": "KROM Kumite -NXKROMKMT- Gamepad Arcade Multiplataforma, Fighting Stick, Joystick, modos D-Pad o X/Y input, compatible PC, PS3, PS4 y XBOX One",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 39.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
+      "oldPrice": 45.95
+    },
+    {
+      "id": "B0BWRRLJRP",
+      "title": "UFO ROBOT GRENDIZER - Standard - PlayStation 4",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 19.64,
+      "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
+      "oldPrice": 22.25
+    },
+    {
+      "id": "B0DSPWX72V",
+      "title": "Five Nights at Freddy's - Into the Pit - PS4",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 24.42,
+      "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
+      "oldPrice": 28.41
+    },
+    {
+      "id": "B0DM68QC68",
+      "title": "Atomfall Jeu PS4",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 51.48,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
+    },
+    {
+      "id": "B0DFWYRWQT",
+      "title": "Marvel vs Capcom Fighting Collection: Arcade Classics",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 34.22,
+      "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
+    },
+    {
+      "id": "B0B68Z86F1",
+      "title": "Nacon - El Señor de los Anillos: Gollum - Videojuego para PS4 [Versión Subtitulada Española]",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 12.07,
+      "imageUrl": "https://m.media-amazon.com/images/I/513EajbZOPL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0B68Z86F1"
+    },
+    {
+      "id": "B076H29N84",
+      "title": "Left Alive - PlayStation 4 [Importación francesa]",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 12.26,
+      "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
+    },
+    {
+      "id": "B0F94GQ5H4",
+      "title": "Mafia: Tierra Madre",
+      "price": 20.86,
+      "imageUrl": "https://m.media-amazon.com/images/I/51g311azstL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0F94GQ5H4",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0GSW8D7HP",
+      "title": "Resonance : A Plague Tale Legacy - PS5",
+      "price": 52.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/41z0vVeSvxL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GSW8D7HP",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0FXM6XTZK",
+      "title": "Rushing Beat X: Return of the Brawl Brothers PS5",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/61XjWIl52BL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0FXM6XTZK",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
     },
     {
       "id": "B0DDTPK894",
       "title": "Lost Records: Bloom & Rage - PS5",
-      "price": 29.17,
+      "price": 23.9,
       "imageUrl": "https://m.media-amazon.com/images/I/41duRcVXmUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DDTPK894",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 29.17
     },
     {
       "id": "B0DKK4CYT1",
       "title": "BYE SWEET CAROLE - PS5",
-      "price": 23.06,
+      "price": 22.67,
       "imageUrl": "https://m.media-amazon.com/images/I/51ZOP4U0xHL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKK4CYT1",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 23.06
     },
     {
       "id": "B0FKNK6MXS",
       "title": "Cronos: The New Dawn PS5",
-      "price": 33.05,
+      "price": 42.31,
       "imageUrl": "https://m.media-amazon.com/images/I/417hrAXvmLL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FKNK6MXS",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 39.99
+      "condition": "nuevo"
     },
     {
       "id": "B0FNDNWMDK",
       "title": "Nacon - Hell is Us - Videojuego para PS5 [Versión Subtitulada Española]",
-      "price": 0,
+      "price": 25.35,
       "imageUrl": "https://m.media-amazon.com/images/I/412otaLBhdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FNDNWMDK",
       "category": "videojuegos",
@@ -432,15 +584,14 @@
     {
       "id": "B0GNKSKQM6",
       "title": "Silent Hill Townfall - Day One Edition - PS5",
-      "price": 35.45,
+      "price": 42.9,
       "imageUrl": "https://m.media-amazon.com/images/I/411eduv8s0L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GNKSKQM6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 42.9
+      "condition": "nuevo"
     },
     {
       "id": "B0FSD6JBSK",
@@ -457,7 +608,7 @@
     {
       "id": "B0G82NB8YY",
       "title": "Pragmata (PlayStation 5)",
-      "price": 0,
+      "price": 69.9,
       "imageUrl": "https://m.media-amazon.com/images/I/411bgbFrgqL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G82NB8YY",
       "category": "videojuegos",
@@ -466,6 +617,131 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "oldPrice": 69.9
+    },
+    {
+      "id": "B07THFLR85",
+      "title": "Code Vein - Xbox One [Importación inglesa]",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 17.37,
+      "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07THFLR85"
+    },
+    {
+      "id": "B07NHQ1GZZ",
+      "title": "JEU Console Focus The Surge 2 Xbox One",
+      "category": "consolas",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 16.79,
+      "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ"
+    },
+    {
+      "id": "B075SBCB3B",
+      "title": "Focus Entertainment The Surge Standard Allemand, Anglais, Espagnol, Français, Italien, Polonais, Portugais, Russe Xbox",
+      "category": "accesorios",
+      "platformFamily": "xbox",
+      "generation": "xbox-series",
+      "platformLabel": "Xbox Series X/S",
+      "condition": "nuevo",
+      "price": 27.65,
+      "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
+      "oldPrice": 33.99
+    },
+    {
+      "id": "B0DSPY66RG",
+      "title": "Five Nights at Freddy's - Into the Pit - Xbox",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-series",
+      "platformLabel": "Xbox Series X/S",
+      "condition": "nuevo",
+      "price": 24.55,
+      "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG"
+    },
+    {
+      "id": "B0CXDQ3RWL",
+      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed - Xbox (Versión inglesa)",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-series",
+      "platformLabel": "Xbox Series X/S",
+      "condition": "nuevo",
+      "price": 11.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
+      "oldPrice": 20.65
+    },
+    {
+      "id": "B00KL327O8",
+      "title": "Lords of the Fallen - Limited Edition [Importación Inglesa]",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B00KL327O8",
+      "oldPrice": 4
+    },
+    {
+      "id": "B0829M81QT",
+      "title": "Doom Slayers Collection - Xbox One",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
+    },
+    {
+      "id": "B07BTPMJVG",
+      "title": "Red Faction Guerrilla Re-Mars-Tered - Xbox One",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 15.95,
+      "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG",
+      "oldPrice": 17.36
+    },
+    {
+      "id": "B08WQN78LT",
+      "title": "Subnautica: Debajo de Zero Xbox SX/Xbox One",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/51pvGeaKwpS._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08WQN78LT"
+    },
+    {
+      "id": "B08CS3M5BY",
+      "title": "Commandos 2 & Praetorians HD Remaster Doube Pack",
+      "category": "accesorios",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 20.14,
+      "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY",
+      "oldPrice": 22.16
     },
     {
       "id": "B0FSSHFQ9R",
@@ -504,257 +780,6 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "oldPrice": 39.9
-    },
-    {
-      "id": "B07THFLR85",
-      "title": "Code Vein - Xbox One [Importación inglesa]",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 13.36,
-      "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07THFLR85",
-      "oldPrice": 17.37
-    },
-    {
-      "id": "B07NHQ1GZZ",
-      "title": "JEU Console Focus The Surge 2 Xbox One",
-      "category": "consolas",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 13.88,
-      "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ",
-      "oldPrice": 16.79
-    },
-    {
-      "id": "B075SBCB3B",
-      "title": "Focus Entertainment The Surge Standard Allemand, Anglais, Espagnol, Français, Italien, Polonais, Portugais, Russe Xbox",
-      "category": "accesorios",
-      "platformFamily": "xbox",
-      "generation": "xbox-series",
-      "platformLabel": "Xbox Series X/S",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
-      "oldPrice": 33.99
-    },
-    {
-      "id": "B0DSPY66RG",
-      "title": "Five Nights at Freddy's - Into the Pit - Xbox",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-series",
-      "platformLabel": "Xbox Series X/S",
-      "condition": "nuevo",
-      "price": 22.06,
-      "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG",
-      "oldPrice": 24.55
-    },
-    {
-      "id": "B0CXDQ3RWL",
-      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed - Xbox (Versión inglesa)",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-series",
-      "platformLabel": "Xbox Series X/S",
-      "condition": "nuevo",
-      "price": 20.65,
-      "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
-    },
-    {
-      "id": "B00KL327O8",
-      "title": "Lords of the Fallen - Limited Edition [Importación Inglesa]",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00KL327O8",
-      "oldPrice": 4
-    },
-    {
-      "id": "B0829M81QT",
-      "title": "Doom Slayers Collection - Xbox One",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
-    },
-    {
-      "id": "B07BTPMJVG",
-      "title": "Red Faction Guerrilla Re-Mars-Tered - Xbox One",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG",
-      "oldPrice": 17.36
-    },
-    {
-      "id": "B08WQN78LT",
-      "title": "Subnautica: Debajo de Zero Xbox SX/Xbox One",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51pvGeaKwpS._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08WQN78LT"
-    },
-    {
-      "id": "B08CS3M5BY",
-      "title": "Commandos 2 & Praetorians HD Remaster Doube Pack",
-      "category": "accesorios",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 22.16,
-      "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY"
-    },
-    {
-      "id": "B00V374RPI",
-      "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 34.77,
-      "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 42.07
-    },
-    {
-      "id": "B0B3SSM6T6",
-      "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 64.24,
-      "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 65.93
-    },
-    {
-      "id": "B073ZTH4MN",
-      "title": "Velocity 2X Critical Mass Edition Ps Vita Game (#)",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51GJnJ4DaOL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B073ZTH4MN"
-    },
-    {
-      "id": "B07N87ZP63",
-      "title": "KROM Kumite -NXKROMKMT- Gamepad Arcade Multiplataforma, Fighting Stick, Joystick, modos D-Pad o X/Y input, compatible PC, PS3, PS4 y XBOX One",
-      "category": "accesorios",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
-      "oldPrice": 45.95
-    },
-    {
-      "id": "B0BWRRLJRP",
-      "title": "UFO ROBOT GRENDIZER - Standard - PlayStation 4",
-      "category": "accesorios",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 22.25,
-      "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP"
-    },
-    {
-      "id": "B0DSPWX72V",
-      "title": "Five Nights at Freddy's - Into the Pit - PS4",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 23.48,
-      "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
-      "oldPrice": 28.41
-    },
-    {
-      "id": "B0DM68QC68",
-      "title": "Atomfall Jeu PS4",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
-    },
-    {
-      "id": "B0DFWYRWQT",
-      "title": "Marvel vs Capcom Fighting Collection: Arcade Classics",
-      "category": "accesorios",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 33.05,
-      "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
-      "oldPrice": 34.22
-    },
-    {
-      "id": "B0B68Z86F1",
-      "title": "Nacon - El Señor de los Anillos: Gollum - Videojuego para PS4 [Versión Subtitulada Española]",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/513EajbZOPL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B68Z86F1"
-    },
-    {
-      "id": "B076H29N84",
-      "title": "Left Alive - PlayStation 4 [Importación francesa]",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
     },
     {
       "id": "B0GTR8256K",
