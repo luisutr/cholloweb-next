@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T07:30:29.108Z",
+  "updatedAt": "2026-07-09T08:30:19.567Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,10 +10,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.91,
+      "price": 59.83,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
-      "oldPrice": 49.45
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
     },
     {
       "id": "B0F24M5Z3D",
@@ -23,10 +22,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.43,
+      "price": 54.91,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
-      "oldPrice": 54.91
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
     },
     {
       "id": "B0DTHVS5L7",
@@ -36,10 +34,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 24.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
-      "oldPrice": 24.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
     },
     {
       "id": "B0F24LGFBT",
@@ -61,10 +58,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 45.45,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
-      "oldPrice": 49.58
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
     },
     {
       "id": "B0G1YZ2679",
@@ -86,10 +82,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.13,
+      "price": 29.2,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
-      "oldPrice": 24.9
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
     },
     {
       "id": "B0CHS8BXXK",
@@ -99,10 +94,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 25.35,
+      "price": 30.67,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
-      "oldPrice": 30.67
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
     },
     {
       "id": "B0CHS82RST",
@@ -112,7 +106,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 33.07,
+      "price": 33.14,
       "imageUrl": "https://m.media-amazon.com/images/I/41ovDVQK6uL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS82RST"
     },
@@ -156,7 +150,7 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm",
-      "price": 74.72,
+      "price": 75.57,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -169,7 +163,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
+      "price": 82.55,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -199,10 +193,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 11.52,
+      "price": 10.96,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D",
-      "oldPrice": 13.79
+      "oldPrice": 11.52
     },
     {
       "id": "B0DPQH7LYT",
@@ -262,9 +256,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 18.76,
+      "price": 15.5,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
+      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
+      "oldPrice": 18.76
     },
     {
       "id": "B091689H2B",
@@ -298,7 +293,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 15.95,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ"
     },
@@ -310,9 +305,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.16,
+      "price": 10.05,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18"
+      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
+      "oldPrice": 12.16
     },
     {
       "id": "B0CXZ3HFDV",
@@ -322,9 +318,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 25.99,
+      "price": 21.48,
       "imageUrl": "https://m.media-amazon.com/images/I/41zXsWN2PyL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV"
+      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV",
+      "oldPrice": 25.99
     },
     {
       "id": "B0CKW3P9RQ",
@@ -334,9 +331,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 18.99,
+      "price": 15.69,
       "imageUrl": "https://m.media-amazon.com/images/I/516xGy7e8OL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ"
+      "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ",
+      "oldPrice": 18.99
     },
     {
       "id": "B0DJ9GHFVQ",
@@ -346,9 +344,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 14.1,
+      "price": 12.39,
       "imageUrl": "https://m.media-amazon.com/images/I/41z2+YETZIL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ"
+      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ",
+      "oldPrice": 14.1
     },
     {
       "id": "B0BS1JX3HY",
@@ -358,9 +357,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.99,
+      "price": 10.74,
       "imageUrl": "https://m.media-amazon.com/images/I/41EzspGzNvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY"
+      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY",
+      "oldPrice": 12.99
     },
     {
       "id": "B01JBFRQM4",
@@ -370,10 +370,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.6,
+      "price": 10.41,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
-      "oldPrice": 12.8
+      "oldPrice": 12.6
     },
     {
       "id": "B00V374RPI",
@@ -390,7 +390,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 63.68,
+      "price": 66.68,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -501,6 +501,31 @@
       "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
     },
     {
+      "id": "B0GYTZX1TW",
+      "title": "The Blood Of Dawnwalker Day 1 Edition",
+      "price": 49.5,
+      "imageUrl": "https://m.media-amazon.com/images/I/51BCue1D+IL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GYTZX1TW",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0GTR8256K",
+      "title": "MOUSE: P.I. For Hire - PS5",
+      "price": 24.79,
+      "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "oldPrice": 34.9
+    },
+    {
       "id": "B0F94GQ5H4",
       "title": "Mafia: Tierra Madre",
       "price": 0,
@@ -515,31 +540,33 @@
     {
       "id": "B0GSW8D7HP",
       "title": "Resonance : A Plague Tale Legacy - PS5",
-      "price": 52.9,
+      "price": 43.72,
       "imageUrl": "https://m.media-amazon.com/images/I/41z0vVeSvxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSW8D7HP",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 52.9
     },
     {
       "id": "B0FXM6XTZK",
       "title": "Rushing Beat X: Return of the Brawl Brothers PS5",
-      "price": 29.99,
+      "price": 24.79,
       "imageUrl": "https://m.media-amazon.com/images/I/61XjWIl52BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FXM6XTZK",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 29.99
     },
     {
       "id": "B0DDTPK894",
       "title": "Lost Records: Bloom & Rage - PS5",
-      "price": 22.13,
+      "price": 18.29,
       "imageUrl": "https://m.media-amazon.com/images/I/41duRcVXmUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DDTPK894",
       "category": "videojuegos",
@@ -547,27 +574,14 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 23.9
+      "oldPrice": 22.13
     },
     {
       "id": "B0DKK4CYT1",
       "title": "BYE SWEET CAROLE - PS5",
-      "price": 22.67,
+      "price": 24.4,
       "imageUrl": "https://m.media-amazon.com/images/I/51ZOP4U0xHL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKK4CYT1",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 23.06
-    },
-    {
-      "id": "B0FKNK6MXS",
-      "title": "Cronos: The New Dawn PS5",
-      "price": 39.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/417hrAXvmLL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0FKNK6MXS",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
@@ -575,9 +589,22 @@
       "condition": "nuevo"
     },
     {
+      "id": "B0FKNK6MXS",
+      "title": "Cronos: The New Dawn PS5",
+      "price": 33.05,
+      "imageUrl": "https://m.media-amazon.com/images/I/417hrAXvmLL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0FKNK6MXS",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "oldPrice": 39.99
+    },
+    {
       "id": "B0FNDNWMDK",
       "title": "Nacon - Hell is Us - Videojuego para PS5 [Versión Subtitulada Española]",
-      "price": 25.35,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/412otaLBhdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FNDNWMDK",
       "category": "videojuegos",
@@ -589,39 +616,15 @@
     {
       "id": "B0GNKSKQM6",
       "title": "Silent Hill Townfall - Day One Edition - PS5",
-      "price": 42.9,
+      "price": 35.45,
       "imageUrl": "https://m.media-amazon.com/images/I/411eduv8s0L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GNKSKQM6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0FSD6JBSK",
-      "title": "Avatar: Frontiers of Pandora From the Ashes Edition (PS5)",
-      "price": 34.9,
-      "imageUrl": "https://m.media-amazon.com/images/I/51KQEri+g1L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0FSD6JBSK",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0G82NB8YY",
-      "title": "Pragmata (PlayStation 5)",
-      "price": 62.25,
-      "imageUrl": "https://m.media-amazon.com/images/I/411bgbFrgqL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G82NB8YY",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 69.9
+      "oldPrice": 42.9
     },
     {
       "id": "B07THFLR85",
@@ -749,6 +752,31 @@
       "oldPrice": 22.16
     },
     {
+      "id": "B0FSD6JBSK",
+      "title": "Avatar: Frontiers of Pandora From the Ashes Edition (PS5)",
+      "price": 34.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/51KQEri+g1L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0FSD6JBSK",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0G82NB8YY",
+      "title": "Pragmata (PlayStation 5)",
+      "price": 62.25,
+      "imageUrl": "https://m.media-amazon.com/images/I/411bgbFrgqL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0G82NB8YY",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "oldPrice": 69.9
+    },
+    {
       "id": "B0FSSHFQ9R",
       "title": "Resident Evil Requiem PS5",
       "price": 0,
@@ -785,18 +813,6 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "oldPrice": 39.9
-    },
-    {
-      "id": "B0GTR8256K",
-      "title": "MOUSE: P.I. For Hire - PS5",
-      "price": 34.9,
-      "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo"
     },
     {
       "id": "B0F2SCPBMH",
