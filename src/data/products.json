@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T08:24:50.173Z",
+  "updatedAt": "2026-07-11T07:12:12.010Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,10 +10,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.45,
+      "price": 59.83,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
-      "oldPrice": 59.83
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
     },
     {
       "id": "B0F24M5Z3D",
@@ -23,10 +22,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.02,
+      "price": 54.91,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
-      "oldPrice": 54.91
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
     },
     {
       "id": "B0DTHVS5L7",
@@ -36,10 +34,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 24.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
-      "oldPrice": 24.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
     },
     {
       "id": "B0F24LGFBT",
@@ -49,7 +46,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 34.65,
       "imageUrl": "https://m.media-amazon.com/images/I/4141PbMSrxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT"
     },
@@ -61,10 +58,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.58,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
-      "oldPrice": 59.99
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
     },
     {
       "id": "B0G1YZ2679",
@@ -86,7 +82,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 23.07,
+      "price": 27.92,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
       "oldPrice": 29.2
@@ -99,10 +95,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 25.35,
+      "price": 30.67,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
-      "oldPrice": 30.67
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
     },
     {
       "id": "B0CHS82RST",
@@ -112,7 +107,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 33.14,
+      "price": 33.15,
       "imageUrl": "https://m.media-amazon.com/images/I/41ovDVQK6uL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS82RST"
     },
@@ -297,7 +292,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13,
+      "price": 13.95,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ"
     },
@@ -388,15 +383,14 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 62.18,
+      "price": 66.68,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 66.68
+      "condition": "nuevo"
     },
     {
       "id": "B073ZTH4MN",
@@ -444,10 +438,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 24.17,
+      "price": 24.42,
       "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
-      "oldPrice": 24.42
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
     },
     {
       "id": "B0DM68QC68",
@@ -469,10 +462,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 38.97,
+      "price": 35.07,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
-      "oldPrice": 39.99
+      "oldPrice": 38.97
     },
     {
       "id": "B0B68Z86F1",
@@ -550,14 +543,15 @@
     {
       "id": "B0FXM6XTZK",
       "title": "Rushing Beat X: Return of the Brawl Brothers PS5",
-      "price": 29.99,
+      "price": 24.9,
       "imageUrl": "https://m.media-amazon.com/images/I/61XjWIl52BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FXM6XTZK",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 29.99
     },
     {
       "id": "B0DDTPK894",
