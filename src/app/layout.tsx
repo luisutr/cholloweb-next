@@ -52,6 +52,9 @@ export const metadata: Metadata = {
       "Ofertas de videojuegos, consolas y reacondicionados con enlaces de afiliado de Amazon.",
     images: ["/logo.png"],
   },
+  verification: {
+    google: "knztYG_cjzUTLVQrlyEzNIhTIKRNdALoN1UCbHcqqtc",
+  },
 };
 
 export default function RootLayout({
