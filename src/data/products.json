@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T07:18:56.321Z",
+  "updatedAt": "2026-07-18T07:00:45.104Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -107,10 +107,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 33.09,
+      "price": 32.09,
       "imageUrl": "https://m.media-amazon.com/images/I/41ovDVQK6uL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS82RST",
-      "oldPrice": 33.18
+      "oldPrice": 33.09
     },
     {
       "id": "B0CC23JJYF",
@@ -152,27 +152,27 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm",
-      "price": 77.09,
+      "price": 75.18,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 77.09
     },
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 83.2,
+      "price": 83.56,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 83.29
+      "condition": "nuevo"
     },
     {
       "id": "B08GJFTDPW",
@@ -195,10 +195,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.11,
+      "price": 10.88,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D",
-      "oldPrice": 10.83
+      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
     },
     {
       "id": "B0DPQH7LYT",
@@ -372,7 +371,7 @@
     {
       "id": "B00V374RPI",
       "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 42.42,
+      "price": 42.62,
       "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
       "category": "videojuegos",
@@ -384,7 +383,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 62.18,
+      "price": 65.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -592,7 +591,7 @@
     {
       "id": "B0FNDNWMDK",
       "title": "Nacon - Hell is Us - Videojuego para PS5 [Versión Subtitulada Española]",
-      "price": 0,
+      "price": 23.94,
       "imageUrl": "https://m.media-amazon.com/images/I/412otaLBhdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FNDNWMDK",
       "category": "videojuegos",
@@ -621,9 +620,10 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 17.37,
+      "price": 16.52,
       "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07THFLR85"
+      "amazonUrl": "https://www.amazon.es/dp/B07THFLR85",
+      "oldPrice": 17.37
     },
     {
       "id": "B07NHQ1GZZ",
