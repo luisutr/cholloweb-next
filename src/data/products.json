@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T07:33:48.206Z",
+  "updatedAt": "2026-07-22T07:35:31.784Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -119,7 +119,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 29.2,
+      "price": 33.48,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
     },
@@ -151,7 +151,7 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm",
-      "price": 73.97,
+      "price": 74.36,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -164,7 +164,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 84.25,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -256,7 +256,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 0,
+      "price": 27.97,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
       "oldPrice": 24.92
@@ -373,27 +373,27 @@
     {
       "id": "B00V374RPI",
       "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 35.22,
+      "price": 42.62,
       "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 42.62
+      "condition": "nuevo"
     },
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 67.87,
+      "price": 63.68,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 67.87
     },
     {
       "id": "B073ZTH4MN",
@@ -415,7 +415,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 0,
+      "price": 39.99,
       "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
       "oldPrice": 45.95
@@ -428,9 +428,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 22.25,
+      "price": 19.64,
       "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP"
+      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
+      "oldPrice": 22.25
     },
     {
       "id": "B0DSPWX72V",
@@ -440,10 +441,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 20.18,
+      "price": 24.42,
       "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
-      "oldPrice": 24.42
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
     },
     {
       "id": "B0DM68QC68",
@@ -453,7 +453,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 0,
+      "price": 39.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
     },
@@ -465,10 +465,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 33.05,
+      "price": 39.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
-      "oldPrice": 39.99
+      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
     },
     {
       "id": "B0B68Z86F1",
@@ -490,7 +489,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 0,
+      "price": 12.26,
       "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
     },
@@ -521,7 +520,7 @@
     {
       "id": "B0GTR8256K",
       "title": "MOUSE: P.I. For Hire - PS5",
-      "price": 29.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
       "category": "videojuegos",
@@ -622,10 +621,10 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 16.54,
+      "price": 14.28,
       "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07THFLR85",
-      "oldPrice": 17.37
+      "oldPrice": 16.54
     },
     {
       "id": "B07NHQ1GZZ",
@@ -635,9 +634,10 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 16.79,
+      "price": 13.88,
       "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ"
+      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ",
+      "oldPrice": 16.79
     },
     {
       "id": "B075SBCB3B",
@@ -647,7 +647,7 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 27.65,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
       "oldPrice": 33.99
@@ -660,9 +660,10 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 24.55,
+      "price": 21.38,
       "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG"
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG",
+      "oldPrice": 24.55
     },
     {
       "id": "B0CXDQ3RWL",
@@ -672,10 +673,9 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 15.62,
+      "price": 19.32,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
-      "oldPrice": 19.26
+      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
     },
     {
       "id": "B00KL327O8",
@@ -698,7 +698,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 29.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
     },
@@ -710,9 +710,10 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 15.95,
+      "price": 15.56,
       "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
+      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG",
+      "oldPrice": 15.95
     },
     {
       "id": "B08WQN78LT",
@@ -734,7 +735,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 20.14,
+      "price": 20.17,
       "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY",
       "oldPrice": 22.17
