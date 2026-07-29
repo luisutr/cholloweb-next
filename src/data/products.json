@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:40:31.541Z",
+  "updatedAt": "2026-07-29T07:44:51.416Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,9 +10,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 67.08,
+      "price": 65.64,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
+      "oldPrice": 67.08
     },
     {
       "id": "B0F24M5Z3D",
@@ -106,10 +107,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 32.12,
+      "price": 33.14,
       "imageUrl": "https://m.media-amazon.com/images/I/41ovDVQK6uL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS82RST",
-      "oldPrice": 33.14
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS82RST"
     },
     {
       "id": "B0CC23JJYF",
@@ -119,9 +119,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 33.48,
+      "price": 33.38,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
+      "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF",
+      "oldPrice": 33.48
     },
     {
       "id": "B0DTBTPBP5",
@@ -138,7 +139,7 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 58.61,
+      "price": 59.98,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
@@ -151,7 +152,7 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm",
-      "price": 0,
+      "price": 76.71,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -163,7 +164,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
+      "price": 85.68,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -176,7 +177,7 @@
     {
       "id": "B08GJFTDPW",
       "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 59.34,
+      "price": 29.99,
       "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
       "category": "figuras",
@@ -184,7 +185,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "oldPrice": 61.77
+      "oldPrice": 59.34
     },
     {
       "id": "B0CNX94Q5D",
@@ -194,9 +195,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.79,
+      "price": 10.89,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
+      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D",
+      "oldPrice": 13.79
     },
     {
       "id": "B0DPQH7LYT",
@@ -206,9 +208,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 16.38,
+      "price": 13.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
+      "oldPrice": 16.38
     },
     {
       "id": "B0DPQHKFSK",
@@ -230,7 +233,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 0,
+      "price": 25.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
     },
@@ -254,9 +257,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 28.12,
+      "price": 28.08,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
+      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
+      "oldPrice": 28.12
     },
     {
       "id": "B091689H2B",
@@ -362,10 +366,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.7,
+      "price": 12.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
-      "oldPrice": 12.8
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
     },
     {
       "id": "B00V374RPI",
@@ -383,7 +386,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 65.18,
+      "price": 62.18,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -391,7 +394,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "oldPrice": 68.18
+      "oldPrice": 65.18
     },
     {
       "id": "B073ZTH4MN",
@@ -463,7 +466,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 36.16,
+      "price": 38.52,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
       "oldPrice": 39.68
@@ -476,7 +479,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 0,
+      "price": 17.53,
       "imageUrl": "https://m.media-amazon.com/images/I/513EajbZOPL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B68Z86F1"
     },
@@ -495,7 +498,7 @@
     {
       "id": "B0H3CCM6SL",
       "title": "STAR WARS Zero Company Standard Edition PlayStation 5 | Disco | Videojuegos | Idioma: Multilingüe",
-      "price": 41.24,
+      "price": 49.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51XuUx0xdfL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0H3CCM6SL",
       "category": "videojuegos",
@@ -507,33 +510,31 @@
     {
       "id": "B0FPMMTJZM",
       "title": "007 First Light Specialist Edition - PS",
-      "price": 54.59,
+      "price": 66.05,
       "imageUrl": "https://m.media-amazon.com/images/I/51oPWIo2+iL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FPMMTJZM",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 66.05
+      "condition": "nuevo"
     },
     {
       "id": "B0GYTZX1TW",
       "title": "The Blood Of Dawnwalker Day 1 Edition",
-      "price": 49.5,
+      "price": 59.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51BCue1D+IL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GYTZX1TW",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 59.9
+      "condition": "nuevo"
     },
     {
       "id": "B0GTR8256K",
       "title": "MOUSE: P.I. For Hire - PS5",
-      "price": 28.09,
+      "price": 33.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
       "category": "videojuegos",
@@ -558,15 +559,14 @@
     {
       "id": "B0GSW8D7HP",
       "title": "Resonance : A Plague Tale Legacy - PS5",
-      "price": 43.72,
+      "price": 52.9,
       "imageUrl": "https://m.media-amazon.com/images/I/41z0vVeSvxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSW8D7HP",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 52.9
+      "condition": "nuevo"
     },
     {
       "id": "B0FXM6XTZK",
@@ -583,33 +583,31 @@
     {
       "id": "B0DDTPK894",
       "title": "Lost Records: Bloom & Rage - PS5",
-      "price": 18.3,
+      "price": 22.14,
       "imageUrl": "https://m.media-amazon.com/images/I/41duRcVXmUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DDTPK894",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 22.14
+      "condition": "nuevo"
     },
     {
       "id": "B0FKNK6MXS",
       "title": "Cronos: The New Dawn PS5",
-      "price": 32.57,
+      "price": 39.41,
       "imageUrl": "https://m.media-amazon.com/images/I/417hrAXvmLL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FKNK6MXS",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 39.41
+      "condition": "nuevo"
     },
     {
       "id": "B0FNDNWMDK",
       "title": "Nacon - Hell is Us - Videojuego para PS5 [Versión Subtitulada Española]",
-      "price": 0,
+      "price": 23.94,
       "imageUrl": "https://m.media-amazon.com/images/I/412otaLBhdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FNDNWMDK",
       "category": "videojuegos",
