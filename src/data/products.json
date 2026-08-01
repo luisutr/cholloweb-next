@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T07:51:37.437Z",
+  "updatedAt": "2026-08-01T07:28:47.768Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,7 +10,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 65.64,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
       "oldPrice": 67.08
@@ -23,10 +23,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 48.02,
+      "price": 51.85,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
-      "oldPrice": 51.85
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
     },
     {
       "id": "B0DTHVS5L7",
@@ -36,7 +35,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
       "oldPrice": 24.99
@@ -49,7 +48,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 34.5,
       "imageUrl": "https://m.media-amazon.com/images/I/4141PbMSrxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT"
     },
@@ -61,10 +60,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.58,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
-      "oldPrice": 59.99
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
     },
     {
       "id": "B0G1YZ2679",
@@ -74,7 +72,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 29.2,
       "imageUrl": "https://m.media-amazon.com/images/I/41UEwoKrodL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G1YZ2679"
     },
@@ -86,10 +84,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 23.07,
+      "price": 27.92,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
-      "oldPrice": 27.92
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
     },
     {
       "id": "B0CHS8BXXK",
@@ -99,7 +96,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 30.67,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
     },
@@ -124,7 +121,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 33.87,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
     },
@@ -143,19 +140,20 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 63.18,
+      "price": 62.41,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 63.18
     },
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm | Postura inspirada en la matriz con escultura detallada para exhibir",
-      "price": 75.95,
+      "price": 75.94,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -163,12 +161,12 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "oldPrice": 76.71
+      "oldPrice": 75.95
     },
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
+      "price": 75.03,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -212,9 +210,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 17.86,
+      "price": 17.76,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
+      "oldPrice": 17.86
     },
     {
       "id": "B0DPQHKFSK",
@@ -224,9 +223,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 22.12,
+      "price": 21.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41BDkxMgMiL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK",
+      "oldPrice": 22.12
     },
     {
       "id": "B0DPQG82LC",
@@ -369,57 +369,62 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.9,
+      "price": 12.6,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
+      "oldPrice": 12.9
     },
     {
       "id": "B0H3CCM6SL",
       "title": "STAR WARS Zero Company Standard Edition PlayStation 5 | Disco | Videojuegos | Idioma: Multilingüe",
-      "price": 49.9,
+      "price": 41.24,
       "imageUrl": "https://m.media-amazon.com/images/I/51XuUx0xdfL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0H3CCM6SL",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 49.9
     },
     {
       "id": "B0FPMMTJZM",
       "title": "007 First Light Specialist Edition - PS",
-      "price": 66.05,
+      "price": 54.59,
       "imageUrl": "https://m.media-amazon.com/images/I/51oPWIo2+iL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FPMMTJZM",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 66.05
     },
     {
       "id": "B0GYTZX1TW",
       "title": "The Blood Of Dawnwalker Day 1 Edition",
-      "price": 59.9,
+      "price": 49.5,
       "imageUrl": "https://m.media-amazon.com/images/I/51BCue1D+IL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GYTZX1TW",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 59.9
     },
     {
       "id": "B0GTR8256K",
       "title": "MOUSE: P.I. For Hire - PS5",
-      "price": 33.99,
+      "price": 28.09,
       "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 33.99
     },
     {
       "id": "B0F94GQ5H4",
@@ -436,14 +441,15 @@
     {
       "id": "B0GSW8D7HP",
       "title": "Resonance : A Plague Tale Legacy - PS5",
-      "price": 52.9,
+      "price": 43.72,
       "imageUrl": "https://m.media-amazon.com/images/I/41z0vVeSvxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSW8D7HP",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 52.9
     },
     {
       "id": "B0FXM6XTZK",
@@ -460,19 +466,20 @@
     {
       "id": "B0DDTPK894",
       "title": "Lost Records: Bloom & Rage - PS5",
-      "price": 22.14,
+      "price": 18.3,
       "imageUrl": "https://m.media-amazon.com/images/I/41duRcVXmUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DDTPK894",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 22.14
     },
     {
       "id": "B0FKNK6MXS",
       "title": "Cronos: The New Dawn PS5",
-      "price": 37.15,
+      "price": 30.7,
       "imageUrl": "https://m.media-amazon.com/images/I/417hrAXvmLL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FKNK6MXS",
       "category": "videojuegos",
@@ -480,7 +487,7 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 39.41
+      "oldPrice": 37.15
     },
     {
       "id": "B0FNDNWMDK",
@@ -502,7 +509,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 16.49,
+      "price": 16.51,
       "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07THFLR85",
       "oldPrice": 16.54
@@ -592,7 +599,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 17.99,
+      "price": 18.01,
       "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
     },
