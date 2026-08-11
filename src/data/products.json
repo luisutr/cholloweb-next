@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T06:11:10.268Z",
+  "updatedAt": "2026-08-11T05:54:13.763Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -154,7 +154,7 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 57.36,
+      "price": 58.49,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
@@ -167,7 +167,7 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm | Postura inspirada en la matriz con escultura detallada para exhibir",
-      "price": 73.98,
+      "price": 74,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -211,7 +211,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.89,
+      "price": 11.52,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
     },
@@ -223,10 +223,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 17.99,
+      "price": 13.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
-      "oldPrice": 18.06
+      "oldPrice": 17.99
     },
     {
       "id": "B0DPQHKFSK",
@@ -236,9 +236,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 21.99,
+      "price": 20.22,
       "imageUrl": "https://m.media-amazon.com/images/I/41BDkxMgMiL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQHKFSK",
+      "oldPrice": 21.99
     },
     {
       "id": "B0DPQG82LC",
@@ -248,9 +249,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 25.99,
+      "price": 23.39,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC",
+      "oldPrice": 25.99
     },
     {
       "id": "B01HHECH3Y",
@@ -297,9 +299,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 15.95,
+      "price": 13.18,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ"
+      "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ",
+      "oldPrice": 15.95
     },
     {
       "id": "B00FCH1G18",
@@ -369,10 +372,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.9,
+      "price": 12.8,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
-      "oldPrice": 12.99
+      "oldPrice": 12.9
     },
     {
       "id": "B00V374RPI",
@@ -457,7 +460,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.28,
+      "price": 50.38,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
     },
@@ -482,7 +485,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 17.53,
+      "price": 20.36,
       "imageUrl": "https://m.media-amazon.com/images/I/513EajbZOPL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B68Z86F1"
     },
@@ -525,7 +528,7 @@
     {
       "id": "B0DKFCHCYZ",
       "title": "Black Myth: Wukong - PS5",
-      "price": 54.9,
+      "price": 55.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41cdjPgG+DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKFCHCYZ",
       "category": "videojuegos",
@@ -549,7 +552,7 @@
     {
       "id": "B0G4RXNK2C",
       "title": "Aphelion: Pioneer Edition - PS5",
-      "price": 33.2,
+      "price": 34.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51HpgxJalSL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G4RXNK2C",
       "category": "videojuegos",
