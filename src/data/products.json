@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T06:18:22.045Z",
+  "updatedAt": "2026-08-14T06:15:50.607Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -35,10 +35,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 32.7,
+      "price": 30.98,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
-      "oldPrice": 24.99
+      "oldPrice": 32.7
     },
     {
       "id": "B0F24LGFBT",
@@ -48,9 +48,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 34.65,
+      "price": 34.5,
       "imageUrl": "https://m.media-amazon.com/images/I/4141PbMSrxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT"
+      "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT",
+      "oldPrice": 34.65
     },
     {
       "id": "B0GQ58D1ZF",
@@ -128,7 +129,7 @@
     {
       "id": "B0DK7P75BG",
       "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 66.95,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
       "category": "figuras",
@@ -140,7 +141,7 @@
     {
       "id": "B0DTBTPBP5",
       "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 34.98,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
       "category": "figuras",
@@ -153,7 +154,7 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 58.59,
+      "price": 58.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
@@ -165,7 +166,7 @@
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm | Postura inspirada en la matriz con escultura detallada para exhibir",
-      "price": 75.95,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -191,15 +192,14 @@
     {
       "id": "B08GJFTDPW",
       "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 29.99,
+      "price": 61.72,
       "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 59.34
+      "condition": "nuevo"
     },
     {
       "id": "B0CNX94Q5D",
@@ -209,7 +209,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 11.82,
+      "price": 14.88,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
     },
@@ -221,7 +221,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.99,
+      "price": 16.68,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
       "oldPrice": 17.99
@@ -247,7 +247,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 23.39,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41eM3PHKbCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DPQG82LC",
       "oldPrice": 25.99
@@ -370,7 +370,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.7,
+      "price": 12.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
       "oldPrice": 12.99
@@ -391,7 +391,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 65.93,
+      "price": 64.43,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -399,7 +399,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "oldPrice": 67.43
+      "oldPrice": 65.93
     },
     {
       "id": "B073ZTH4MN",
@@ -458,7 +458,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.58,
+      "price": 50.68,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68"
     },
@@ -643,10 +643,9 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 12.99,
+      "price": 16.79,
       "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ",
-      "oldPrice": 16.79
+      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ"
     },
     {
       "id": "B075SBCB3B",
@@ -656,7 +655,7 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 0,
+      "price": 27.65,
       "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
       "oldPrice": 33.99
@@ -669,10 +668,9 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 20.18,
+      "price": 24.42,
       "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG",
-      "oldPrice": 24.42
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG"
     },
     {
       "id": "B0CXDQ3RWL",
@@ -682,10 +680,9 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 18.56,
+      "price": 20.21,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
-      "oldPrice": 20.21
+      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
     },
     {
       "id": "B00KL327O8",
@@ -708,7 +705,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 0,
+      "price": 29.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
     },
@@ -720,10 +717,9 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 15.97,
+      "price": 16.25,
       "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG",
-      "oldPrice": 16.25
+      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
     },
     {
       "id": "B08WQN78LT",
@@ -745,7 +741,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 0,
+      "price": 16.97,
       "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY",
       "oldPrice": 20.14
