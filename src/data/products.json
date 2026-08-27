@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T05:36:16.178Z",
+  "updatedAt": "2026-08-27T16:12:22.069Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -35,7 +35,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 32.7,
+      "price": 30.98,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
       "oldPrice": 32.7
@@ -122,10 +122,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 33.77,
+      "price": 34.29,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF",
-      "oldPrice": 33.81
+      "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
     },
     {
       "id": "B0GTWQRYXV",
@@ -142,7 +141,7 @@
     {
       "id": "B0DK7P75BG",
       "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 0,
+      "price": 66.95,
       "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
       "category": "figuras",
@@ -167,20 +166,19 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 58.5,
+      "price": 60.31,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 58.64
+      "condition": "nuevo"
     },
     {
       "id": "B0CQMWHB9H",
       "title": "Estatua Neo Matrix 25Cm | Postura inspirada en la matriz con escultura detallada para exhibir",
-      "price": 0,
+      "price": 75.19,
       "imageUrl": "https://m.media-amazon.com/images/I/41A7Vu7Ik4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
       "category": "figuras",
@@ -193,7 +191,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
+      "price": 75.11,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -206,14 +204,15 @@
     {
       "id": "B08GJFTDPW",
       "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 61.72,
+      "price": 29.99,
       "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 61.72
     },
     {
       "id": "B0CNX94Q5D",
@@ -223,9 +222,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.8,
+      "price": 11.82,
       "imageUrl": "https://m.media-amazon.com/images/I/51AWpEXgBvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D"
+      "amazonUrl": "https://www.amazon.es/dp/B0CNX94Q5D",
+      "oldPrice": 13.8
     },
     {
       "id": "B0DPQH7LYT",
@@ -235,9 +235,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 16.68,
+      "price": 13.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51zjrfWcOUL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT"
+      "amazonUrl": "https://www.amazon.es/dp/B0DPQH7LYT",
+      "oldPrice": 16.68
     },
     {
       "id": "B0DPQHKFSK",
@@ -253,11 +254,11 @@
       "oldPrice": 20.52
     },
     {
-      "id": "B00V374RPI",
-      "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 42.22,
-      "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
+      "id": "B0GSBXLXD3",
+      "title": "Terminator 2D: NO FATE (PS4)",
+      "price": 39.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51t7eL4fVEL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GSBXLXD3",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
@@ -265,9 +266,22 @@
       "condition": "nuevo"
     },
     {
+      "id": "B00V374RPI",
+      "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
+      "price": 38.24,
+      "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "oldPrice": 42.22
+    },
+    {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 64.43,
+      "price": 66.68,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -366,21 +380,21 @@
       "oldPrice": 20.16
     },
     {
-      "id": "B076H29N84",
-      "title": "Left Alive - PlayStation 4 [Importación francesa]",
+      "id": "B0GSBT67ZW",
+      "title": "Terminator 2D: NO FATE (PS5)",
+      "price": 28.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/51bNRcSJnzL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GSBT67ZW",
       "category": "videojuegos",
       "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 12.26,
-      "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
     },
     {
       "id": "B0GY49HPXH",
       "title": "Beast of Reincarnation PS5",
-      "price": 44.01,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/510s5+2u1DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GY49HPXH",
       "category": "videojuegos",
@@ -416,19 +430,20 @@
     {
       "id": "B0DKFCHCYZ",
       "title": "Black Myth: Wukong - PS5",
-      "price": 55.99,
+      "price": 55.9,
       "imageUrl": "https://m.media-amazon.com/images/I/41cdjPgG+DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKFCHCYZ",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 55.99
     },
     {
       "id": "B089X44HC8",
       "title": "Sony Demon’s Souls Standard PlayStation 5",
-      "price": 53.36,
+      "price": 53.35,
       "imageUrl": "https://m.media-amazon.com/images/I/51K8AuQwS+L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B089X44HC8",
       "category": "videojuegos",
@@ -436,12 +451,12 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 54.8
+      "oldPrice": 53.36
     },
     {
       "id": "B0G4RXNK2C",
       "title": "Aphelion: Pioneer Edition - PS5",
-      "price": 35.42,
+      "price": 35.4,
       "imageUrl": "https://m.media-amazon.com/images/I/51HpgxJalSL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G4RXNK2C",
       "category": "videojuegos",
@@ -449,7 +464,7 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 36.9
+      "oldPrice": 35.42
     },
     {
       "id": "B0H3CCM6SL",
@@ -487,19 +502,6 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "oldPrice": 62.9
-    },
-    {
-      "id": "B0GTR8256K",
-      "title": "MOUSE: P.I. For Hire - PS5",
-      "price": 25.54,
-      "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps5",
-      "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 30.9
     },
     {
       "id": "B07THFLR85",
@@ -559,7 +561,7 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 20.21,
+      "price": 21.5,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
     },
@@ -624,6 +626,31 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY",
       "oldPrice": 20.14
+    },
+    {
+      "id": "B076H29N84",
+      "title": "Left Alive - PlayStation 4 [Importación francesa]",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 12.26,
+      "imageUrl": "https://m.media-amazon.com/images/I/51XRdMrPJrS._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B076H29N84"
+    },
+    {
+      "id": "B0GTR8256K",
+      "title": "MOUSE: P.I. For Hire - PS5",
+      "price": 25.54,
+      "imageUrl": "https://m.media-amazon.com/images/I/41Cdw4VCDIL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GTR8256K",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo",
+      "oldPrice": 30.9
     },
     {
       "id": "B01HHECH3Y",
