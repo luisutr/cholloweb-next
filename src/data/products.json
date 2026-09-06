@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T08:52:28.369Z",
+  "updatedAt": "2026-09-06T09:12:02.448Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -202,7 +202,7 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 59.6,
+      "price": 59.26,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
@@ -210,7 +210,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "oldPrice": 59.66
+      "oldPrice": 59.6
     },
     {
       "id": "B0CQMWHB9H",
@@ -258,7 +258,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 23.36,
+      "price": 28.27,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
       "oldPrice": 28.28
@@ -295,7 +295,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 0,
+      "price": 13.18,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ",
       "oldPrice": 15.95
@@ -308,10 +308,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 9.86,
+      "price": 11.93,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
-      "oldPrice": 9.87
+      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18"
     },
     {
       "id": "B0CXZ3HFDV",
@@ -321,10 +320,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 21.48,
+      "price": 25.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41zXsWN2PyL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV",
-      "oldPrice": 22.09
+      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV"
     },
     {
       "id": "B0CKW3P9RQ",
@@ -334,7 +332,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 15.69,
+      "price": 18.99,
       "imageUrl": "https://m.media-amazon.com/images/I/516xGy7e8OL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ"
     },
@@ -346,10 +344,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.39,
+      "price": 14.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41z2+YETZIL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ",
-      "oldPrice": 12.74
+      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ"
     },
     {
       "id": "B0BS1JX3HY",
@@ -359,10 +356,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.74,
+      "price": 12.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41EzspGzNvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY",
-      "oldPrice": 11.04
+      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY"
     },
     {
       "id": "B01JBFRQM4",
@@ -372,10 +368,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 10.74,
+      "price": 12.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
-      "oldPrice": 11.04
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
     },
     {
       "id": "B0GSBXLXD3",
@@ -473,7 +468,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 49.98,
+      "price": 50.08,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.48
@@ -518,7 +513,7 @@
     {
       "id": "B0GY49HPXH",
       "title": "Beast of Reincarnation PS5",
-      "price": 44.01,
+      "price": 63.22,
       "imageUrl": "https://m.media-amazon.com/images/I/510s5+2u1DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GY49HPXH",
       "category": "videojuegos",
@@ -605,14 +600,15 @@
     {
       "id": "B0FPMMTJZM",
       "title": "007 First Light Specialist Edition - PS",
-      "price": 66.05,
+      "price": 65.03,
       "imageUrl": "https://m.media-amazon.com/images/I/51oPWIo2+iL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0FPMMTJZM",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 66.05
     },
     {
       "id": "B0GYTZX1TW",
@@ -684,10 +680,10 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 21.84,
+      "price": 21.34,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
-      "oldPrice": 22.1
+      "oldPrice": 21.84
     },
     {
       "id": "B00KL327O8",
