@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T09:12:02.448Z",
+  "updatedAt": "2026-09-07T10:00:05.912Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,9 +10,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 59.99,
+      "price": 49.58,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
+      "oldPrice": 59.99
     },
     {
       "id": "B0F24M5Z3D",
@@ -22,9 +23,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 60.2,
+      "price": 49.75,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
+      "oldPrice": 60.2
     },
     {
       "id": "B0DTHVS5L7",
@@ -34,7 +36,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 32.7,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
     },
@@ -46,7 +48,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 34.5,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/4141PbMSrxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT",
       "oldPrice": 34.65
@@ -59,9 +61,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 59.99,
+      "price": 49.58,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
+      "oldPrice": 59.99
     },
     {
       "id": "B0G1YZ2679",
@@ -71,10 +74,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.99,
+      "price": 20.65,
       "imageUrl": "https://m.media-amazon.com/images/I/41UEwoKrodL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G1YZ2679",
-      "oldPrice": 29.2
+      "oldPrice": 24.99
     },
     {
       "id": "B0G1YXRCXX",
@@ -121,134 +124,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 35.82,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
-    },
-    {
-      "id": "B09B2V7M8Q",
-      "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
-      "price": 127.76,
-      "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DJRZ49T9",
-      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DJRZJJD1",
-      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0GTWQRYXV",
-      "title": "McFarlane Marvel Collection 1/6 - Estatua del Doctor Doom (Doctor Doom #1), 30 cm",
-      "price": 47.7,
-      "imageUrl": "https://m.media-amazon.com/images/I/41UuMNMfPvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GTWQRYXV",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 49.61
-    },
-    {
-      "id": "B0DK7P75BG",
-      "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DTBTPBP5",
-      "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 35,
-      "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 34.99
-    },
-    {
-      "id": "B0BQTJ5HGJ",
-      "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 59.26,
-      "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 59.6
-    },
-    {
-      "id": "B0CQMWHB9H",
-      "title": "Estatua Neo Matrix 25Cm",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/G/01/x-locale/communities/wishlist/no_image_2x._CB485924800_SS135_.png",
-      "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 74.79
-    },
-    {
-      "id": "B09W4JVBLJ",
-      "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 75.03
-    },
-    {
-      "id": "B08GJFTDPW",
-      "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 59.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
     },
     {
       "id": "B01HHECH3Y",
@@ -258,10 +136,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 28.27,
+      "price": 28.85,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
-      "oldPrice": 28.28
+      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
     },
     {
       "id": "B091689H2B",
@@ -400,15 +277,14 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 68.18,
+      "price": 68.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 68.59
+      "condition": "nuevo"
     },
     {
       "id": "B073ZTH4MN",
@@ -468,7 +344,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.08,
+      "price": 50.18,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.48
@@ -680,10 +556,10 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 21.34,
+      "price": 21.33,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
-      "oldPrice": 21.84
+      "oldPrice": 21.34
     },
     {
       "id": "B00KL327O8",
@@ -746,6 +622,131 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51kwcxXcz5L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08CS3M5BY",
       "oldPrice": 20.14
+    },
+    {
+      "id": "B09B2V7M8Q",
+      "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
+      "price": 127.76,
+      "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DJRZ49T9",
+      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DJRZJJD1",
+      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0GTWQRYXV",
+      "title": "McFarlane Marvel Collection 1/6 - Estatua del Doctor Doom (Doctor Doom #1), 30 cm",
+      "price": 47.7,
+      "imageUrl": "https://m.media-amazon.com/images/I/41UuMNMfPvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GTWQRYXV",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 49.61
+    },
+    {
+      "id": "B0DK7P75BG",
+      "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DTBTPBP5",
+      "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
+      "price": 35,
+      "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 34.99
+    },
+    {
+      "id": "B0BQTJ5HGJ",
+      "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
+      "price": 59.26,
+      "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 59.6
+    },
+    {
+      "id": "B0CQMWHB9H",
+      "title": "Estatua Neo Matrix 25Cm",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/G/01/x-locale/communities/wishlist/no_image_2x._CB485924800_SS135_.png",
+      "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 74.79
+    },
+    {
+      "id": "B09W4JVBLJ",
+      "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 75.03
+    },
+    {
+      "id": "B08GJFTDPW",
+      "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
+      "price": 59.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/411WwApa80L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
     },
     {
       "id": "B0CNX94Q5D",
