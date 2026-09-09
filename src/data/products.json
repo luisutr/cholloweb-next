@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T09:25:33.040Z",
+  "updatedAt": "2026-09-09T09:26:38.450Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -120,7 +120,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 35.82,
+      "price": 35.83,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
     },
@@ -151,14 +151,15 @@
     {
       "id": "B0DJRZJJD1",
       "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 17.05,
+      "price": 15.27,
       "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 17.05
     },
     {
       "id": "B0GTWQRYXV",
@@ -200,14 +201,15 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 60.66,
+      "price": 59.37,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 60.66
     },
     {
       "id": "B0CQMWHB9H",
@@ -365,27 +367,28 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.8,
+      "price": 12.7,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
-      "oldPrice": 12.9
+      "oldPrice": 12.8
     },
     {
       "id": "B0GSBXLXD3",
       "title": "Terminator 2D: NO FATE (PS4)",
-      "price": 39.99,
+      "price": 33.05,
       "imageUrl": "https://m.media-amazon.com/images/I/51t7eL4fVEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSBXLXD3",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 39.99
     },
     {
       "id": "B00V374RPI",
       "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 42.19,
+      "price": 34.87,
       "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
       "category": "videojuegos",
@@ -393,12 +396,12 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "oldPrice": 42.26
+      "oldPrice": 42.19
     },
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 62.18,
+      "price": 68.59,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -428,7 +431,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 39.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
       "oldPrice": 45.95
@@ -454,9 +457,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 19.99,
+      "price": 16.52,
       "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
+      "oldPrice": 19.99
     },
     {
       "id": "B0DM68QC68",
@@ -466,7 +470,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.28,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.48
@@ -479,9 +483,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 52.99,
+      "price": 43.79,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
+      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
+      "oldPrice": 52.99
     },
     {
       "id": "B0B68Z86F1",
@@ -511,7 +516,7 @@
     {
       "id": "B0GY49HPXH",
       "title": "Beast of Reincarnation PS5",
-      "price": 63.21,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/510s5+2u1DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GY49HPXH",
       "category": "videojuegos",
@@ -519,7 +524,7 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 63.22
+      "oldPrice": 63.21
     },
     {
       "id": "B0G7L9ZPX1",
@@ -548,14 +553,15 @@
     {
       "id": "B0DKFCHCYZ",
       "title": "Black Myth: Wukong - PS5",
-      "price": 55.99,
+      "price": 55.9,
       "imageUrl": "https://m.media-amazon.com/images/I/41cdjPgG+DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKFCHCYZ",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 55.99
     },
     {
       "id": "B089X44HC8",
@@ -573,15 +579,14 @@
     {
       "id": "B0G4RXNK2C",
       "title": "Aphelion: Pioneer Edition - PS5",
-      "price": 35.99,
+      "price": 36.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51HpgxJalSL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G4RXNK2C",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 36.99
+      "condition": "nuevo"
     },
     {
       "id": "B0H3CCM6SL",
@@ -677,7 +682,7 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 21.4,
+      "price": 21.46,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
     },
@@ -689,9 +694,10 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 17.14,
+      "price": 17.13,
       "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00KL327O8"
+      "amazonUrl": "https://www.amazon.es/dp/B00KL327O8",
+      "oldPrice": 17.14
     },
     {
       "id": "B0829M81QT",
