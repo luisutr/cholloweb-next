@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T10:02:48.267Z",
+  "updatedAt": "2026-09-14T10:23:07.245Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -71,7 +71,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41UEwoKrodL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G1YZ2679"
     },
@@ -95,9 +95,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 39.95,
+      "price": 37.8,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
+      "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
+      "oldPrice": 39.95
     },
     {
       "id": "B0CHS82RST",
@@ -367,7 +368,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.6,
+      "price": 12.7,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
       "oldPrice": 12.8
@@ -399,7 +400,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 62.93,
+      "price": 67.43,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -466,7 +467,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.78,
+      "price": 50.88,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.48
@@ -511,7 +512,7 @@
     {
       "id": "B0GY49HPXH",
       "title": "Beast of Reincarnation PS5",
-      "price": 54.9,
+      "price": 56.99,
       "imageUrl": "https://m.media-amazon.com/images/I/510s5+2u1DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GY49HPXH",
       "category": "videojuegos",
@@ -586,7 +587,7 @@
     {
       "id": "B0H3CCM6SL",
       "title": "STAR WARS Zero Company Standard Edition PlayStation 5 | Disco | Videojuegos | Idioma: Multilingüe",
-      "price": 49.9,
+      "price": 49.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51XuUx0xdfL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0H3CCM6SL",
       "category": "videojuegos",
@@ -610,7 +611,7 @@
     {
       "id": "B0GYTZX1TW",
       "title": "The Blood Of Dawnwalker Day 1 Edition",
-      "price": 59.9,
+      "price": 59.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51BCue1D+IL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GYTZX1TW",
       "category": "videojuegos",
