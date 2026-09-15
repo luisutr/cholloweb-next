@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T10:23:07.245Z",
+  "updatedAt": "2026-09-15T09:49:11.992Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,7 +10,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 59.99,
+      "price": 74.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
     },
@@ -34,9 +34,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 30.98,
+      "price": 27.02,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
+      "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7",
+      "oldPrice": 30.98
     },
     {
       "id": "B0F24LGFBT",
@@ -121,9 +122,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 35.83,
+      "price": 35.79,
       "imageUrl": "https://m.media-amazon.com/images/I/41lMAnIe44L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
+      "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF",
+      "oldPrice": 35.83
     },
     {
       "id": "B09B2V7M8Q",
@@ -141,14 +143,15 @@
     {
       "id": "B0DJRZ49T9",
       "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 37.67,
+      "price": 31,
       "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 37.67
     },
     {
       "id": "B0DJRZJJD1",
@@ -177,7 +180,7 @@
     {
       "id": "B0DK7P75BG",
       "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 66.95,
+      "price": 84.36,
       "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
       "category": "figuras",
@@ -400,7 +403,7 @@
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 67.43,
+      "price": 62.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
@@ -408,7 +411,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "oldPrice": 68.18
+      "oldPrice": 67.43
     },
     {
       "id": "B073ZTH4MN",
@@ -467,7 +470,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 50.88,
+      "price": 50.98,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.48
@@ -549,15 +552,14 @@
     {
       "id": "B0DKFCHCYZ",
       "title": "Black Myth: Wukong - PS5",
-      "price": 55.9,
+      "price": 55.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41cdjPgG+DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKFCHCYZ",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 55.99
+      "condition": "nuevo"
     },
     {
       "id": "B089X44HC8",
