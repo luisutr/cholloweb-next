@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T09:33:09.729Z",
+  "updatedAt": "2026-10-17T09:03:47.035Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,10 +10,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 74.9,
+      "price": 61.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
-      "oldPrice": 75.75
+      "oldPrice": 74.9
     },
     {
       "id": "B0F24M5Z3D",
@@ -23,9 +23,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 51.85,
+      "price": 49.75,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
+      "oldPrice": 51.85
     },
     {
       "id": "B0DTHVS5L7",
@@ -35,7 +36,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 32.65,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
     },
@@ -47,7 +48,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 34.5,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/4141PbMSrxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT",
       "oldPrice": 34.65
@@ -60,9 +61,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 58.53,
+      "price": 49.58,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
+      "oldPrice": 58.53
     },
     {
       "id": "B0G1YZ2679",
@@ -72,9 +74,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 24.99,
+      "price": 20.65,
       "imageUrl": "https://m.media-amazon.com/images/I/41UEwoKrodL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YZ2679"
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YZ2679",
+      "oldPrice": 24.99
     },
     {
       "id": "B0G1YXRCXX",
@@ -84,9 +87,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 27.89,
+      "price": 23.05,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
+      "oldPrice": 27.89
     },
     {
       "id": "B0CHS8BXXK",
@@ -96,7 +100,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 33.03,
+      "price": 33.84,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
       "oldPrice": 33.86
@@ -141,7 +145,7 @@
     {
       "id": "B0DJRZ49T9",
       "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 44.92,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
       "category": "figuras",
@@ -153,7 +157,7 @@
     {
       "id": "B0DJRZJJD1",
       "title": "POP Funko Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 16.97,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
       "category": "figuras",
@@ -178,7 +182,7 @@
     {
       "id": "B0DK7P75BG",
       "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 63.59,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
       "category": "figuras",
@@ -190,7 +194,7 @@
     {
       "id": "B0DTBTPBP5",
       "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 35.84,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
       "category": "figuras",
@@ -203,14 +207,15 @@
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 62.61,
+      "price": 60.6,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 62.61
     },
     {
       "id": "B0CQMWHB9H",
@@ -228,7 +233,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 75.11,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -241,15 +246,140 @@
     {
       "id": "B08GJFTDPW",
       "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 29.99,
+      "price": 49.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41KWdjsjE2L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B07Y3WG8GS",
+      "title": "Terminator Resistance",
+      "price": 22.69,
+      "imageUrl": "https://m.media-amazon.com/images/I/51RFDjwSsCL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07Y3WG8GS",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0H3ZZZSMJ",
+      "title": "Tomb Raider: Legacy of Atlantis Amazon Edition - XSRX",
+      "price": 49.58,
+      "imageUrl": "https://m.media-amazon.com/images/I/41nXNIJ--ML._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0H3ZZZSMJ",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "oldPrice": 49.99
+      "oldPrice": 59.99
+    },
+    {
+      "id": "B07THFLR85",
+      "title": "Code Vein - Xbox One [Importación inglesa]",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 14.44,
+      "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07THFLR85",
+      "oldPrice": 14.58
+    },
+    {
+      "id": "B07NHQ1GZZ",
+      "title": "JEU Console Focus The Surge 2 Xbox One",
+      "category": "consolas",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 13.88,
+      "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ",
+      "oldPrice": 16.79
+    },
+    {
+      "id": "B075SBCB3B",
+      "title": "Focus Entertainment The Surge Standard Allemand, Anglais, Espagnol, Français, Italien, Polonais, Portugais, Russe Xbox",
+      "category": "accesorios",
+      "platformFamily": "xbox",
+      "generation": "xbox-series",
+      "platformLabel": "Xbox Series X/S",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
+      "oldPrice": 22.44
+    },
+    {
+      "id": "B0DSPY66RG",
+      "title": "Five Nights at Freddy's - Into the Pit - Xbox",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-series",
+      "platformLabel": "Xbox Series X/S",
+      "condition": "nuevo",
+      "price": 20.18,
+      "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG",
+      "oldPrice": 24.42
+    },
+    {
+      "id": "B0CXDQ3RWL",
+      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed - Xbox (Versión inglesa)",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-series",
+      "platformLabel": "Xbox Series X/S",
+      "condition": "nuevo",
+      "price": 16.65,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
+      "oldPrice": 20.05
+    },
+    {
+      "id": "B00KL327O8",
+      "title": "Lords of the Fallen - Limited Edition [Importación Inglesa]",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B00KL327O8"
+    },
+    {
+      "id": "B0829M81QT",
+      "title": "Doom Slayers Collection - Xbox One",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
+    },
+    {
+      "id": "B07BTPMJVG",
+      "title": "Red Faction Guerrilla Re-Mars-Tered - Xbox One",
+      "category": "videojuegos",
+      "platformFamily": "xbox",
+      "generation": "xbox-one",
+      "platformLabel": "Xbox One",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
     },
     {
       "id": "B01HHECH3Y",
@@ -624,128 +754,6 @@
       "platformLabel": "PS5",
       "condition": "nuevo",
       "oldPrice": 52.97
-    },
-    {
-      "id": "B07Y3WG8GS",
-      "title": "Terminator Resistance",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51RFDjwSsCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07Y3WG8GS",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0H3ZZZSMJ",
-      "title": "Tomb Raider: Legacy of Atlantis Amazon Edition - XSRX",
-      "price": 59.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/41nXNIJ--ML._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0H3ZZZSMJ",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B07THFLR85",
-      "title": "Code Vein - Xbox One [Importación inglesa]",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 14.58,
-      "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07THFLR85",
-      "oldPrice": 15.8
-    },
-    {
-      "id": "B07NHQ1GZZ",
-      "title": "JEU Console Focus The Surge 2 Xbox One",
-      "category": "consolas",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 16.79,
-      "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ"
-    },
-    {
-      "id": "B075SBCB3B",
-      "title": "Focus Entertainment The Surge Standard Allemand, Anglais, Espagnol, Français, Italien, Polonais, Portugais, Russe Xbox",
-      "category": "accesorios",
-      "platformFamily": "xbox",
-      "generation": "xbox-series",
-      "platformLabel": "Xbox Series X/S",
-      "condition": "nuevo",
-      "price": 22.42,
-      "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
-      "oldPrice": 22.44
-    },
-    {
-      "id": "B0DSPY66RG",
-      "title": "Five Nights at Freddy's - Into the Pit - Xbox",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-series",
-      "platformLabel": "Xbox Series X/S",
-      "condition": "nuevo",
-      "price": 24.42,
-      "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG"
-    },
-    {
-      "id": "B0CXDQ3RWL",
-      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed - Xbox (Versión inglesa)",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-series",
-      "platformLabel": "Xbox Series X/S",
-      "condition": "nuevo",
-      "price": 20.05,
-      "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
-    },
-    {
-      "id": "B00KL327O8",
-      "title": "Lords of the Fallen - Limited Edition [Importación Inglesa]",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 22.19,
-      "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00KL327O8"
-    },
-    {
-      "id": "B0829M81QT",
-      "title": "Doom Slayers Collection - Xbox One",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 29.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
-    },
-    {
-      "id": "B07BTPMJVG",
-      "title": "Red Faction Guerrilla Re-Mars-Tered - Xbox One",
-      "category": "videojuegos",
-      "platformFamily": "xbox",
-      "generation": "xbox-one",
-      "platformLabel": "Xbox One",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
     },
     {
       "id": "B0G4RXNK2C",
