@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T09:52:48.479Z",
+  "updatedAt": "2026-10-22T09:53:10.760Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,10 +10,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 61.9,
+      "price": 74.9,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
-      "oldPrice": 74.9
+      "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW"
     },
     {
       "id": "B0F24M5Z3D",
@@ -23,10 +22,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.75,
+      "price": 51.85,
       "imageUrl": "https://m.media-amazon.com/images/I/31wCLtd055L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D",
-      "oldPrice": 51.85
+      "amazonUrl": "https://www.amazon.es/dp/B0F24M5Z3D"
     },
     {
       "id": "B0DTHVS5L7",
@@ -36,7 +34,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 32.65,
       "imageUrl": "https://m.media-amazon.com/images/I/41TwaktMY3L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTHVS5L7"
     },
@@ -48,7 +46,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 0,
+      "price": 32.83,
       "imageUrl": "https://m.media-amazon.com/images/I/4141PbMSrxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F24LGFBT",
       "oldPrice": 34.65
@@ -61,10 +59,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 49.58,
+      "price": 58.53,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
-      "oldPrice": 58.53
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
     },
     {
       "id": "B0G1YZ2679",
@@ -74,7 +71,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 20.65,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41UEwoKrodL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G1YZ2679",
       "oldPrice": 24.99
@@ -87,10 +84,9 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 23.05,
+      "price": 27.89,
       "imageUrl": "https://m.media-amazon.com/images/I/41aC-LDWD4L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX",
-      "oldPrice": 27.89
+      "amazonUrl": "https://www.amazon.es/dp/B0G1YXRCXX"
     },
     {
       "id": "B0CHS8BXXK",
@@ -130,6 +126,132 @@
       "amazonUrl": "https://www.amazon.es/dp/B0CC23JJYF"
     },
     {
+      "id": "B09B2V7M8Q",
+      "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
+      "price": 133.86,
+      "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 133.98
+    },
+    {
+      "id": "B0DJRZ49T9",
+      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 34.46,
+      "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DJRZJJD1",
+      "title": "POP Funko Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 16.5,
+      "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 16.75
+    },
+    {
+      "id": "B0GTWQRYXV",
+      "title": "McFarlane Marvel Collection 1/6 - Estatua del Doctor Doom (Doctor Doom #1), 30 cm",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41UuMNMfPvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GTWQRYXV",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DK7P75BG",
+      "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
+      "price": 93.73,
+      "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DTBTPBP5",
+      "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
+      "price": 35.96,
+      "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 35.84
+    },
+    {
+      "id": "B0BQTJ5HGJ",
+      "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
+      "price": 61.17,
+      "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0CQMWHB9H",
+      "title": "Estatua Neo Matrix 25Cm",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/G/01/x-locale/communities/wishlist/no_image_2x._CB485924800_SS135_.png",
+      "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 74.79
+    },
+    {
+      "id": "B09W4JVBLJ",
+      "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
+      "price": 75.11,
+      "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 75.03
+    },
+    {
+      "id": "B08GJFTDPW",
+      "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/41KWdjsjE2L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 49.99
+    },
+    {
       "id": "B01HHECH3Y",
       "title": "Akira [Blu-ray]",
       "category": "peliculas",
@@ -137,9 +259,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 29.44,
+      "price": 24.33,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
+      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
+      "oldPrice": 29.44
     },
     {
       "id": "B091689H2B",
@@ -173,9 +296,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.99,
+      "price": 11.56,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ"
+      "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ",
+      "oldPrice": 13.99
     },
     {
       "id": "B00FCH1G18",
@@ -185,9 +309,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 17.17,
+      "price": 14.19,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18"
+      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
+      "oldPrice": 17.17
     },
     {
       "id": "B0CXZ3HFDV",
@@ -197,9 +322,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 25.99,
+      "price": 21.48,
       "imageUrl": "https://m.media-amazon.com/images/I/41zXsWN2PyL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV"
+      "amazonUrl": "https://www.amazon.es/dp/B0CXZ3HFDV",
+      "oldPrice": 25.99
     },
     {
       "id": "B0CKW3P9RQ",
@@ -209,9 +335,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 18.99,
+      "price": 15.69,
       "imageUrl": "https://m.media-amazon.com/images/I/516xGy7e8OL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ"
+      "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ",
+      "oldPrice": 18.99
     },
     {
       "id": "B0DJ9GHFVQ",
@@ -221,9 +348,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 14.99,
+      "price": 12.39,
       "imageUrl": "https://m.media-amazon.com/images/I/41z2+YETZIL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ"
+      "amazonUrl": "https://www.amazon.es/dp/B0DJ9GHFVQ",
+      "oldPrice": 14.99
     },
     {
       "id": "B0BS1JX3HY",
@@ -233,9 +361,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.99,
+      "price": 10.74,
       "imageUrl": "https://m.media-amazon.com/images/I/41EzspGzNvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY"
+      "amazonUrl": "https://www.amazon.es/dp/B0BS1JX3HY",
+      "oldPrice": 12.99
     },
     {
       "id": "B01JBFRQM4",
@@ -245,47 +374,47 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 12.99,
+      "price": 10.74,
       "imageUrl": "https://m.media-amazon.com/images/I/51nAhrWn4JL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
+      "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4",
+      "oldPrice": 12.99
     },
     {
       "id": "B0GSBXLXD3",
       "title": "Terminator 2D: NO FATE (PS4)",
-      "price": 34.7,
+      "price": 41.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51t7eL4fVEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSBXLXD3",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 41.99
+      "condition": "nuevo"
     },
     {
       "id": "B00V374RPI",
       "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 32,
+      "price": 38.72,
       "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 38.36
+      "condition": "nuevo"
     },
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 69.32,
+      "price": 68.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 69.32
     },
     {
       "id": "B073ZTH4MN",
@@ -307,7 +436,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 0,
+      "price": 39.99,
       "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
       "oldPrice": 45.95
@@ -320,9 +449,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 26.1,
+      "price": 21.63,
       "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP"
+      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
+      "oldPrice": 26.1
     },
     {
       "id": "B0DSPWX72V",
@@ -332,10 +462,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 16.52,
+      "price": 19.97,
       "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
-      "oldPrice": 19.97
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
     },
     {
       "id": "B0DM68QC68",
@@ -345,7 +474,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 0,
+      "price": 39.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.28
@@ -358,10 +487,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 30.24,
+      "price": 36.59,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
-      "oldPrice": 32.38
+      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
     },
     {
       "id": "B0B68Z86F1",
@@ -391,19 +519,20 @@
     {
       "id": "B0HJ2FHFY6",
       "title": "PlayStation 5-Until Dawn 2 - Edición Estándar",
-      "price": 46.98,
+      "price": 38.83,
       "imageUrl": "https://m.media-amazon.com/images/I/41x22Nu8K9L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0HJ2FHFY6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 46.98
     },
     {
       "id": "B0H46FCQN3",
       "title": "Onimusha Way of the Sword",
-      "price": 0,
+      "price": 57.84,
       "imageUrl": "https://m.media-amazon.com/images/I/51TOhLkITJL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0H46FCQN3",
       "category": "videojuegos",
@@ -415,14 +544,15 @@
     {
       "id": "B0HL8MD8KM",
       "title": "PlayStation 5-God of War: Laufey - Edición Estándar",
-      "price": 69.9,
+      "price": 57.77,
       "imageUrl": "https://m.media-amazon.com/images/I/512t2PPBUsL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0HL8MD8KM",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 69.9
     },
     {
       "id": "B08B4HHNNM",
@@ -432,14 +562,14 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "price": 35.88,
+      "price": 46.2,
       "imageUrl": "https://m.media-amazon.com/images/I/51nUZl8UlKL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08B4HHNNM"
     },
     {
       "id": "B0GSBT67ZW",
       "title": "Terminator 2D: NO FATE (PS5)",
-      "price": 36.39,
+      "price": 30.07,
       "imageUrl": "https://m.media-amazon.com/images/I/51bNRcSJnzL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSBT67ZW",
       "category": "videojuegos",
@@ -447,36 +577,38 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 36.79
+      "oldPrice": 36.39
     },
     {
       "id": "B0GY49HPXH",
       "title": "Beast of Reincarnation PS5",
-      "price": 53.99,
+      "price": 44.62,
       "imageUrl": "https://m.media-amazon.com/images/I/510s5+2u1DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GY49HPXH",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 53.99
     },
     {
       "id": "B0G7L9ZPX1",
       "title": "PRAGMATA - PS5",
-      "price": 49.52,
+      "price": 40.93,
       "imageUrl": "https://m.media-amazon.com/images/I/41af44MjtLL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G7L9ZPX1",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 49.52
     },
     {
       "id": "B0G6G3914R",
       "title": "Saros - Gioco Per Ps5",
-      "price": 79.9,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/41GDuAyxD4L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0G6G3914R",
       "category": "videojuegos",
@@ -488,7 +620,7 @@
     {
       "id": "B0DKFCHCYZ",
       "title": "Black Myth: Wukong - PS5",
-      "price": 55.99,
+      "price": 46.2,
       "imageUrl": "https://m.media-amazon.com/images/I/41cdjPgG+DL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DKFCHCYZ",
       "category": "videojuegos",
@@ -496,137 +628,12 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 59.99
-    },
-    {
-      "id": "B09B2V7M8Q",
-      "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
-      "price": 133.98,
-      "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DJRZ49T9",
-      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 34.46,
-      "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DJRZJJD1",
-      "title": "POP Funko Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 16.75,
-      "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 17.29
-    },
-    {
-      "id": "B0GTWQRYXV",
-      "title": "McFarlane Marvel Collection 1/6 - Estatua del Doctor Doom (Doctor Doom #1), 30 cm",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41UuMNMfPvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GTWQRYXV",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DK7P75BG",
-      "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 63.59,
-      "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DTBTPBP5",
-      "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 35.96,
-      "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 35.84
-    },
-    {
-      "id": "B0BQTJ5HGJ",
-      "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 61.12,
-      "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0CQMWHB9H",
-      "title": "Estatua Neo Matrix 25Cm",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/G/01/x-locale/communities/wishlist/no_image_2x._CB485924800_SS135_.png",
-      "amazonUrl": "https://www.amazon.es/dp/B0CQMWHB9H",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 74.79
-    },
-    {
-      "id": "B09W4JVBLJ",
-      "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 75.03
-    },
-    {
-      "id": "B08GJFTDPW",
-      "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 29.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/41KWdjsjE2L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 49.99
+      "oldPrice": 55.99
     },
     {
       "id": "B07Y3WG8GS",
       "title": "Terminator Resistance",
-      "price": 28.02,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51RFDjwSsCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07Y3WG8GS",
       "category": "videojuegos",
@@ -638,14 +645,15 @@
     {
       "id": "B0H3ZZZSMJ",
       "title": "Tomb Raider: Legacy of Atlantis Amazon Edition - XSRX",
-      "price": 59.99,
+      "price": 49.58,
       "imageUrl": "https://m.media-amazon.com/images/I/41nXNIJ--ML._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0H3ZZZSMJ",
       "category": "videojuegos",
       "platformFamily": "xbox",
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 59.99
     },
     {
       "id": "B07THFLR85",
@@ -655,7 +663,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 17.11,
+      "price": 19.04,
       "imageUrl": "https://m.media-amazon.com/images/I/61S0DQGcFdL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07THFLR85"
     },
@@ -667,10 +675,9 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 12.99,
+      "price": 15.86,
       "imageUrl": "https://m.media-amazon.com/images/I/51PLKaMfUgL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ",
-      "oldPrice": 13.88
+      "amazonUrl": "https://www.amazon.es/dp/B07NHQ1GZZ"
     },
     {
       "id": "B075SBCB3B",
@@ -680,7 +687,7 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 22.42,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/61O+oeYpO7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B075SBCB3B",
       "oldPrice": 22.44
@@ -693,9 +700,10 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 24.42,
+      "price": 20.18,
       "imageUrl": "https://m.media-amazon.com/images/I/41e6M8XczaL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG"
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPY66RG",
+      "oldPrice": 24.42
     },
     {
       "id": "B0CXDQ3RWL",
@@ -705,9 +713,10 @@
       "generation": "xbox-series",
       "platformLabel": "Xbox Series X/S",
       "condition": "nuevo",
-      "price": 20.45,
+      "price": 17.07,
       "imageUrl": "https://m.media-amazon.com/images/I/51-JUvfkwRL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL"
+      "amazonUrl": "https://www.amazon.es/dp/B0CXDQ3RWL",
+      "oldPrice": 20.45
     },
     {
       "id": "B00KL327O8",
@@ -717,7 +726,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 22.2,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/61l40CW-MvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00KL327O8"
     },
@@ -729,7 +738,7 @@
       "generation": "xbox-one",
       "platformLabel": "Xbox One",
       "condition": "nuevo",
-      "price": 29.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51dDMTfFGxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0829M81QT"
     },
