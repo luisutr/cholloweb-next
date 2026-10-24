@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T09:46:44.358Z",
+  "updatedAt": "2026-10-24T09:20:02.138Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -141,28 +141,26 @@
     {
       "id": "B0DJRZ49T9",
       "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 34.11,
+      "price": 34.46,
       "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 34.46
+      "condition": "nuevo"
     },
     {
       "id": "B0DJRZJJD1",
       "title": "POP Funko Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 16.01,
+      "price": 16.5,
       "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 16.5
+      "condition": "nuevo"
     },
     {
       "id": "B0GTWQRYXV",
@@ -179,7 +177,7 @@
     {
       "id": "B0DK7P75BG",
       "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 0,
+      "price": 93.73,
       "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
       "category": "figuras",
@@ -191,28 +189,26 @@
     {
       "id": "B0DTBTPBP5",
       "title": "McFarlane Marvel Beast - Juguetes coleccionables a Escala 1:10 con Escena (X-Men #1)",
-      "price": 29.72,
+      "price": 35.96,
       "imageUrl": "https://m.media-amazon.com/images/I/41ACkWLUe7L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DTBTPBP5",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 35.96
+      "condition": "nuevo"
     },
     {
       "id": "B0BQTJ5HGJ",
       "title": "Diamond Select - Marvel Gallery Comic Sandman PVC Statue",
-      "price": 51.5,
+      "price": 64.65,
       "imageUrl": "https://m.media-amazon.com/images/I/41utQrgNbcL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BQTJ5HGJ",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 61.17
+      "condition": "nuevo"
     },
     {
       "id": "B0CQMWHB9H",
@@ -230,7 +226,7 @@
     {
       "id": "B09W4JVBLJ",
       "title": "Merchandising Licencia Diamond Select - Jean-Claude Van Damme Gallery PVC Estatuas",
-      "price": 0,
+      "price": 75.11,
       "imageUrl": "https://m.media-amazon.com/images/I/41sHcnZmTQL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09W4JVBLJ",
       "category": "figuras",
@@ -243,14 +239,15 @@
     {
       "id": "B08GJFTDPW",
       "title": "DIAMOND SELECT TOYS Capitán America Figura Coleccionable Marvel, Color, Talla única (SEP201926)",
-      "price": 49.99,
+      "price": 29.99,
       "imageUrl": "https://m.media-amazon.com/images/I/41KWdjsjE2L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08GJFTDPW",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 49.99
     },
     {
       "id": "B01HHECH3Y",
@@ -308,9 +305,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 17.17,
+      "price": 13.35,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18"
+      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
+      "oldPrice": 17.17
     },
     {
       "id": "B0CXZ3HFDV",
