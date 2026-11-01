@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T10:45:40.380Z",
+  "updatedAt": "2026-11-01T11:43:30.940Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -10,7 +10,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 67.47,
+      "price": 69.89,
       "imageUrl": "https://m.media-amazon.com/images/I/51ryPtK4QEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DBLPWDLW",
       "oldPrice": 74.9
@@ -98,7 +98,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 34.21,
+      "price": 36.63,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK"
     },
@@ -135,9 +135,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 29.44,
+      "price": 27.67,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y"
+      "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
+      "oldPrice": 29.44
     },
     {
       "id": "B091689H2B",
@@ -251,7 +252,7 @@
     {
       "id": "B0DL6GXHST",
       "title": "Atomfall (PlayStation 4)",
-      "price": 41.43,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DL6GXHST",
       "category": "videojuegos",
@@ -264,19 +265,20 @@
     {
       "id": "B0GSBXLXD3",
       "title": "Terminator 2D: NO FATE (PS4)",
-      "price": 41.99,
+      "price": 34.7,
       "imageUrl": "https://m.media-amazon.com/images/I/51t7eL4fVEL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0GSBXLXD3",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo"
+      "condition": "nuevo",
+      "oldPrice": 41.99
     },
     {
       "id": "B00V374RPI",
       "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 38.16,
+      "price": 31.6,
       "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
       "category": "videojuegos",
@@ -284,20 +286,19 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "oldPrice": 38.71
+      "oldPrice": 38.16
     },
     {
       "id": "B0B3SSM6T6",
       "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 65.18,
+      "price": 72.41,
       "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps4",
       "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 65.93
+      "condition": "nuevo"
     },
     {
       "id": "B073ZTH4MN",
@@ -319,7 +320,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 39.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
       "oldPrice": 45.95
@@ -332,10 +333,9 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 21.63,
+      "price": 26.1,
       "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
-      "oldPrice": 26.1
+      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP"
     },
     {
       "id": "B0DSPWX72V",
@@ -345,9 +345,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 19.97,
+      "price": 16.52,
       "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V",
+      "oldPrice": 19.97
     },
     {
       "id": "B0DM68QC68",
@@ -357,7 +358,7 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 39.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
       "oldPrice": 51.28
@@ -370,10 +371,10 @@
       "generation": "ps4",
       "platformLabel": "PS4",
       "condition": "nuevo",
-      "price": 33.93,
+      "price": 28.93,
       "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT",
-      "oldPrice": 36.59
+      "oldPrice": 33.93
     },
     {
       "id": "B0CP337PRP",
