@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T13:18:06.797Z",
+  "updatedAt": "2026-11-11T12:29:28.299Z",
   "source": "wishlist-scraper",
   "products": [
     {
@@ -61,9 +61,10 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 59.99,
+      "price": 54.99,
       "imageUrl": "https://m.media-amazon.com/images/I/419vGoZokzL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF"
+      "amazonUrl": "https://www.amazon.es/dp/B0GQ58D1ZF",
+      "oldPrice": 59.99
     },
     {
       "id": "B0G1YZ2679",
@@ -98,7 +99,7 @@
       "generation": "evercade-handheld",
       "platformLabel": "Evercade",
       "condition": "nuevo",
-      "price": 36.54,
+      "price": 36.55,
       "imageUrl": "https://m.media-amazon.com/images/I/41uZVKbOkWL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CHS8BXXK",
       "oldPrice": 36.63
@@ -194,15 +195,14 @@
     {
       "id": "B09B2V7M8Q",
       "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
-      "price": 140.08,
+      "price": 141.27,
       "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
       "category": "figuras",
       "platformFamily": "multi",
       "generation": null,
       "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 141.17
+      "condition": "nuevo"
     },
     {
       "id": "B0DJRZ49T9",
@@ -219,7 +219,7 @@
     {
       "id": "B0DJRZJJD1",
       "title": "POP Funko Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 15.29,
+      "price": 16.87,
       "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
       "category": "figuras",
@@ -310,10 +310,9 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.3,
+      "price": 14.55,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
-      "oldPrice": 13.31
+      "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18"
     },
     {
       "id": "B0CXZ3HFDV",
@@ -376,6 +375,178 @@
       "amazonUrl": "https://www.amazon.es/dp/B01JBFRQM4"
     },
     {
+      "id": "B0DL6GXHST",
+      "title": "Atomfall (PlayStation 4)",
+      "price": 44.41,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DL6GXHST",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0GSBXLXD3",
+      "title": "Terminator 2D: NO FATE (PS4)",
+      "price": 41.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51t7eL4fVEL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GSBXLXD3",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B00V374RPI",
+      "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
+      "price": 41.26,
+      "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0B3SSM6T6",
+      "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
+      "price": 71.78,
+      "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "oldPrice": 71.95
+    },
+    {
+      "id": "B073ZTH4MN",
+      "title": "Velocity 2X Critical Mass Edition Ps Vita Game (#)",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/51GJnJ4DaOL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B073ZTH4MN"
+    },
+    {
+      "id": "B07N87ZP63",
+      "title": "KROM Kumite -NXKROMKMT- Gamepad Arcade Multiplataforma, Fighting Stick, Joystick, modos D-Pad o X/Y input, compatible PC, PS3, PS4 y XBOX One",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 39.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
+      "oldPrice": 45.95
+    },
+    {
+      "id": "B0BWRRLJRP",
+      "title": "UFO ROBOT GRENDIZER - Standard - PlayStation 4",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 22.78,
+      "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
+      "oldPrice": 27.99
+    },
+    {
+      "id": "B0DSPWX72V",
+      "title": "Five Nights at Freddy's - Into the Pit - PS4",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 19.97,
+      "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
+    },
+    {
+      "id": "B0DM68QC68",
+      "title": "Atomfall Jeu PS4",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 50.28,
+      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
+      "oldPrice": 51.28
+    },
+    {
+      "id": "B0DFWYRWQT",
+      "title": "Marvel vs Capcom Fighting Collection: Arcade Classics",
+      "category": "accesorios",
+      "platformFamily": "playstation",
+      "generation": "ps4",
+      "platformLabel": "PS4",
+      "condition": "nuevo",
+      "price": 52.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
+    },
+    {
+      "id": "B098FK8C22",
+      "title": "The Medium (PlayStation PS5)",
+      "price": 34.87,
+      "imageUrl": "https://m.media-amazon.com/images/I/51E3PuviQ-L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B098FK8C22",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B097Z8B8C9",
+      "title": "The Medium PS5 (Versión inglesa)",
+      "price": 24.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51X62HwHSGL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B097Z8B8C9",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0D6845N5Z",
+      "title": "ASTRO BOT",
+      "price": 54.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51rGR6Tp65L._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0D6845N5Z",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0D63D729Q",
+      "title": "PlayStation 5- AstroBot™",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/51A8mwROOkL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0D63D729Q",
+      "category": "videojuegos",
+      "platformFamily": "playstation",
+      "generation": "ps5",
+      "platformLabel": "PS5",
+      "condition": "nuevo"
+    },
+    {
       "id": "B0BQC24SMS",
       "title": "Bramble: The Mountain King",
       "price": 21.79,
@@ -390,7 +561,7 @@
     {
       "id": "B0F2T8PNKG",
       "title": "Mindseye - PS5",
-      "price": 22.5,
+      "price": 22.63,
       "imageUrl": "https://m.media-amazon.com/images/I/410dOOh5DTL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0F2T8PNKG",
       "category": "videojuegos",
@@ -426,7 +597,7 @@
     {
       "id": "B0DSGCZYKL",
       "title": "CARMEN SANDIEGO EDICIÓN 40ª ANIVERSARIO - PS5",
-      "price": 23.18,
+      "price": 24.55,
       "imageUrl": "https://m.media-amazon.com/images/I/41gGvdgXMqL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DSGCZYKL",
       "category": "videojuegos",
@@ -438,15 +609,14 @@
     {
       "id": "B0C7DDDP81",
       "title": "BANISHERS GHOSTS OF NEW..P5 VF",
-      "price": 28.94,
+      "price": 36.72,
       "imageUrl": "https://m.media-amazon.com/images/I/41e7JKVdk8L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0C7DDDP81",
       "category": "videojuegos",
       "platformFamily": "playstation",
       "generation": "ps5",
       "platformLabel": "PS5",
-      "condition": "nuevo",
-      "oldPrice": 30.28
+      "condition": "nuevo"
     },
     {
       "id": "B0FL2WWR5N",
@@ -622,130 +792,6 @@
       "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51MKqPvbidL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B07BTPMJVG"
-    },
-    {
-      "id": "B0DL6GXHST",
-      "title": "Atomfall (PlayStation 4)",
-      "price": 44.36,
-      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DL6GXHST",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0GSBXLXD3",
-      "title": "Terminator 2D: NO FATE (PS4)",
-      "price": 41.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/51t7eL4fVEL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GSBXLXD3",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B00V374RPI",
-      "title": "Onechanbara Z2: Chaos [Importación Inglesa]",
-      "price": 38.84,
-      "imageUrl": "https://m.media-amazon.com/images/I/51EjodBAD1L._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B00V374RPI",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0B3SSM6T6",
-      "title": "Bloodrayne 2: Revamped (Limited Run #433) (Import)",
-      "price": 71.62,
-      "imageUrl": "https://m.media-amazon.com/images/I/41kUGSVt1BL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0B3SSM6T6",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "oldPrice": 71.95
-    },
-    {
-      "id": "B073ZTH4MN",
-      "title": "Velocity 2X Critical Mass Edition Ps Vita Game (#)",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/51GJnJ4DaOL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B073ZTH4MN"
-    },
-    {
-      "id": "B07N87ZP63",
-      "title": "KROM Kumite -NXKROMKMT- Gamepad Arcade Multiplataforma, Fighting Stick, Joystick, modos D-Pad o X/Y input, compatible PC, PS3, PS4 y XBOX One",
-      "category": "accesorios",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 39.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/31G3nMok6zL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B07N87ZP63",
-      "oldPrice": 45.95
-    },
-    {
-      "id": "B0BWRRLJRP",
-      "title": "UFO ROBOT GRENDIZER - Standard - PlayStation 4",
-      "category": "accesorios",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 21.67,
-      "imageUrl": "https://m.media-amazon.com/images/I/51VD+3A5ZdL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0BWRRLJRP",
-      "oldPrice": 27.99
-    },
-    {
-      "id": "B0DSPWX72V",
-      "title": "Five Nights at Freddy's - Into the Pit - PS4",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 19.97,
-      "imageUrl": "https://m.media-amazon.com/images/I/41e-SpBStCL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DSPWX72V"
-    },
-    {
-      "id": "B0DM68QC68",
-      "title": "Atomfall Jeu PS4",
-      "category": "videojuegos",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 39.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/51-vko2VPuL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DM68QC68",
-      "oldPrice": 51.28
-    },
-    {
-      "id": "B0DFWYRWQT",
-      "title": "Marvel vs Capcom Fighting Collection: Arcade Classics",
-      "category": "accesorios",
-      "platformFamily": "playstation",
-      "generation": "ps4",
-      "platformLabel": "PS4",
-      "condition": "nuevo",
-      "price": 52.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/51eHMPkIHxL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DFWYRWQT"
     },
     {
       "id": "B0DY8CP1PM",
