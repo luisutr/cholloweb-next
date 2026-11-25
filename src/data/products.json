@@ -1,132 +1,7 @@
 {
-  "updatedAt": "2026-11-24T15:35:52.473Z",
+  "updatedAt": "2026-11-25T15:20:33.665Z",
   "source": "wishlist-scraper",
   "products": [
-    {
-      "id": "B0FRK288QK",
-      "title": "Masters of the Universe Origins y Thundercats Figura Panthro | MOTU y TC, escala de 14 cm, juguete crossover de los 80 con armadura extraíble, maza, hacha y tarjeta de coleccionista, JMJ20",
-      "price": 17.51,
-      "imageUrl": "https://m.media-amazon.com/images/I/51gvfhPh+iL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0FRK288QK",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 19.28
-    },
-    {
-      "id": "B0CP337PRP",
-      "title": "Masters of the Universe MOTU Turtles of Grayskull Teela, Figura de acción con accesorios de batalla, inspirado en las Tortugas Ninja, juguete regalo para niños y niñas +6 años, HTH15",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "price": 11.95,
-      "imageUrl": "https://m.media-amazon.com/images/I/41IbpDbExnL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0CP337PRP"
-    },
-    {
-      "id": "B0FRK1934Q",
-      "title": "Masters of the Universe Origins y Thundercats Figura Lion-O | MOTU y TC, escala de 14 cm, juguete crossover de los 80 con armadura extraíble, piezas intercambiables y accesorios, JMJ18",
-      "price": 17.69,
-      "imageUrl": "https://m.media-amazon.com/images/I/51+Cj+NsFpL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0FRK1934Q",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 19.37
-    },
-    {
-      "id": "B082FRKNSG",
-      "title": "POP Funko Movies: Back to The Future - Marty Mcfly in Puffy Vest | Merchandising Oficial de Comedy - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 16.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/51n+hUwoNsL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B082FRKNSG",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0FH7NYRR3",
-      "title": "Transformers Studio Series, Transformers: Devastation, Bumblebee, Figura Convertible Deluxe Class de 10,5 cm, Robots de Juguete, A Partir de 8 años",
-      "price": 29.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/41u4cbCD+vL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0FH7NYRR3",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 37.17
-    },
-    {
-      "id": "B09B2V7M8Q",
-      "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
-      "price": 161.99,
-      "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DJRZ49T9",
-      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 30.76,
-      "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 31.54
-    },
-    {
-      "id": "B0DJRZJJD1",
-      "title": "Funko POP! Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
-      "price": 15.7,
-      "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo",
-      "oldPrice": 15.84
-    },
-    {
-      "id": "B0GTWQRYXV",
-      "title": "McFarlane Marvel Collection 1/6 - Estatua del Doctor Doom (Doctor Doom #1), 30 cm",
-      "price": 0,
-      "imageUrl": "https://m.media-amazon.com/images/I/41UuMNMfPvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0GTWQRYXV",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
-    {
-      "id": "B0DK7P75BG",
-      "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
-      "price": 93.73,
-      "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
-      "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
-      "category": "figuras",
-      "platformFamily": "multi",
-      "generation": null,
-      "platformLabel": "Multi",
-      "condition": "nuevo"
-    },
     {
       "id": "B09JWGL9WT",
       "title": "Agarralo Como Puedas 1 + 2 + 3 (Pack 3 peliculas)",
@@ -147,7 +22,7 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 28.11,
+      "price": 28.19,
       "imageUrl": "https://m.media-amazon.com/images/I/51ND0WQYBCL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B01HHECH3Y",
       "oldPrice": 28.26
@@ -184,10 +59,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.18,
+      "price": 12.95,
       "imageUrl": "https://m.media-amazon.com/images/I/418Od-GWKkL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0DCR4X5DQ",
-      "oldPrice": 13.99
+      "oldPrice": 13.18
     },
     {
       "id": "B00FCH1G18",
@@ -197,10 +72,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 13.44,
+      "price": 13.42,
       "imageUrl": "https://m.media-amazon.com/images/I/51zsXSbaLuL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B00FCH1G18",
-      "oldPrice": 15.08
+      "oldPrice": 13.44
     },
     {
       "id": "B0CXZ3HFDV",
@@ -223,10 +98,10 @@
       "generation": null,
       "platformLabel": "Multi",
       "condition": "nuevo",
-      "price": 14.99,
+      "price": 11.39,
       "imageUrl": "https://m.media-amazon.com/images/I/516xGy7e8OL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CKW3P9RQ",
-      "oldPrice": 15.69
+      "oldPrice": 14.99
     },
     {
       "id": "B0DJ9GHFVQ",
@@ -393,7 +268,7 @@
     {
       "id": "B08B285TM4",
       "title": "Playstation Demon's Souls",
-      "price": 36.99,
+      "price": 0,
       "imageUrl": "https://m.media-amazon.com/images/I/51FbN+nEf9L._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B08B285TM4",
       "category": "videojuegos",
@@ -405,7 +280,7 @@
     {
       "id": "B0CNS4MB7R",
       "title": "Cyberpunk 2077 Ultimate Edition",
-      "price": 0,
+      "price": 33.99,
       "imageUrl": "https://m.media-amazon.com/images/I/51qvZ8a0riL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0CNS4MB7R",
       "category": "videojuegos",
@@ -492,7 +367,7 @@
     {
       "id": "B0BLBDZ66J",
       "title": "Atomic Heart (PlayStation 5)",
-      "price": 30.26,
+      "price": 29.79,
       "imageUrl": "https://m.media-amazon.com/images/I/51b9eUU2JPL._SL300_.jpg",
       "amazonUrl": "https://www.amazon.es/dp/B0BLBDZ66J",
       "category": "videojuegos",
@@ -500,7 +375,132 @@
       "generation": "ps5",
       "platformLabel": "PS5",
       "condition": "nuevo",
-      "oldPrice": 30.33
+      "oldPrice": 30.26
+    },
+    {
+      "id": "B0FRK288QK",
+      "title": "Masters of the Universe Origins y Thundercats Figura Panthro | MOTU y TC, escala de 14 cm, juguete crossover de los 80 con armadura extraíble, maza, hacha y tarjeta de coleccionista, JMJ20",
+      "price": 17.51,
+      "imageUrl": "https://m.media-amazon.com/images/I/51gvfhPh+iL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0FRK288QK",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 19.28
+    },
+    {
+      "id": "B0CP337PRP",
+      "title": "Masters of the Universe MOTU Turtles of Grayskull Teela, Figura de acción con accesorios de batalla, inspirado en las Tortugas Ninja, juguete regalo para niños y niñas +6 años, HTH15",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "price": 11.95,
+      "imageUrl": "https://m.media-amazon.com/images/I/41IbpDbExnL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0CP337PRP"
+    },
+    {
+      "id": "B0FRK1934Q",
+      "title": "Masters of the Universe Origins y Thundercats Figura Lion-O | MOTU y TC, escala de 14 cm, juguete crossover de los 80 con armadura extraíble, piezas intercambiables y accesorios, JMJ18",
+      "price": 17.69,
+      "imageUrl": "https://m.media-amazon.com/images/I/51+Cj+NsFpL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0FRK1934Q",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 19.37
+    },
+    {
+      "id": "B082FRKNSG",
+      "title": "POP Funko Movies: Back to The Future - Marty Mcfly in Puffy Vest | Merchandising Oficial de Comedy - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 16.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51n+hUwoNsL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B082FRKNSG",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0FH7NYRR3",
+      "title": "Transformers Studio Series, Transformers: Devastation, Bumblebee, Figura Convertible Deluxe Class de 10,5 cm, Robots de Juguete, A Partir de 8 años",
+      "price": 29.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/41u4cbCD+vL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0FH7NYRR3",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 37.17
+    },
+    {
+      "id": "B09B2V7M8Q",
+      "title": "Iron Studios BDS: Power Rangers - White Ranger Art Scale Statue (1/10) (POWRAN46721-10)",
+      "price": 161.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/41N054QSZoL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B09B2V7M8Q",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DJRZ49T9",
+      "title": "Funko Pop! Movies: Mighty Morphin Power Rangers - White Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 30.76,
+      "imageUrl": "https://m.media-amazon.com/images/I/41JWlfG8sYL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DJRZ49T9",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 31.54
+    },
+    {
+      "id": "B0DJRZJJD1",
+      "title": "Funko POP! Movies: Mighty Morphin Power Rangers - Red Ranger | Merchandising Oficial de Superheroes - Figura de Vinilo Coleccionable para Decoración - Regalo Friki de Cumpleaños",
+      "price": 15.7,
+      "imageUrl": "https://m.media-amazon.com/images/I/41UQXczndBL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DJRZJJD1",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo",
+      "oldPrice": 15.84
+    },
+    {
+      "id": "B0GTWQRYXV",
+      "title": "McFarlane Marvel Collection 1/6 - Estatua del Doctor Doom (Doctor Doom #1), 30 cm",
+      "price": 0,
+      "imageUrl": "https://m.media-amazon.com/images/I/41UuMNMfPvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0GTWQRYXV",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
+    },
+    {
+      "id": "B0DK7P75BG",
+      "title": "Marvel Legends Series Gamerverse, Punisher y Nick Fury, Figuras de acción coleccionables",
+      "price": 93.73,
+      "imageUrl": "https://m.media-amazon.com/images/I/513KpU7HsvL._SL300_.jpg",
+      "amazonUrl": "https://www.amazon.es/dp/B0DK7P75BG",
+      "category": "figuras",
+      "platformFamily": "multi",
+      "generation": null,
+      "platformLabel": "Multi",
+      "condition": "nuevo"
     },
     {
       "id": "B07Y3WG8GS",
